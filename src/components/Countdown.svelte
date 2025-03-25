@@ -9,6 +9,7 @@
 	let dayText = 0, hourText = 0, minText = 0, secText = 0;
 
 	onMount(() => {
+		console.log(countDate);
 		interval = setInterval(moveTimer, 1000)
 	})
 
@@ -40,19 +41,19 @@
 </script>
 
 <div class="flex items-center justify-center flex-wrap">
-	<div class="counter w-32 h-40 text-white shadow font-bold font-heading text-6xl px-2 py-8 bg-red-500 flex flex-col items-center justify-center">
+	<div class="counter w-30 h-32 rounded-2xl text-white shadow font-bold font-heading text-6xl px-2 py-8 bg-[#1A496A] flex flex-col items-center justify-center">
 		{dayText}
 		<div class="text-base font-light font-sans">Days</div>
 	</div>
-	<div class=" counter w-32 h-40 text-white shadow font-bold font-heading text-6xl px-2 py-8 bg-red-500 flex flex-col items-center justify-center">
+	<div class=" counter w-30 h-32 rounded-2xl text-white shadow font-bold font-heading text-6xl px-2 py-8 bg-[#1A496A] flex flex-col items-center justify-center">
 		{hourText}
 		<div class="text-base font-light font-sans">Hours</div>
 	</div>
-	<div class="counter w-32 h-40 text-white shadow font-bold font-heading text-6xl px-2 py-8 bg-red-500 flex flex-col items-center justify-center">
+	<div class="counter w-30 h-32 rounded-2xl text-white shadow font-bold font-heading text-6xl px-2 py-8 bg-[#1A496A] flex flex-col items-center justify-center">
 		{minText}
 		<div class="text-base font-light font-sans">Mins</div>
 	</div>
-	<div class="counter w-32 h-40 text-white shadow font-bold font-heading text-6xl px-2 py-8 bg-red-500 flex flex-col items-center justify-center">
+	<div class="counter w-30 h-32 rounded-2xl text-white shadow font-bold font-heading text-6xl px-2 py-8 bg-[#1A496A] flex flex-col items-center justify-center">
 		{secText}
 		<div class="text-base font-light font-sans">Secs</div>
 	</div>
