@@ -1,0 +1,1166 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Countdown from '../components/Countdown.svelte';
+import Speakers from '../components/Speakers.svelte';
+import Navbar from '../components/Navbar.astro';
+import Hero from '../components/Hero.astro';
+import Herobottom from '../components/Hero.svelte';
+
+
+
+---
+<Layout>
+
+		
+		<!--===== PAGE PROGRESS START=======-->
+  		<Navbar></Navbar>
+		<!--===== MOBILE HEADER STARTS =======-->
+
+		<main class="pt-30 min-h-screen flex flex-col items-center  justify-center" >
+			<div class="absolute -z-10 w-full h-full top-0 left-0 bg-[#FCC310]"></div>
+	 
+			<div class=" mx-auto text-white text-center pt-48 my-auto h-screen flex flex-col items-center justify-center">
+	
+				<div class="relative inline-block mb-2">
+					<div class=" md:w-fit w-full">
+					
+						<div class="absolute bottom-[calc(100%+1em)] left-0 flex  animate-float-in delay-[100ms]">
+							<img src="/img/e3.svg" class="md:w-20 w-10">
+						</div>
+						
+						
+						<div class="absolute bottom-[calc(100%)] left-1/2 flex  animate-float-in delay-[300ms]">
+							<img src="/img/e4.svg" class="md:w-20 w-10">
+						</div>
+	
+						<div class="absolute bottom-[calc(100%-3em)]  -right-20 flex  animate-float-in delay-[300ms]">
+							<img src="/img/e5.svg" class="md:w-20 w-10">
+						</div>
+	
+						<div class="absolute top-[calc(100%-2em)] left-1/6 -z-10 flex  animate-float-in delay-[300ms]">
+							<img src="/img/e6.svg" class="md:w-20 w-10">
+						</div>
+						<div class="absolute top-[calc(100%-0em)] right-4 -z-10 flex  animate-float-in delay-[300ms]">
+							<img src="/img/e7.svg" class="md:w-20 w-10">
+						</div>
+						
+						
+					<div id="logokifksum" class="absolute rounded-full md:w-56  md:h-56 h-28 w-28 bg-white shadow-md right-0 bottom-[calc(100%-1em)] md:bottom-[calc(100%-2rem)] z-10 animate-fall-in">
+						<img src="/img/logokif.svg" class="md:p-12 p-6" />
+					</div>
+					
+					<div id="banner" class="inline-block">
+						<div class="bg-[#E8422E] border-2 border-sky-500 px-6 py-2 inline-block">
+						<div class="justify-start text-white md:text-5xl text-base font-normal font-['Impact']">
+							India’s Largest Celebration of Innovation
+						</div>
+						</div>
+					
+						<div class="w-2 h-2 left-[-3.5px] top-[-3.5px] absolute bg-white border-[0.77px] border-sky-500"></div>
+						<div class="w-2 h-2 left-[-3.5px] bottom-[-3.5px] absolute bg-white border-[0.77px] border-sky-500"></div>
+						<div class="w-2 h-2 right-[-3.5px] top-[-3.5px] absolute bg-white border-[0.77px] border-sky-500"></div>
+						<div class="w-2 h-2 right-[-3.5px] bottom-[-3.5px] absolute bg-white border-[0.77px] border-sky-500"></div>
+					</div>
+  
+	  
+	  
+					</div>
+				</div>
+	
+	
+				<Countdown date="2025-06-25T09:00" client:load ></Countdown>
+	
+				<div class="text-[#1A496A] flex md:flex-row flex-col items-center justify-center gap-5 mt-5">
+					<div class="flex items-center justify-center gap-2">
+						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6">
+							<path fill-rule="evenodd" d="M6.75 2.25A.75.75 0 0 1 7.5 3v1.5h9V3A.75.75 0 0 1 18 3v1.5h.75a3 3 0 0 1 3 3v11.25a3 3 0 0 1-3 3H5.25a3 3 0 0 1-3-3V7.5a3 3 0 0 1 3-3H6V3a.75.75 0 0 1 .75-.75Zm13.5 9a1.5 1.5 0 0 0-1.5-1.5H5.25a1.5 1.5 0 0 0-1.5 1.5v7.5a1.5 1.5 0 0 0 1.5 1.5h13.5a1.5 1.5 0 0 0 1.5-1.5v-7.5Z" clip-rule="evenodd" />
+						</svg>
+						<div>
+							26, 27 June 2025
+						</div>					
+					</div>
+					<div class="flex items-center justify-center gap-2">
+						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6">
+							<path fill-rule="evenodd" d="m11.54 22.351.07.04.028.016a.76.76 0 0 0 .723 0l.028-.015.071-.041a16.975 16.975 0 0 0 1.144-.742 19.58 19.58 0 0 0 2.683-2.282c1.944-1.99 3.963-4.98 3.963-8.827a8.25 8.25 0 0 0-16.5 0c0 3.846 2.02 6.837 3.963 8.827a19.58 19.58 0 0 0 2.682 2.282 16.975 16.975 0 0 0 1.145.742ZM12 13.5a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z" clip-rule="evenodd" />
+						</svg>					
+						<div>
+							Kerala Technology Innovation Zone, Kochi
+						</div>					
+					</div>
+				</div>
+	
+			</div>
+			<div  class="absolute bottom-0 md:left-20 left-4 flex">
+				<img src="/img/graph.svg" class="md:w-4/5 w-10">
+			</div>
+	
+			<div  class="absolute bottom-0 right-0 flex">
+				<img src="/img/e2.svg" class="lg:w-4/5 w-10 animate-float" >
+			</div>
+			
+		</main>
+
+
+
+		<Herobottom  client:load />
+
+		<!-- <div class="about4-section-area sp1">
+			<div class="container">
+				<div class="row align-items-center">
+					<div class="col-lg-6">
+						<div class="about-images">
+							<div class="row">
+								<div class="col-lg-6 col-md-6">
+									<div class="img1 image-anime reveal">
+										<img src="assets/img/allimages/about/about-img11.png" alt="" />
+									</div>
+									<div class="space30"></div>
+									<div class="content-box">
+										<p>Upcoming Event 2025</p>
+										<div class="space12"></div>
+										<h6>Digital Technology's</h6>
+										<div class="space6"></div>
+										<ul>
+											<li>
+												<a ><img src="assets/img/icons/clock1.svg" alt="" />10.00 AM -12.00 PM</a>
+											</li>
+											<li>
+												<a ><img src="assets/img/icons/location1.svg" alt="" />26/C Asana, New York</a>
+											</li>
+										</ul>
+									</div>
+								</div>
+								<div class="col-lg-6 col-md-6">
+									<div class="space44"></div>
+									<div class="img1 image-anime reveal">
+										<img src="assets/img/allimages/about/about-img12.png" alt="" />
+									</div>
+									<div class="space30"></div>
+									<div class="img1 image-anime reveal">
+										<img src="assets/img/allimages/about/about-img13.png" alt="" />
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-6">
+						<div class="about4-heading heading6">
+							<h5 data-aos="" data-aos-duration="800">about our business conferences</h5>
+							<div class="space18"></div>
+							<h2 class="text-anime-style-3">Innovating for Tomorrow Insights for Business</h2>
+							<div class="space16"></div>
+							<p data-aos="" data-aos-duration="900">Perfectly captures the essence of what this blog aims to deliver. In a rapidly evolving business landscape, leaders must stay.</p>
+							<div class="space10"></div>
+							<ul data-aos="" data-aos-duration="1000">
+								<li class="flex"><img src="assets/img/icons/check1.svg" alt="" />Director of the Developing Communities</li>
+								<li class="flex"><img src="assets/img/icons/check1.svg" alt="" />Deputy Attorney General Media Project</li>
+								<li class="flex"><img src="assets/img/icons/check1.svg" alt="" />Law School and Civil Rights Attorney</li>
+								<li class="flex"><img src="assets/img/icons/check1.svg" alt="" /> Majored in Political Science</li>
+							</ul>
+							<div class="space32"></div>
+							<div class="btn-area1" data-aos="fade-left" data-aos-duration="1200">
+								<a  class="vl-btn4">Reserve My Seat</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div> -->
+
+
+	
+
+		<div class="about4-section-area sp1">
+			<div class="container">
+				<div class="row align-items-center">
+					<div class="col-lg-6">
+						<div class="about-images">
+							<div class="row">
+								<div class="col-lg-6 col-md-6">
+									<div class="img1 image-anime reveal">
+										<img src="assets/img/allimages/about/about-img11.png" alt="" />
+									</div>
+									<div class="space30"></div>
+									<div class="content-box">
+										<!-- <p>Upcoming Event 2025</p> -->
+										<div class="space12"></div>
+										<h6>Kerala Innovation Festival</h6>
+										<div class="space6"></div>
+										<ul>
+											<li class="flex flex-row items-center my-auto">
+												<a  class="flex flex-row items-center"><img src="assets/img/icons/clock1.svg" alt="" />09.00 AM - 05.00 PM</a>
+											</li>
+											<li  class="flex flex-row items-center my-auto">
+												<a  class="flex flex-row items-center"><img src="assets/img/icons/location1.svg" alt="" />26 - 28  KTIZ, Kochi</a>
+											</li>
+										</ul>
+									</div>
+								</div>
+								<div class="col-lg-6 col-md-6">
+									<div class="space44"></div>
+									<div class="img1 image-anime reveal">
+										<img src="assets/img/allimages/about/about-img12.png" alt="" />
+									</div>
+									<div class="space30"></div>
+									<div class="img1 image-anime reveal">
+										<img src="assets/img/allimages/about/about-img13.png" alt="" />
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-6">
+						<div class="about4-heading heading6">
+							<h5 data-aos="fade-left" data-aos-duration="800">about</h5>
+							<div class="space18"></div>
+							<!-- <h2 class="text-anime-style-3">Building a Sustainable Tomorrow</h2> -->
+							<!-- Innovating for Tomorrow -->
+							<div class="space16"></div>
+							<p  class=" text-justify">
+								The Kerala Innovation Festival (KIF) is a celebration of ideas, creativity, and collaboration. It’s where startups, creators, investors, policymakers, and students come together to shape the future through innovation.							</p>
+							<p  class=" text-justify py-4">
+								In 2025, KIF marks a special milestone as we celebrate 10 years of Kerala Startup Mission (KSUM). Over the past decade, KSUM has supported over 6,300 startups, raised more than ₹6,000 crore in funding, and established Kerala as a global innovation hub.							</p>
+							<p  class=" text-justify">
+								KIF 2025 is not just an event; it’s a platform to showcase breakthrough ideas, build partnerships, and explore sustainable solutions. From cutting edge technologies to creative innovations, KIF is where possibilities become realities.							</p>							<div class="space10"></div>
+							
+							<div class="space32"></div>
+							<div class="btn-area1" data-aos="fade-left" data-aos-duration="1200">
+								<a class="vl-btn4">Reserve My Seat</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+
+
+		
+		<section class="py-24 px-5 relative astro-JI56L5RQ items-center justify-center flex flex-col container rounded-md">
+			<div class="absolute -z-20 bg-fixed bg-center bg-no-repeat w-full h-full top-0 left-0 astro-JI56L5RQ rounded-md" style="background-image:url('/img/innovate.svg')"></div>  
+			<div class="absolute -z-10 bg-black bg-opacity-50 w-full h-full container items-center justify-center flex flex-col top-0 left-0 astro-JI56L5RQ rounded-md"></div>
+			<div class="container mx-auto astro-JI56L5RQ">
+				<div class="testimonials1-section-area sp1 items-center justify-center flex flex-col">
+					<div class="container items-center justify-center flex flex-col">
+						<div class="col-lg-12 items-center justify-center">
+							<div class="video-play-btn items-center justify-center flex flex-col">
+								<a href="https://www.youtube.com/watch?v=m7wvJluPamA" class="popup-youtube items-center justify-center flex flex-col"
+									><svg xmlns="http://www.w3.org/2000/svg" width="20" height="24" viewBox="0 0 20 24" fill="none">
+										<path d="M19.5185 11.1463L1.52146 0.147702C1.36988 0.0550624 1.19634 0.0044781 1.01872 0.0011519C0.8411 -0.00217431 0.665798 0.041878 0.510849 0.128777C0.3559 0.215677 0.226898 0.342285 0.137113 0.495581C0.0473273 0.648876 8.00178e-08 0.823322 0 1.00098V22.9981C8.00178e-08 23.1758 0.0473273 23.3502 0.137113 23.5035C0.226898 23.6568 0.3559 23.7834 0.510849 23.8703C0.665798 23.9572 0.8411 24.0013 1.01872 23.998C1.19634 23.9946 1.36988 23.944 1.52146 23.8514L19.5185 12.8528C19.6647 12.7635 19.7855 12.6381 19.8693 12.4887C19.9531 12.3393 19.9971 12.1709 19.9971 11.9996C19.9971 11.8282 19.9531 11.6598 19.8693 11.5104C19.7855 11.361 19.6647 11.2356 19.5185 11.1463Z" fill="#1A1719" /></svg
+								></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+
+
+
+
+		<div class="vanue-section-area sp2 mt-24">
+			<div class="container">
+			  <div class="row">
+				<div class="col-lg-5 m-auto">
+				  <div class="vanue-header heading10 text-center space-margin60">
+					<h2 class="text-anime-style-3">5 Pillars of KIF 2025
+					</h2>
+				  </div>
+				</div>
+			  </div>
+			  <div class=" grid lg:grid-cols-5 md:grid-cols-2 grid-cols-1 gap-2 ">
+				<div class="" data-aos="zoom-in" data-aos-duration="900">
+				  <div class="vanue-single-item-area">
+					<div class="img1 image-anime">
+					  <img src="assets/img/allimages/others/vanue-img1.png" alt="">
+					</div>
+					<div class="content-area">
+						<a  >Sustainability</a>
+					  	<h2 class="text-base">Smart city solutions, SDG-focused innovations, and green tech</h2>
+					</div>
+				  </div>
+				</div>
+		  
+				<div class="" data-aos="zoom-in" data-aos-duration="1000">
+				  <div class="vanue-single-item-area">
+					<div class="vanue-single-item-area">
+						<div class="img1 image-anime">
+						  <img src="assets/img/allimages/others/vanue-img1.png" alt="">
+						</div>
+						<div class="content-area">
+							<a  >Creative Economy</a>
+							  <h2 class="text-base">
+								Art-tech exhibitions, creator showcases, and design innovation
+							</h2>
+						</div>
+					</div>
+				  </div>
+				</div>
+		  
+				<div class="" data-aos="zoom-in" data-aos-duration="1100">
+				  <div class="vanue-single-item-area">
+					<div class="vanue-single-item-area">
+						<div class="img1 image-anime">
+						  <img src="assets/img/allimages/others/vanue-img1.png" alt="">
+						</div>
+						<div class="content-area">
+							<a  >Youth Entrepreneurship</a>
+							  <h2 class="text-base">
+								Maker fairs, hands-on workshops, and startup accelerators
+							</h2>
+						</div>
+					  </div>
+				  </div>
+				</div>
+		  
+				<div class="" data-aos="zoom-in" data-aos-duration="1200">
+				  <div class="vanue-single-item-area">
+					<div class="vanue-single-item-area">
+						<div class="img1 image-anime">
+						  <img src="assets/img/allimages/others/vanue-img1.png" alt="">
+						</div>
+						<div class="content-area">
+							<a  >Maker Culture</a>
+							  <h2 class="text-base">
+								Prototyping challenges, hands-on demos and innovation labs
+							</h2>
+						</div>
+					  </div>
+				  </div>
+				</div>
+
+				<div class="" data-aos="zoom-in" data-aos-duration="1200">
+					<div class="vanue-single-item-area">
+						<div class="vanue-single-item-area">
+							<div class="img1 image-anime">
+							  <img src="assets/img/allimages/others/vanue-img1.png" alt="">
+							</div>
+							<div class="content-area">
+								<a  >Global Collaboration</a>
+								  <h2 class="text-base">
+									Cross-border partnerships and international startup delegations
+								</h2>
+							</div>
+						</div>
+					</div>
+				</div>
+
+
+			  </div>
+			</div>
+		  </div>
+
+		
+
+		  <div class="choose-section-area sp2">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-4 m-auto">
+						<div class="heading2 text-center space-margin60">
+							<h5>why choose us</h5>
+							<div class="space18"></div>
+							<h2>Why Attend Event?</h2>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-4 col-md-6">
+						<div class="choose-widget-boxarea">
+							<div class="icons">
+								<img src="assets/img/icons/choose-icons1.svg" alt="" />
+							</div>
+							<div class="space24"></div>
+							<div class="content-area">
+								<a>Make Ideas Happen</a>
+								<div class="space16"></div>
+								<p>Eventify 2024 brings together the brightest minds and industry leaders for best of transformative business.</p>
+								<div class="space24"></div>
+								
+							</div>
+						</div>
+					</div>
+
+					<div class="col-lg-4 col-md-6">
+						<div class="choose-widget-boxarea">
+							<div class="icons">
+								<img src="assets/img/icons/choose-icons1.svg" alt="" />
+							</div>
+							<div class="space24"></div>
+							<div class="content-area">
+								<a >Great Speakers</a>
+								<div class="space16"></div>
+								<p>Whether you're looking to elevate your business strategy, discover the latest industry trends, or connect.</p>
+								<div class="space24"></div>
+								
+							</div>
+						</div>
+					</div>
+
+					<div class="col-lg-4 col-md-6">
+						<div class="choose-widget-boxarea">
+							<div class="icons">
+								<img src="assets/img/icons/choose-icons1.svg" alt="" />
+							</div>
+							<div class="space24"></div>
+							<div class="content-area">
+								<a>One Day Ticket</a>
+								<div class="space16"></div>
+								<p>We empower businesses to thrive in an ever-evolving marketplace. This conference more than just an event.</p>
+								<div class="space24"></div>
+								
+							</div>
+						</div>
+					</div>
+
+					<div class="col-lg-4 col-md-6">
+						<div class="choose-widget-boxarea">
+							<div class="icons">
+								<img src="assets/img/icons/choose-icons1.svg" alt="" />
+							</div>
+							<div class="space24"></div>
+							<div class="content-area">
+								<a >Develop Your Skills</a>
+								<div class="space16"></div>
+								<p>Eventify is your gateway to future of business. By bringing together best experts from various sectors.</p>
+								<div class="space24"></div>
+								<!-- <a  class="readmore">Read More <i class="fa-solid fa-arrow-right"></i></a> -->
+							</div>
+						</div>
+					</div>
+
+					<div class="col-lg-4 col-md-6">
+						<div class="choose-widget-boxarea">
+							<div class="icons">
+								<img src="assets/img/icons/choose-icons1.svg" alt="" />
+							</div>
+							<div class="space24"></div>
+							<div class="content-area">
+								<a >Entry Verification</a>
+								<div class="space16"></div>
+								<p>You'll walk away with a deeper best understanding of emerging trends and actionable strategies that can.</p>
+								<div class="space24"></div>
+								<!-- <a  class="readmore">Read More <i class="fa-solid fa-arrow-right"></i></a> -->
+							</div>
+						</div>
+					</div>
+
+					<div class="col-lg-4 col-md-6">
+						<div class="choose-widget-boxarea">
+							<div class="icons">
+								<img src="assets/img/icons/choose-icons1.svg" alt="" />
+							</div>
+							<div class="space24"></div>
+							<div class="content-area">
+								<a >Workshops Offer</a>
+								<div class="space16"></div>
+								<p>Designed for forward-thinking and professionals, this event delivers the tools, connections, and insights you.</p>
+								<div class="space24"></div>
+								<!-- <a  class="readmore">Read More <i class="fa-solid fa-arrow-right"></i></a> -->
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		
+		  <div class="event6-section-area sp1">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-8 m-auto">
+						<div class="event-heading heading9 text-center space-margin60">
+							<div class="space20"></div>
+							<h2 class="text-anime-style-3">What’s Happening at KIF 2025</h2>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-12">
+						
+						<div class="event6-widget-boxarea" data-aos="fade-left" data-aos-duration="1000">
+							<div class="row align-items-center">
+								<div class="col-lg-5">
+									<div class="img1 image-anime reveal">
+										<img src="assets/img/allimages/event/event-img12.png" alt="" />
+									</div>
+								</div>
+								<div class="col-lg-7">
+									<div class="content-area">
+										<h3 class="text-anime-style-3">“Talks & Masterclasses with global experts”</h3>
+										<div class="space24"></div>
+										<div class="space32"></div>
+										<!-- <div class="btn-area1">
+											<a  class="vl-btn6">Buy Tickets Now <img src="assets/img/icons/arrow2.svg" alt="" /></a>
+										</div> -->
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="space50"></div>
+
+						
+						
+						<div class="event6-widget-boxarea2" data-aos="fade-right" data-aos-duration="1100">
+							<div class="row align-items-center">
+								<div class="col-lg-7">
+									<div class="content-area">
+										<h3 class="text-anime-style-3">“Startup Expo featuring groundbreaking innovations”</h3>
+										<div class="space24"></div>
+										<div class="space32"></div>
+										<!-- <div class="btn-area1">
+											<a  class="vl-btn6">Buy Tickets Now <img src="assets/img/icons/arrow2.svg" alt="" /></a>
+										</div> -->
+									</div>
+								</div>
+								<div class="col-lg-5">
+									<div class="img1 image-anime reveal">
+										<img src="assets/img/allimages/event/event-img13.png" alt="" />
+									</div>
+								</div>
+								
+							</div>
+						</div>
+						
+						<div class="space50"></div>
+						
+						<div class="event6-widget-boxareamain  bg-[#1A496A]" data-aos="fade-left" data-aos-duration="1200">
+							<div class="row align-items-center">
+								<div class="col-lg-5">
+									<div class="img1 image-anime reveal">
+										<img src="assets/img/allimages/event/event-img14.png" alt="" />
+									</div>
+								</div>
+								<div class="col-lg-7">
+									<div class="content-area">
+										<h3 class="text-anime-style-3">“Sustainability Pavilion showcasing smart city and green solutions”</h3>
+										<div class="space24"></div>
+										<div class="space32"></div>
+										<!-- <div class="btn-area1">
+											<a  class="vl-btn6">Buy Tickets Now <img src="assets/img/icons/arrow2.svg" alt="" /></a>
+										</div> -->
+									</div>
+								</div>
+							</div>
+						</div>
+
+
+
+
+						<div class="space50"></div>
+						
+						<div class="event6-widget-boxareamain bg-[#FCC310]" data-aos="fade-right" data-aos-duration="1200">
+							<div class="row align-items-center">
+								<div class="col-lg-7">
+									<div class="content-area">
+										<h3 class="text-anime-style-3">“Creators Summit blending art, design, and technology”</h3>
+										<div class="space24"></div>
+										<div class="space32"></div>
+										<!-- <div class="btn-area1">
+											<a  class="vl-btn6">Buy Tickets Now <img src="assets/img/icons/arrow2.svg" alt="" /></a>
+										</div> -->
+									</div>
+								</div>
+								<div class="col-lg-5">
+									<div class="img1 image-anime reveal">
+										<img src="assets/img/allimages/event/event-img14.png" alt="" />
+									</div>
+								</div>
+								
+							</div>
+						</div>
+
+						<div class="space50"></div>
+						
+						<div class="event6-widget-boxareamain bg-[#2EBCE0]" data-aos="fade-left" data-aos-duration="1200">
+							<div class="row align-items-center">
+								<div class="col-lg-5">
+									<div class="img1 image-anime reveal">
+										<img src="assets/img/allimages/event/event-img14.png" alt="" />
+									</div>
+								</div>
+								<div class="col-lg-7">
+									<div class="content-area">
+										<h3 class="text-anime-style-3">“Hackathons & Challenges solving real-world problems”</h3>
+										<div class="space24"></div>
+										<div class="space32"></div>
+										<!-- <div class="btn-area1">
+											<a  class="vl-btn6">Buy Tickets Now <img src="assets/img/icons/arrow2.svg" alt="" /></a>
+										</div> -->
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="space50"></div>
+						
+						<div class="event6-widget-boxareamain bg-[#4C9F37]" data-aos="fade-right" data-aos-duration="1200">
+							<div class="row align-items-center">
+								<div class="col-lg-7">
+									<div class="content-area">
+										<h3 class="text-anime-style-3">“Music & Food Fest celebrating Kerala’s culture and flavors”</h3>
+										<div class="space24"></div>
+										<div class="space32"></div>
+										<!-- <div class="btn-area1">
+											<a  class="vl-btn6">Buy Tickets Now <img src="assets/img/icons/arrow2.svg" alt="" /></a>
+										</div> -->
+									</div>
+								</div>
+								<div class="col-lg-5">
+									<div class="img1 image-anime reveal">
+										<img src="assets/img/allimages/event/event-img14.png" alt="" />
+									</div>
+								</div>
+								
+							</div>
+						</div>
+
+						<div class="space50"></div>
+						
+						<div class="event6-widget-boxareamain bg-[#E8422E]" data-aos="fade-left" data-aos-duration="1200">
+							<div class="row align-items-center">
+								<div class="col-lg-5">
+									<div class="img1 image-anime reveal">
+										<img src="assets/img/allimages/event/event-img14.png" alt="" />
+									</div>
+								</div>
+								<div class="col-lg-7">
+									<div class="content-area">
+										<h3 class="text-anime-style-3">“Cyclothon & Drone Show showcasing innovation in motion”</h3>
+										<div class="space24"></div>
+										<div class="space32"></div>
+										<!-- <div class="btn-area1">
+											<a  class="vl-btn6">Buy Tickets Now <img src="assets/img/icons/arrow2.svg" alt="" /></a>
+										</div> -->
+									</div>
+								</div>
+							</div>
+						</div>
+					
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		<div class="memory5-section-area bg-[#1A496A] sp1">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12">
+						<div class="memory-heaer2 heading4 space-margin60">
+							<div class="heading4">
+								<h5>What's in store for you</h5>
+								<h2 class="text-anime-style-3">Programs</h2>
+							</div>
+							
+						</div>
+					</div>
+					<div class="col-lg-12">
+						<div class="memory-widget-slider5 owl-carousel">
+							<div class="memory-widget-boxarea">
+								<div class="img1">
+									<img src="assets/img/allimages/memory/memory-img1.png" alt="" />
+								</div>
+								<div class="content-area">
+									<div class="text">
+										<a>Workshops & Masterclasses
+										</a>
+									</div>
+								</div>
+							</div>
+
+							<div class="memory-widget-boxarea">
+								<div class="img1">
+									<img src="assets/img/allimages/memory/memory-img2.png" alt="" />
+								</div>
+								<div class="content-area">
+									
+									<div class="text">
+										<a>Startup Expo</a>
+									</div>
+								</div>
+							</div>
+
+							<div class="memory-widget-boxarea">
+								<div class="img1">
+									<img src="assets/img/allimages/memory/memory-img3.png" alt="" />
+								</div>
+								<div class="content-area">
+									
+									<div class="text">
+										<a>Product Showcase</a>
+									</div>
+								</div>
+							</div>
+
+							<div class="memory-widget-boxarea">
+								<div class="img1">
+									<img src="assets/img/allimages/memory/memory-img3.png" alt="" />
+								</div>
+								<div class="content-area">
+									
+									<div class="text">
+										<a>AR & VR Experiences</a>
+									</div>
+								</div>
+							</div>
+
+							<div class="memory-widget-boxarea">
+								<div class="img1">
+									<img src="assets/img/allimages/memory/memory-img3.png" alt="" />
+								</div>
+								<div class="content-area">
+									
+									<div class="text">
+										<a>SDG Summit</a>
+									</div>
+								</div>
+							</div>
+
+							<div class="memory-widget-boxarea">
+								<div class="img1">
+									<img src="assets/img/allimages/memory/memory-img3.png" alt="" />
+								</div>
+								<div class="content-area">
+									
+									<div class="text">
+										<a>Creators Summit
+										</a>
+									</div>
+								</div>
+							</div>
+
+							<div class="memory-widget-boxarea">
+								<div class="img1">
+									<img src="assets/img/allimages/memory/memory-img3.png" alt="" />
+								</div>
+								<div class="content-area">
+									
+									<div class="text">
+										<a>Maker Fest
+
+										</a>
+									</div>
+								</div>
+							</div>
+
+
+							<div class="memory-widget-boxarea">
+								<div class="img1">
+									<img src="assets/img/allimages/memory/memory-img3.png" alt="" />
+								</div>
+								<div class="content-area">
+									
+									<div class="text">
+										<a>Fab Showcase
+
+										</a>
+									</div>
+								</div>
+							</div>
+
+							<div class="memory-widget-boxarea">
+								<div class="img1">
+									<img src="assets/img/allimages/memory/memory-img3.png" alt="" />
+								</div>
+								<div class="content-area">
+									
+									<div class="text">
+										<a>Innovation Pavilions
+
+										</a>
+									</div>
+								</div>
+							</div>
+
+							<div class="memory-widget-boxarea">
+								<div class="img1">
+									<img src="assets/img/allimages/memory/memory-img3.png" alt="" />
+								</div>
+								<div class="content-area">
+									
+									<div class="text">
+										<a>AR/VR Pavilion
+										</a>
+									</div>
+								</div>
+							</div>
+
+							<div class="memory-widget-boxarea">
+								<div class="img1">
+									<img src="assets/img/allimages/memory/memory-img3.png" alt="" />
+								</div>
+								<div class="content-area">
+									
+									<div class="text">
+										<a>Sustainability Pavilion
+										</a>
+									</div>
+								</div>
+							</div>
+
+							<div class="memory-widget-boxarea">
+								<div class="img1">
+									<img src="assets/img/allimages/memory/memory-img3.png" alt="" />
+								</div>
+								<div class="content-area">
+									
+									<div class="text">
+										<a>Cyclathon
+										</a>
+									</div>
+								</div>
+							</div>
+
+
+							<div class="memory-widget-boxarea">
+								<div class="img1">
+									<img src="assets/img/allimages/memory/memory-img3.png" alt="" />
+								</div>
+								<div class="content-area">
+									
+									<div class="text">
+										<a>Music & Entertainment
+										</a>
+									</div>
+								</div>
+							</div>
+
+							<div class="memory-widget-boxarea">
+								<div class="img1">
+									<img src="assets/img/allimages/memory/memory-img3.png" alt="" />
+								</div>
+								<div class="content-area">
+									
+									<div class="text">
+										<a>Maker & DIY Zones
+										</a>
+									</div>
+								</div>
+							</div>
+
+							<div class="memory-widget-boxarea">
+								<div class="img1">
+									<img src="assets/img/allimages/memory/memory-img3.png" alt="" />
+								</div>
+								<div class="content-area">
+									
+									<div class="text">
+										<a>Technology & Innovation Lounge
+										</a>
+									</div>
+								</div>
+							</div>
+
+							<div class="memory-widget-boxarea">
+								<div class="img1">
+									<img src="assets/img/allimages/memory/memory-img3.png" alt="" />
+								</div>
+								<div class="content-area">
+									
+									<div class="text">
+										<a>Flea Market
+										</a>
+									</div>
+								</div>
+							</div>
+
+							<div class="memory-widget-boxarea">
+								<div class="img1">
+									<img src="assets/img/allimages/memory/memory-img3.png" alt="" />
+								</div>
+								<div class="content-area">
+									
+									<div class="text">
+										<a>Food Festival
+										</a>
+									</div>
+								</div>
+							</div>
+
+							<div class="memory-widget-boxarea">
+								<div class="img1">
+									<img src="assets/img/allimages/memory/memory-img3.png" alt="" />
+								</div>
+								<div class="content-area">
+									
+									<div class="text">
+										<a>Investor Lounge
+										</a>
+									</div>
+								</div>
+							</div>
+
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		<div class="about7-section-area sp1">
+			<div class="container">
+			  <div class="row align-items-center">
+				<div class="col-lg-6">
+				  <div class="about-header-area heading10">
+					<h2 class="text-anime-style-3">Why Kochi</h2>
+					<div class="space16"></div>
+					<!-- <p data-aos="fade-left" data-aos-duration="900">Our mission at Economy Event to drive meaningful dialogue, foster collaboration, spark innovative solutions for sustainable economic.</p> -->
+					<div class="space32"></div>
+					<div class="about-auhtor-box" data-aos="fade-left" data-aos-duration="1000">
+					  <div class="icons w-6 h-6">
+					  </div>
+					  	<div class="text">
+							<a>Innovation Hub home to Kerala Technology Innovation Zone (KTIZ)
+							</a>
+						</div>
+					</div>
+					<div class="space20"></div>
+					<div class="about-auhtor-box" data-aos="fade-left" data-aos-duration="1100">
+					  <div class="icons w-6 h-6">
+					  </div>
+					  <div class="text">
+						<a>Strategic Location a gateway to South India with excellent connectivity
+						</a>
+					  </div>
+					</div>
+
+					<div class="space20"></div>
+					<div class="about-auhtor-box" data-aos="fade-left" data-aos-duration="1100">
+					  <div class="icons w-6 h-6">
+					  </div>
+					  <div class="text">
+						<a>Sustainability Focused leading smart city and green initiatives
+
+						</a>
+					  </div>
+					</div>
+
+					<div class="space20"></div>
+					<div class="about-auhtor-box" data-aos="fade-left" data-aos-duration="1100">
+					  <div class="icons w-6 h-6">
+					  </div>
+					  <div class="text">
+						<a>Creative & Cultural Capital where technology meets tradition</a>
+					  </div>
+					</div>
+
+					<div class="space32"></div>
+					<div class="btn-area1" data-aos="fade-left" data-aos-duration="1200">
+					  <a class="vl-btn7">Become an Attendee <span><i class="fa-solid fa-arrow-right"></i></span></a>
+					</div>
+				  </div>
+				</div>
+				<div class="col-lg-6">
+				  <div class="about-allimages">
+					<div class="img1 image-anime reveal">
+					  <img src="assets/img/allimages/about/about-img17.png" alt="">
+					</div>
+					<div class="img2 image-anime reveal">
+					  <img src="assets/img/allimages/about/about-img18.png" alt="">
+					</div>
+					 
+					<!-- <img src="assets/img/elements/elements37.png" alt="" class="elements37"> -->
+				  </div>
+				</div>
+			  </div>
+			</div>
+		  </div>
+
+	
+
+		<!--===== HERO AREA STARTS =======-->
+	
+		<div class="cta7-section-area">
+			<div class="container">
+			  <div class="row">
+				<div class="col-lg-12">
+				  <div class="cta7-bg-area" style="background-image: url(assets/img/bg/header-bg18.png); background-position: center; background-size: cover; background-repeat: no-repeat;">
+					<div class="row">
+					  <div class="col-lg-11 m-auto">
+						<div class="cta-heading text-center">
+						  <h2>Partner with us at Kerala Innovation Festival 2025</h2>
+						  <div class="space16"></div>
+						  	<p>
+								Join India’s Biggest Celebration of Innovation and be part of a transformative journey as we mark 10 years of Kerala Startup Mission (KSUM). The Kerala Innovation Festival (KIF) 2025 is a premier platform bringing together startups, investors, policymakers, creators, and industry leaders to collaborate, connect, and explore groundbreaking ideas.
+							</p>
+						  <div class="space32"></div>
+						  <div class="btn-area1">
+							<a href="contact.html" class="vl-btn7">Register Now <span><i class="fa-solid fa-arrow-right"></i></span></a>
+						  </div>
+						</div>
+					  </div>
+					</div>
+				  </div>
+				</div>
+			  </div>
+			</div>
+		  </div>
+		  <!--===== CTA AREA ENDS =======-->
+		  
+		  <!--===== FOOTER AREA STARTS =======-->
+		  <div class="footer7-sertion-area">
+		
+		
+
+		  <div class="contact4-section-area sp1 pt-48">
+			<div class="container">
+				<div class="space60"></div>
+				<div class="row">
+					<div class="col-lg-5">
+						<div class="mapouter">
+							<div class="gmap_canvas">
+								<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3928.5296393768817!2d76.35264562786483!3d10.055616982958378!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b080c04e3627551%3A0xeaddd199d9bbde2b!2sKerala%20Technology%20Innovation%20Zone%20(KTIZ)!5e0!3m2!1sen!2sin!4v1743228465471!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6">
+						<div class="link-content2">
+						  <h3>Contact Us</h3>
+						  <ul>
+							<li><a  class="flex flex-row w-full items-center " href="mailto:nasif@startupmission.in "><img src="assets/img/icons/mail1.svg" alt="">nasif@startupmission.in </a></li>
+							<li class="">
+								<a class="flex flex-row w-full items-center " href="tel:08047180470">
+									<img src="assets/img/icons/phn1.svg" alt="">
+									<p>08047180470</p>
+								</a>
+							</li>
+							<li><a  class="flex flex-row w-full items-center " href="https://maps.app.goo.gl/u5MneZi8VA5q3uXi6" target="_blank"><img src="assets/img/icons/location1.svg" alt="">KTIZ, Kochi</a></li>
+							<li><a  class="flex flex-row w-full items-center " href="https://startupmission.kerala.gov.in/"  target="_blank"> <img src="assets/img/icons/world1.svg" alt="">startupmission.kerala.gov.in</a></li>
+						  </ul>
+						</div>
+					  </div>
+
+					 <div class="col-lg-4 col-md-6 ">
+						<div >
+							<div class="footer-social-box">
+							  <h3>Our Recent Event Gallery</h3>
+							  <div class="space12"></div>
+							  <div class=" grid md:grid-cols-3 grid-cols-2 gap-4">
+								<div class="">
+								  <div class="img1">
+									<img src="assets/img/allimages/footer/footer-img1.png" alt="">
+									<div class="icons">
+									  <a href="#"><i class="fa-brands fa-instagram"></i></a>
+									</div>
+								  </div>
+								</div>
+								<div class="">
+								  <div class="img1">
+									<img src="assets/img/allimages/footer/footer-img2.png" alt="">
+									<div class="icons">
+									  <a href="#"><i class="fa-brands fa-instagram"></i></a>
+									</div>
+								  </div>
+								</div>
+								<div class="">
+								  <div class="img1">
+									<img src="assets/img/allimages/footer/footer-img3.png" alt="">
+									<div class="icons">
+									  <a href="#"><i class="fa-brands fa-instagram"></i></a>
+									</div>
+								  </div>
+								</div>
+								<div class="">
+								  <div class="img1">
+									<img src="assets/img/allimages/footer/footer-img4.png" alt="">
+									<div class="icons">
+									  <a href="#"><i class="fa-brands fa-instagram"></i></a>
+									</div>
+								  </div>
+								</div>
+								<div class="">
+								  <div class="img1">
+									<img src="assets/img/allimages/footer/footer-img5.png" alt="">
+									<div class="icons">
+									  <a href="#"><i class="fa-brands fa-instagram"></i></a>
+									</div>
+								  </div>
+								</div>
+								<div class="">
+								  <div class="img1">
+									<img src="assets/img/allimages/footer/footer-img6.png" alt="">
+									<div class="icons">
+									  <a href="#"><i class="fa-brands fa-instagram"></i></a>
+									</div>
+								  </div>
+								</div>
+							  </div>
+							</div>
+						  </div>
+					 </div>
+				</div>
+			</div>
+		</div>
+
+
+		<div class="row">
+			<div class="col-lg-12">
+			  <div class="copyright">
+				<p>&copy; Copyright 2025 - KSUM. All Right Reserved</p>
+			  </div>
+			</div>
+		</div>
+	</div>
+
+	</Layout>
+
+<script is:inline>
+	window.addEventListener('DOMContentLoaded', () => {
+		const logo = document.getElementById('logokifksum');
+		const banner = document.getElementById('banner');
+
+		logo.addEventListener('animationend', () => {
+		banner.classList.remove('opacity-0');
+		banner.classList.add('animate-rotate-in');
+		});
+	});
+</script>
+
+
+<style is:global>
+	@keyframes float {
+	  0%, 100% {
+		transform: translateY(0);
+	  }
+	  50% {
+		transform: translateY(-10px);
+	  }
+	}
+  
+	@keyframes float-in {
+	  from { transform: translateY(50px); opacity: 1; }
+	  to { transform: translateY(0); opacity: 1; }
+	}
+  
+	@keyframes fall-in {
+	  0% { transform: translateY(-200px); opacity: 1; }
+	  60% { transform: translateY(20px); opacity: 1; }
+	  100% { transform: translateY(0); }
+	}
+  
+	@keyframes rotate-in {
+	  from { transform: rotate(0deg); opacity: 1; }
+	  to { transform: rotate(3.5deg); opacity: 1; }
+	}
+  
+	.animate-float {
+	  animation: float 3s ease-in-out infinite;
+	}
+  
+	.animate-float-in {
+	  animation: float-in 1s ease-out forwards;
+	}
+  
+	.animate-fall-in {
+	  animation: fall-in 1.2s ease-out forwards;
+	}
+  
+	.animate-rotate-in {
+	  animation: rotate-in 0.6s ease-out forwards;
+	}
+</style>
+  
+	  

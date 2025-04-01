@@ -1,0 +1,163 @@
+---
+    import Countdown from '../components/Countdown.svelte';
+
+---
+<style is:global>
+    @keyframes float {
+      0%, 100% {
+        transform: translateY(0);
+      }
+      50% {
+        transform: translateY(-10px);
+      }
+    }
+  
+    @keyframes float-in {
+      from { transform: translateY(50px); opacity: 0; }
+      to { transform: translateY(0); opacity: 1; }
+    }
+  
+    @keyframes fall-in {
+      0% { transform: translateY(-200px); opacity: 0; }
+      60% { transform: translateY(20px); opacity: 1; }
+      100% { transform: translateY(0); }
+    }
+  
+    @keyframes rotate-in {
+      from { transform: rotate(0deg); opacity: 1; }
+      to { transform: rotate(3.5deg); opacity: 1; }
+    }
+  
+    .animate-float {
+      animation: float 3s ease-in-out infinite;
+    }
+  
+    .animate-float-in {
+      animation: float-in 1s ease-out forwards;
+    }
+  
+    .animate-fall-in {
+      animation: fall-in 1.2s ease-out forwards;
+    }
+  
+    .animate-rotate-in {
+      animation: rotate-in 0.6s ease-out forwards;
+    }
+  </style>
+  
+
+	<main class="pt-30 min-h-screen flex flex-col items-center justify-center" >
+		<div class="absolute -z-10 w-full h-full top-0 left-0 bg-[#FCC310] bg-opacity-70"></div>
+
+		<div class="container mx-auto text-white text-center">
+
+			<div class="relative inline-block mb-5">
+				<div class=" md:w-fit w-4/5">
+				
+					<div class="absolute bottom-[calc(100%+1em)] left-0 md:flex hidden opacity-0 animate-float-in delay-[100ms]">
+						<img src="/img/e3.svg">
+					</div>
+					
+					
+					<div class="absolute bottom-[calc(100%)] left-1/2 right-1/2 md:flex hidden opacity-0 animate-float-in delay-[300ms]">
+						<img src="/img/e4.svg">
+					</div>
+
+					<div class="absolute bottom-[calc(100%-3em)]  -right-20 md:flex hidden opacity-0 animate-float-in delay-[300ms]">
+						<img src="/img/e5.svg">
+					</div>
+
+					<div class="absolute top-[calc(100%-2em)] left-1/6 -z-10 md:flex hidden opacity-0 animate-float-in delay-[300ms]">
+						<img src="/img/e6.svg">
+					</div>
+					<div class="absolute top-[calc(100%-0em)] right-1/8 -z-10 md:flex hidden opacity-0 animate-float-in delay-[300ms]">
+						<img src="/img/e7.svg">
+					</div>
+					
+					
+					<div id="logo" class="absolute rounded-full w-56 h-56 bg-white shadow-md right-0 bottom-[calc(100%-2rem)] z-1 animate-fall-in">
+						<img src="/img/logokif.svg" class="p-12" />
+					</div>
+					
+					<div id="banner" class="inline-block">
+						<div class="bg-red-500 border-2 border-sky-500 px-8 py-5 inline-block">
+						<div class="justify-start text-white text-5xl font-normal font-['Impact']">
+							India’s Largest Celebration of Innovation
+						</div>
+						</div>
+					
+						<div class="w-2 h-2 left-[-3.5px] top-[-3.5px] absolute bg-white border-[0.77px] border-sky-500"></div>
+						<div class="w-2 h-2 left-[-3.5px] bottom-[-3.5px] absolute bg-white border-[0.77px] border-sky-500"></div>
+						<div class="w-2 h-2 right-[-3.5px] top-[-3.5px] absolute bg-white border-[0.77px] border-sky-500"></div>
+						<div class="w-2 h-2 right-[-3.5px] bottom-[-3.5px] absolute bg-white border-[0.77px] border-sky-500"></div>
+					</div>
+  
+  
+				</div>
+			</div>
+
+
+			<Countdown date="2025-06-25T09:00" client:load ></Countdown>
+
+			<div class="text-[#1A496A] flex md:flex-row flex-col items-center justify-center gap-5 mt-5">
+				<div class="flex items-center justify-center gap-2">
+					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6">
+						<path fill-rule="evenodd" d="M6.75 2.25A.75.75 0 0 1 7.5 3v1.5h9V3A.75.75 0 0 1 18 3v1.5h.75a3 3 0 0 1 3 3v11.25a3 3 0 0 1-3 3H5.25a3 3 0 0 1-3-3V7.5a3 3 0 0 1 3-3H6V3a.75.75 0 0 1 .75-.75Zm13.5 9a1.5 1.5 0 0 0-1.5-1.5H5.25a1.5 1.5 0 0 0-1.5 1.5v7.5a1.5 1.5 0 0 0 1.5 1.5h13.5a1.5 1.5 0 0 0 1.5-1.5v-7.5Z" clip-rule="evenodd" />
+					</svg>
+					<div>
+						26, 27 June 2025
+					</div>					
+				</div>
+				<div class="flex items-center justify-center gap-2">
+					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6">
+						<path fill-rule="evenodd" d="m11.54 22.351.07.04.028.016a.76.76 0 0 0 .723 0l.028-.015.071-.041a16.975 16.975 0 0 0 1.144-.742 19.58 19.58 0 0 0 2.683-2.282c1.944-1.99 3.963-4.98 3.963-8.827a8.25 8.25 0 0 0-16.5 0c0 3.846 2.02 6.837 3.963 8.827a19.58 19.58 0 0 0 2.682 2.282 16.975 16.975 0 0 0 1.145.742ZM12 13.5a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z" clip-rule="evenodd" />
+					</svg>					
+					<div>
+						Kerala Technology Innovation Zone, Kochi
+					</div>					
+				</div>
+			</div>
+
+		</div>
+		<div  class="absolute bottom-0 md:left-20 left-4">
+			<img src="/img/graph.svg" class="md:w-4/5 w-20">
+		</div>
+
+		<div  class="absolute bottom-0 right-0">
+			<img src="/img/e2.svg" class="lg:w-4/5 w-20 animate-float" >
+		</div>
+	</main>
+
+	<section class="py-24">
+		<div class="container mx-auto">
+			<div class=" flex md:flex-row flex-col">
+				<div class=" flex lg:w-1/2 w-full">
+					<div class="lg:flex hidden w-1/4">
+						<img src="/img/about.svg">
+					</div>
+					<div class=" lg:w-3/4 w-full">
+						<img src="/img/aboutjpg.svg">
+					</div>
+				</div>
+				<div class="flex lg:w-1/2">
+					<div>
+						<p>About This Meetup</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>	
+
+<script is:inline>
+	window.addEventListener('DOMContentLoaded', () => {
+	  const logo = document.getElementById('logo');
+	  const banner = document.getElementById('banner');
+  
+	  logo.addEventListener('animationend', () => {
+		banner.classList.remove('opacity-0');
+		banner.classList.add('animate-rotate-in');
+	  });
+	});
+  </script>
+  
+

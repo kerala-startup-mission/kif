@@ -1,0 +1,108 @@
+---
+
+const { title } = Astro.props;
+
+import Navbar from "../components/Navbar.astro";
+
+const description = "Kerala Startup Mission is the central agency of the Government of Kerala for entrepreneurship development and incubation activities in Kerala, India.";
+const url = "https://startupmission.kerala.gov.in/";
+
+---
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Kerala Innovation Festival | Kerala Startup Mission</title>
+
+		<!--=====FAB ICON=======-->
+		<link rel="shortcut icon" href="/favicon.png" />
+
+		<!--===== CSS LINK =======-->
+		<style is:global>
+			@keyframes float {
+			  0%, 100% {
+				transform: translateY(0);
+			  }
+			  50% {
+				transform: translateY(-10px);
+			  }
+			}
+		  
+			@keyframes float-in {
+			  from { transform: translateY(50px); opacity: 1; }
+			  to { transform: translateY(0); opacity: 1; }
+			}
+		  
+			@keyframes fall-in {
+			  0% { transform: translateY(-200px); opacity: 1; }
+			  60% { transform: translateY(20px); opacity: 1; }
+			  100% { transform: translateY(0); }
+			}
+		  
+			@keyframes rotate-in {
+			  from { transform: rotate(0deg); opacity: 1; }
+			  to { transform: rotate(3.5deg); opacity: 1; }
+			}
+		  
+			.animate-float {
+			  animation: float 3s ease-in-out infinite;
+			}
+		  
+			.animate-float-in {
+			  animation: float-in 1s ease-out forwards;
+			}
+		  
+			.animate-fall-in {
+			  animation: fall-in 1.2s ease-out forwards;
+			}
+		  
+			.animate-rotate-in {
+			  animation: rotate-in 0.6s ease-out forwards;
+			}
+		</style>
+		<link rel="stylesheet" href="/assets/css/vendor/bootstrap.min.css" />
+		<link rel="stylesheet" href="/assets/css/vendor/aos.css" />
+		<link rel="stylesheet" href="/assets/css/vendor/fontawesome.css" />
+		<link rel="stylesheet" href="/assets/css/vendor/magnific-popup.css" />
+		<link rel="stylesheet" href="/assets/css/vendor/mobile.css" />
+		<link rel="stylesheet" href="/assets/css/vendor/owlcarousel.min.css" />
+		<link rel="stylesheet" href="/assets/css/vendor/sidebar.css" />
+		<link rel="stylesheet" href="/assets/css/vendor/slick-slider.css" />
+		<link rel="stylesheet" href="/assets/css/vendor/nice-select.css" />
+		<link rel="stylesheet" href="/assets/css/vendor/odometer.css" />
+		<link rel="stylesheet" href="/assets/css/main.css" />
+
+		<!--=====  JS SCRIPT LINK =======-->
+		<script src="/assets/js/vendor/jquery-3.7.1.min.js" is:inline></script>
+		
+	</head>
+	<body class="homepage1-body">
+		<slot />
+
+		<script src="/assets/js/vendor/bootstrap.min.js" is:inline></script>
+		<script src="/assets/js/vendor/fontawesome.js" is:inline></script>
+		<script src="/assets/js/vendor/aos.js" is:inline></script>
+		<script src="/assets/js/vendor/jquery.appear.js" is:inline></script>
+		<script src="/assets/js/vendor/jquery.odometer.min.js" is:inline></script>
+		<script src="/assets/js/vendor/sidebar.js" is:inline></script>
+		<script src="/assets/js/vendor/magnific-popup.js" is:inline></script>
+		<script src="/assets/js/vendor/gsap.min.js" is:inline></script>
+		<script src="/assets/js/vendor/ScrollTrigger.min.js" is:inline></script>
+		<script src="/assets/js/vendor/Splitetext.js" is:inline></script>
+		<script src="/assets/js/vendor/mobilemenu.js" is:inline></script>
+		<script src="/assets/js/vendor/owlcarousel.min.js" is:inline></script>
+		<script src="/assets/js/vendor/nice-select.js" is:inline></script>
+		<script src="/assets/js/vendor/waypoints.js" is:inline></script>
+		<script src="/assets/js/vendor/slick-slider.js" is:inline></script>
+		<script src="/assets/js/vendor/circle-progress.js" is:inline></script>
+		<script src="/assets/js/main.js" is:inline></script>
+
+
+		
+		
+		
+		
+	</body>
+</html>
