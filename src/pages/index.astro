@@ -2,6 +2,7 @@
 import Layout from '../layouts/Layout.astro';
 import Countdown from '../components/Countdown.svelte';
 import Speakers from '../components/Speakers.svelte';
+import LottieAnimation from "astro-integration-lottie/Lottie.astro";
 ---
 
 <Layout  title="Kerala Startup Mission">
@@ -22,8 +23,9 @@ import Speakers from '../components/Speakers.svelte';
 					<div class="w-2 h-2 right-[-3.5px] top-[-3.5px] absolute bg-white border-[0.77px] border-sky-500"></div>
 					<div class="w-2 h-2 right-[-3.5px] bottom-[-3.5px] absolute bg-white border-[0.77px] border-sky-500"></div>
 				</div>
-			</div>
 
+				<LottieAnimation src="/lottie/text.json" autoplay="visible" loop={true} class:list={["w-16", "absolute"]} />
+			</div>
 
 			<Countdown date="2025-07-25T09:00" client:load ></Countdown>
 
@@ -47,6 +49,8 @@ import Speakers from '../components/Speakers.svelte';
 			</div>
 
 		</div>
+
+		
 		
 	</main>
 
