@@ -119,7 +119,7 @@
   </style>
   
   {#if isVisible}
-    <div class="bottom-div md:w-3/4 w-full pb-6 p {divClass}">
+    <div class="bottom-div md:w-3/4 w-full pb-3 {divClass}">
       <div class="content-container pt-3 px-6 flex md:flex-row flex-col md:justify-between items-center justify-center text-center">
         <!-- Left Content (Text & Button) -->
        

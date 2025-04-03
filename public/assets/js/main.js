@@ -3,38 +3,37 @@
 $(document).ready(function(){
 
 //========== HEADER ACTIVE STRATS ============= //
-if ($("#header").length > 0) {
-$(window).on("scroll", function (event) {
-  var scroll = $(window).scrollTop();
-  if (scroll < 1) {
-  $(".header-area").removeClass("sticky");
-  } else {
-  $(".header-area").addClass("sticky");
+  if ($("#header").length > 0) {
+    $(window).on("scroll", function (event) {
+      var scroll = $(window).scrollTop();
+      if (scroll < 1) {
+        $(".header-area").removeClass("sticky");
+      } else {
+        $(".header-area").addClass("sticky");
+      }
+    });
   }
-  });
-}
 //========== HEADER ACTIVE ENDS ============= //
 
 //========== SIDEBAR/SEARCH AREA ============= //
-$(".header-search-btn").on("click", function (e) {
-  e.preventDefault();
-  $(".header-search-form-wrapper").addClass("open");
-  $('.header-search-form-wrapper input[type="search"]').focus();
-  $('.body-overlay').addClass('active');
-});
-$(".tx-search-close").on("click", function (e) {
-  e.preventDefault();
-  $(".header-search-form-wrapper").removeClass("open");
-  $("body").removeClass("active");
-  $('.body-overlay').removeClass('active');
-});
+// $(".header-search-btn").on("click", function (e) {
+//   e.preventDefault();
+//   $(".header-search-form-wrapper").addClass("open");
+//   $('.header-search-form-wrapper input[type="search"]').focus();
+//   $('.body-overlay').addClass('active');
+// });
+// $(".tx-search-close").on("click", function (e) {
+//   e.preventDefault();
+//   $(".header-search-form-wrapper").removeClass("open");
+//   $("body").removeClass("active");
+//   $('.body-overlay').removeClass('active');
+// });
 //========== SIDEBAR/SEARCH AREA ============= //
 
 //========== PAGE PROGRESS STARTS ============= // 
   var progressPath = document.querySelector(".progress-wrap path");
   var pathLength = progressPath.getTotalLength();
-  progressPath.style.transition = progressPath.style.WebkitTransition =
-  "none";
+  progressPath.style.transition = progressPath.style.WebkitTransition = "none";
   progressPath.style.strokeDasharray = pathLength + " " + pathLength;
   progressPath.style.strokeDashoffset = pathLength;
   progressPath.getBoundingClientRect();
@@ -65,12 +64,14 @@ $(".tx-search-close").on("click", function (e) {
 //========== PAGE PROGRESS STARTS ============= // 
 
 //========== VIDEO POPUP STARTS ============= //
-   if ($(".popup-youtube").length > 0) {
-    $(".popup-youtube").magnificPopup({
-    type: "iframe",
-    });
-    }
+  // if ($(".popup-youtube").length > 0) {
+  //   $(".popup-youtube").magnificPopup({
+  //     type: "iframe",
+  //   });
+  // }
 //========== VIDEO POPUP ENDS ============= //
+
+
 AOS.init;
 AOS.init({disable: 'mobile'});
 
@@ -657,8 +658,8 @@ targetDate.setHours(targetDate.getHours() + 22);
 targetDate.setMinutes(targetDate.getMinutes() + 18);
 targetDate.setSeconds(targetDate.getSeconds() + 44);
 
-startCountdown(targetDate, "days", "hours", "minutes", "seconds");
-startCountdown(targetDate, "days1", "hours1", "minutes1", "seconds1");
+// startCountdown(targetDate, "days", "hours", "minutes", "seconds");
+// startCountdown(targetDate, "days1", "hours1", "minutes1", "seconds1");
 
 
 //========== GSAP AREA ============= //

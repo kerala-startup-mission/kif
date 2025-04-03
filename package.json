@@ -16,5 +16,8 @@
     "autoprefixer": "^10.4.8",
     "sass": "^1.54.4",
     "svelte": "^3.49.0"
+  },
+  "dependencies": {
+    "plyr": "^3.7.8"
   }
 }
