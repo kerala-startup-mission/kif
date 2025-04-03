@@ -41,19 +41,19 @@
 </script>
 
 <div class="flex items-center justify-center flex-wrap">
-	<div class="counter md:w-24 md:h-28 w-12 h-14 rounded-2xl text-white shadow font-bold font-heading md:text-4xl text-xl px-2 py-8 bg-[#1A496A] flex flex-col items-center justify-center">
+	<div class="counter md:w-24 md:h-28 w-20 h-24 rounded-2xl text-white shadow font-bold font-heading md:text-4xl text-2xl px-2 py-8 bg-[#1A496A] flex flex-col items-center justify-center">
 		{dayText}
 		<div class="text-sm font-light font-sans">Days</div>
 	</div>
-	<div class=" counter md:w-24 md:h-28 w-12 h-14 rounded-2xl text-white shadow font-bold font-heading md:text-4xl text-xl px-2 py-8 bg-[#1A496A] flex flex-col items-center justify-center">
+	<div class=" counter md:w-24 md:h-28 w-20 h-24 rounded-2xl text-white shadow font-bold font-heading md:text-4xl text-2xl px-2 py-8 bg-[#1A496A] flex flex-col items-center justify-center">
 		{hourText}
 		<div class="text-sm font-light font-sans">Hours</div>
 	</div>
-	<div class="counter md:w-24 md:h-28 w-12 h-14 rounded-2xl text-white shadow font-bold font-heading md:text-4xl text-xl px-2 py-8 bg-[#1A496A] flex flex-col items-center justify-center">
+	<div class="counter md:w-24 md:h-28 w-20 h-24 rounded-2xl text-white shadow font-bold font-heading md:text-4xl text-2xl px-2 py-8 bg-[#1A496A] flex flex-col items-center justify-center">
 		{minText}
 		<div class="text-sm font-light font-sans">Mins</div>
 	</div>
-	<div class="counter md:w-24 md:h-28 w-12 h-14 rounded-2xl text-white shadow font-bold font-heading md:text-4xl text-xl px-2 py-8 bg-[#1A496A] flex flex-col items-center justify-center">
+	<div class="counter md:w-24 md:h-28 w-20 h-24 rounded-2xl text-white shadow font-bold font-heading md:text-4xl text-2xl px-2 py-8 bg-[#1A496A] flex flex-col items-center justify-center">
 		{secText}
 		<div class="text-sm font-light font-sans">Secs</div>
 	</div>

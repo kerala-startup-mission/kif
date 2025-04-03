@@ -5,8 +5,7 @@ import Speakers from '../components/Speakers.svelte';
 import Navbar from '../components/Navbar.astro';
 import Hero from '../components/Hero.astro';
 import Herobottom from '../components/Hero.svelte';
-
-
+import LottieAnimation from "astro-integration-lottie/Lottie.astro";
 
 ---
 <Layout>
@@ -24,56 +23,13 @@ import Herobottom from '../components/Hero.svelte';
 	 
 			<div class=" mx-auto text-white text-center pt-48 my-auto h-screen flex flex-col items-center justify-center">
 	
-				<!-- <div class="relative inline-block mb-2">
-					<div class=" md:w-fit w-full">
-					
-						<div class="absolute bottom-[calc(100%+1em)] left-0 flex  animate-float-in delay-[100ms]">
-							<img src="/img/e3.svg" class="md:w-20 w-10">
-						</div>
-						
-						
-						<div class="absolute bottom-[calc(100%)] left-1/2 flex  animate-float-in delay-[300ms]">
-							<img src="/img/e4.svg" class="md:w-20 w-10">
-						</div>
-	
-						<div class="absolute bottom-[calc(100%-3em)]  -right-20 flex  animate-float-in delay-[300ms]">
-							<img src="/img/e5.svg" class="md:w-20 w-10">
-						</div>
-	
-						<div class="absolute top-[calc(100%-2em)] left-1/6 -z-10 flex  animate-float-in delay-[300ms]">
-							<img src="/img/e6.svg" class="md:w-20 w-10">
-						</div>
-						<div class="absolute top-[calc(100%-0em)] right-4 -z-10 flex  animate-float-in delay-[300ms]">
-							<img src="/img/e7.svg" class="md:w-20 w-10">
-						</div>
-						
-						
-					<div id="logokifksum" class="absolute rounded-full md:w-56  md:h-56 h-28 w-28 bg-white shadow-md right-0 bottom-[calc(100%-1em)] md:bottom-[calc(100%-2rem)] z-10 animate-fall-in">
-						<img src="/img/logokif.svg" class="md:p-12 p-6" />
-					</div>
-					
-					<div id="banner" class="inline-block">
-						<div class="bg-[#E8422E] border-2 border-sky-500 px-6 py-2 inline-block">
-						<div class="justify-start text-white md:text-5xl text-base font-normal font-['Impact']">
-							India's Largest Celebration of Innovation
-						</div>
-						</div>
-					
-						<div class="w-2 h-2 left-[-3.5px] top-[-3.5px] absolute bg-white border-[0.77px] border-sky-500"></div>
-						<div class="w-2 h-2 left-[-3.5px] bottom-[-3.5px] absolute bg-white border-[0.77px] border-sky-500"></div>
-						<div class="w-2 h-2 right-[-3.5px] top-[-3.5px] absolute bg-white border-[0.77px] border-sky-500"></div>
-						<div class="w-2 h-2 right-[-3.5px] bottom-[-3.5px] absolute bg-white border-[0.77px] border-sky-500"></div>
-					</div>
-  
-	  
-	  
-					</div>
-				</div> -->
-	
+				<LottieAnimation src="/hero-lottie.json" autoplay="visible" loop={true} class="md:w-[60vw] w-full mt-[-20rem] hidden md:block" />
+
+				<img src="/img/mb-hero.svg" class="w-[90vw] md:hidden block mt-[-10rem]">
 	
 				<Countdown date="2025-07-25T09:00" client:load ></Countdown>
 	
-				<div class="text-[#1A496A] flex md:flex-row flex-col items-center justify-center gap-5 mt-5">
+				<div class="text-[#1A496A] flex md:flex-row flex-col items-center justify-center md:gap-5 gap-3 mt-5">
 					<div class="flex items-center justify-center gap-2">
 						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6">
 							<path fill-rule="evenodd" d="M6.75 2.25A.75.75 0 0 1 7.5 3v1.5h9V3A.75.75 0 0 1 18 3v1.5h.75a3 3 0 0 1 3 3v11.25a3 3 0 0 1-3 3H5.25a3 3 0 0 1-3-3V7.5a3 3 0 0 1 3-3H6V3a.75.75 0 0 1 .75-.75Zm13.5 9a1.5 1.5 0 0 0-1.5-1.5H5.25a1.5 1.5 0 0 0-1.5 1.5v7.5a1.5 1.5 0 0 0 1.5 1.5h13.5a1.5 1.5 0 0 0 1.5-1.5v-7.5Z" clip-rule="evenodd" />
@@ -94,11 +50,12 @@ import Herobottom from '../components/Hero.svelte';
 	
 			</div>
 			<div  class="absolute bottom-0 md:left-20 left-4 flex">
-				<img src="/img/graph.svg" class="md:w-4/5 w-10">
+				<!-- <img src="/img/graph.svg" class="w-20 md:w-34 w-10"> -->
+				<LottieAnimation src="/sdg-lottie.json" autoplay="visible" loop={true} class="w-20 md:w-40 w-10" />
 			</div>
 	
 			<div  class="absolute bottom-0 right-0 flex">
-				<img src="/img/e2.svg" class="lg:w-4/5 w-10 animate-float" >
+				<img src="/img/e2.svg" class="w-32 md:w-56 w-10 " >
 			</div>
 			
 		</main>
@@ -106,78 +63,13 @@ import Herobottom from '../components/Hero.svelte';
 
 
 		<Herobottom  client:load />
-
-		<!-- <div class="about4-section-area sp1">
-			<div class="container">
-				<div class="row align-items-center">
-					<div class="col-lg-6">
-						<div class="about-images">
-							<div class="row">
-								<div class="col-lg-6 col-md-6">
-									<div class="img1 image-anime reveal">
-										<img src="assets/img/allimages/about/about-img11.png" alt="" />
-									</div>
-									<div class="space30"></div>
-									<div class="content-box">
-										<p>Upcoming Event 2025</p>
-										<div class="space12"></div>
-										<h6>Digital Technology's</h6>
-										<div class="space6"></div>
-										<ul>
-											<li>
-												<a ><img src="assets/img/icons/clock1.svg" alt="" />10.00 AM -12.00 PM</a>
-											</li>
-											<li>
-												<a ><img src="assets/img/icons/location1.svg" alt="" />26/C Asana, New York</a>
-											</li>
-										</ul>
-									</div>
-								</div>
-								<div class="col-lg-6 col-md-6">
-									<div class="space44"></div>
-									<div class="img1 image-anime reveal">
-										<img src="assets/img/allimages/about/about-img12.png" alt="" />
-									</div>
-									<div class="space30"></div>
-									<div class="img1 image-anime reveal">
-										<img src="assets/img/allimages/about/about-img13.png" alt="" />
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-6">
-						<div class="about4-heading heading6">
-							<h5 data-aos="" data-aos-duration="800">about our business conferences</h5>
-							<div class="space18"></div>
-							<h2 class="text-anime-style-3">Innovating for Tomorrow Insights for Business</h2>
-							<div class="space16"></div>
-							<p data-aos="" data-aos-duration="900">Perfectly captures the essence of what this blog aims to deliver. In a rapidly evolving business landscape, leaders must stay.</p>
-							<div class="space10"></div>
-							<ul data-aos="" data-aos-duration="1000">
-								<li class="flex"><img src="assets/img/icons/check1.svg" alt="" />Director of the Developing Communities</li>
-								<li class="flex"><img src="assets/img/icons/check1.svg" alt="" />Deputy Attorney General Media Project</li>
-								<li class="flex"><img src="assets/img/icons/check1.svg" alt="" />Law School and Civil Rights Attorney</li>
-								<li class="flex"><img src="assets/img/icons/check1.svg" alt="" /> Majored in Political Science</li>
-							</ul>
-							<div class="space32"></div>
-							<div class="btn-area1" data-aos="fade-left" data-aos-duration="1200">
-								<a  class="vl-btn4">Reserve My Seat</a>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div> -->
-
-
 	
 
 		<div class="about4-section-area sp1">
 			<div class="container">
 				<div class="row align-items-center">
 					<div class="col-lg-6">
-						<div class="about-images">
+						<div class="about-images hidden lg:block">
 							<div class="row">
 								<div class="col-lg-6 col-md-6">
 									<div class="img1 image-anime">
@@ -241,7 +133,7 @@ import Herobottom from '../components/Hero.svelte';
 
 		
 		<section class="py-24 px-5 relative astro-JI56L5RQ items-center justify-center flex flex-col container rounded-2xl shadow-2xl">
-			<div class="absolute -z-20 bg-fixed bg-center bg-no-repeat w-full h-full top-0 left-0 astro-JI56L5RQ rounded-2xl shadow-2xl" style="background-image:url('/img/innovate.jpg')"></div>  
+			<div class="absolute -z-20 bg-fixed bg-center bg-no-repeat w-full h-full top-0 left-0 astro-JI56L5RQ rounded-2xl shadow-2xl bg-cover" style="background-image:url('/img/innovate.jpg')"></div>  
 			<div class="absolute -z-10 bg-[#00000008] w-full h-full container items-center justify-center flex flex-col top-0 left-0 astro-JI56L5RQ rounded-md"></div>
 			<div class="container mx-auto astro-JI56L5RQ">
 				<div class="testimonials1-section-area sp1 items-center justify-center flex flex-col">
@@ -1062,7 +954,7 @@ import Herobottom from '../components/Hero.svelte';
 							<div class="text-sm mb-3">For More Details & <br>Partnership Opportunities Contact:</div>
 							<div class="font-bold">Nasif NM</div>
 							<div class="">nasif@startupmission.in</div>
-							<div class="">9496820883</div>
+							<div class="">+91 80471 80470</div>
 		
 							
 							</div>
@@ -1110,15 +1002,15 @@ import Herobottom from '../components/Hero.svelte';
 </Layout>
 
 <script is:inline>
-	window.addEventListener('DOMContentLoaded', () => {
-		const logo = document.getElementById('logokifksum');
-		const banner = document.getElementById('banner');
+	// window.addEventListener('DOMContentLoaded', () => {
+	// 	const logo = document.getElementById('logokifksum');
+	// 	const banner = document.getElementById('banner');
 
-		logo.addEventListener('animationend', () => {
-		banner.classList.remove('opacity-0');
-		banner.classList.add('animate-rotate-in');
-		});
-	});
+	// 	logo.addEventListener('animationend', () => {
+	// 	banner.classList.remove('opacity-0');
+	// 	banner.classList.add('animate-rotate-in');
+	// 	});
+	// });
 </script>
 
 
