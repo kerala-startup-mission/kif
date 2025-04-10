@@ -13565,11 +13565,9 @@ Location:
   bottom: 16px;
   left: 16px;
   right: 16px;
-  background: var(--ztc-bg-bg-1);
   z-index: 3;
 }
 .vanue-section-area .vanue-single-item-area .content-area span {
-  color: var(--ztc-text-text-2);
   font-family: var(--ztc-family-font1);
   font-size: var(--ztc-font-size-font-s16);
   font-style: normal;
@@ -13578,7 +13576,6 @@ Location:
   display: inline-block;
 }
 .vanue-section-area .vanue-single-item-area .content-area a {
-  color: var(--ztc-text-text-2);
   font-family: var(--ztc-family-font1);
   font-size: var(--ztc-font-size-font-s20);
   font-style: normal;
