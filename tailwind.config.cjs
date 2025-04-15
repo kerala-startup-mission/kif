@@ -4,5 +4,8 @@ module.exports = {
 	theme: {
 		extend: {},
 	},
-	plugins: [],
+	plugins: [
+		require("tailwindcss-scoped-groups"),
+		require('flowbite/plugin'),
+	],
 }

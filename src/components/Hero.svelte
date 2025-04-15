@@ -127,13 +127,14 @@
             <h1>#10YearsofKSUM</h1>
         </div>
         <div>
-            <h1 class=" md:text-xl text-base">Join us in Building a Sustainable Tomorrow</h1>
+            <h1 class=" md:text-xl text-base">Shaping a Sustainable Tomorrow 2035
+            </h1>
         </div>
       
        
       
         <div class="btn-container">
-          <a class="buy-btn" >BUY A TICKET →</a>
+          <a class="buy-btn" >Register Now →</a>
           <button class="close-btn top-0 right-0 font-extralight" on:click={closeDiv}>✖</button>
         </div>
       </div>
