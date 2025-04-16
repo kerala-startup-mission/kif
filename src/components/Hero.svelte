@@ -139,5 +139,10 @@
         </div>
       </div>
     </div>
+
+    <div id="sdgBanner" class="fixed inset-x-0 bottom-0 w-screen hidden z-50">
+      <img src="img/SDG Colors-Resized.svg" alt="">
+      </div>
+      
   {/if}
   
