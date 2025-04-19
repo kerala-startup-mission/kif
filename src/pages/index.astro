@@ -1124,7 +1124,7 @@ import LottieAnimation from "astro-integration-lottie/Lottie.astro";
 						</div>
 					</div>
 				</div>
-				<div class="space-grotesk md:w-2/3 w-full">
+				<div class="space-grotesk md:w-2/3 w-full" id="programs-grid">
 					<div class="space-grotesk grid md:grid-cols-3 grid-cols-1 gap-2 pb-2">
 						<div class="space-grotesk bg-[#e5243b] text-white p-4 rounded-md pitem">
 							<p class="space-grotesk text-center">SDG & Creators’ Summit</p>
@@ -1767,8 +1767,8 @@ import LottieAnimation from "astro-integration-lottie/Lottie.astro";
   
 
   <script is:inline>
-	document.addEventListener('mousemove', (e) => {
-      document.querySelectorAll('.pitem').forEach(item => {
+	document.querySelector('#programs-grid').addEventListener('mousemove', (e) => {
+      document.querySelector('#programs-grid').querySelectorAll('.pitem').forEach(item => {
         const rect = item.getBoundingClientRect();
         const dx = e.clientX - (rect.left + rect.width / 2);
         const dy = e.clientY - (rect.top + rect.height / 2);
@@ -1787,7 +1787,7 @@ import LottieAnimation from "astro-integration-lottie/Lottie.astro";
       });
     });
 
-    document.addEventListener('mouseleave', () => {
+    document.querySelector('#programs-grid').addEventListener('mouseleave', () => {
       gsap.to('.pitem', {
         x: 0,
         y: 0,
