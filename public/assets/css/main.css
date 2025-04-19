@@ -20079,12 +20079,12 @@ Location:
   transition: all 0.4s;
 }
 .about1-section-area .about-header-area .about-counter-area {
-  display: flex;
+  /* display: flex; */
   align-items: center;
 }
 @media (max-width: 767px) {
   .about1-section-area .about-header-area .about-counter-area {
-    display: flex;
+    /* display: flex; */
     padding: 0 !important;
     border: none;
     text-align: center;
@@ -20316,7 +20316,7 @@ Location:
   }
 }
 .about3-section-area .about-header .counter-area {
-  display: flex;
+  /* display: flex; */
   align-items: center;
   justify-content: space-between;
 }
