@@ -40,20 +40,20 @@
 
 </script>
 
-<div class="flex items-center justify-center flex-wrap">
-	<div class="counter md:w-24 md:h-28 w-20 h-24 rounded-2xl text-white shadow font-bold font-heading md:text-4xl text-2xl px-2 py-8 bg-[#1A496A] flex flex-col items-center justify-center">
+<div class="flex  flex-wrap">
+	<div class="counter rounded-2xl text-black  font-bold font-heading md:text-3xl text-2xl px-2 py-8  flex flex-col ">
 		{dayText}
 		<div class="text-sm font-light font-sans">Days</div>
 	</div>
-	<div class=" counter md:w-24 md:h-28 w-20 h-24 rounded-2xl text-white shadow font-bold font-heading md:text-4xl text-2xl px-2 py-8 bg-[#1A496A] flex flex-col items-center justify-center">
+	<div class=" counter rounded-2xl text-black  font-bold font-heading md:text-3xl text-2xl px-2 py-8  flex flex-col ">
 		{hourText}
 		<div class="text-sm font-light font-sans">Hours</div>
 	</div>
-	<div class="counter md:w-24 md:h-28 w-20 h-24 rounded-2xl text-white shadow font-bold font-heading md:text-4xl text-2xl px-2 py-8 bg-[#1A496A] flex flex-col items-center justify-center">
+	<div class="counter rounded-2xl text-black  font-bold font-heading md:text-3xl text-2xl px-2 py-8  flex flex-col ">
 		{minText}
 		<div class="text-sm font-light font-sans">Mins</div>
 	</div>
-	<div class="counter md:w-24 md:h-28 w-20 h-24 rounded-2xl text-white shadow font-bold font-heading md:text-4xl text-2xl px-2 py-8 bg-[#1A496A] flex flex-col items-center justify-center">
+	<div class="counter rounded-2xl text-black  font-bold font-heading md:text-3xl text-2xl px-2 py-8  flex flex-col ">
 		{secText}
 		<div class="text-sm font-light font-sans">Secs</div>
 	</div>
