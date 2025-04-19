@@ -41,7 +41,7 @@
       left: 50%;
       transform: translateX(-50%);
      
-      background-color: #ff6600;
+      background-color: #fcc310;
       color: white;
      
       display: flex;
