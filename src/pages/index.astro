@@ -1739,7 +1739,6 @@ import LottieAnimation from "astro-integration-lottie/Lottie.astro";
 
 <script is:inline>
 	window.addEventListener('DOMContentLoaded', () => {
-	  // Prevent Flowbite's auto-initialization
 	  const accordionContainers = document.querySelectorAll('[data-accordion="collapse"]');
   
 	  accordionContainers.forEach(container => {
@@ -1749,15 +1748,14 @@ import LottieAnimation from "astro-integration-lottie/Lottie.astro";
 		  const targetSelector = button.getAttribute('data-accordion-target');
 		  const targetEl = document.querySelector(targetSelector);
   
-		  // Close the accordion manually
 		  if (targetEl) {
-			targetEl.classList.add('hidden'); // hide content
+			targetEl.classList.add('hidden'); 
 		  }
   
-		  button.setAttribute('aria-expanded', 'false'); // mark as collapsed
+		  button.setAttribute('aria-expanded', 'false'); 
 		  const icon = button.querySelector('[data-accordion-icon]');
 		  if (icon) {
-			icon.classList.remove('rotate-180'); // reset icon
+			icon.classList.remove('rotate-180'); 
 		  }
 		});
 	  });
