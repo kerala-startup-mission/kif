@@ -72,25 +72,27 @@ import LottieAnimation from "astro-integration-lottie/Lottie.astro";
 							<img src="/img/img/kif.svg" class="space-grotesk h-16">
 							<img src="/img/img/10y.svg" class="space-grotesk w-20">
 						</div>
-						<div class="space-grotesk pt-4 ">
-							<h1 class="space-grotesk text-black text-4xl md:text-5xl space-grotesk">
+						<div class="space-grotesk pt-6 ">
+							<h1 class="space-grotesk text-black text-3xl md:text-[42px] space-grotesk">
 								Innovate the Future.<br>
 								Celebrate the Decade.
 							</h1>
 						</div>
 						
 						<div class="space-grotesk pt-6 flex flex-row items-end justify-end w-fit h-auto md:gap-6 gap-2">
-							<img src="/img/img/date.svg">
+							<img src="/img/img/date.svg" class="w-28">
 							<div class="space-grotesk flex flex-row  item-end justify-end h-fit">
-								<img src="/img/img/location.svg" class="space-grotesk md:w-8 w-6">
-								<p class="space-grotesk text-sm md:text-base">Kerala Startup Mission, Kochi</p>
+								<img src="/img/img/location.svg" class="space-grotesk md:w-6 w-4">
+								<p class="space-grotesk text-sm md:text-sm">Kerala Startup Mission, Kochi</p>
 							</div>
 						</div>
-						<Countdown date="2025-07-25T09:00" client:load ></Countdown>
 
-						<div class="space-grotesk">
+						<div class="space-grotesk  pt-6 pb-2">
 							<a href="#" target="_blank"  class="space-grotesk rounded-md bg-[#e5243b] w-fit py-2 text-xl px-3 text-white text-base">Register Now</a>
 						</div>
+
+						<Countdown date="2025-07-25T09:00" client:load ></Countdown>
+
 					</div>
 				</div>
 			</div>
@@ -191,8 +193,10 @@ import LottieAnimation from "astro-integration-lottie/Lottie.astro";
 								KIF 2025 is not just an event; it’s a platform to showcase breakthrough ideas, build partnerships, and explore sustainable solutions. From cutting edge technologies to creative innovations, KIF is where possibilities become realities.							</p>							<div class="space-grotesk space10"></div>
 							
 							<div class="space-grotesk space32"></div>
-							<div class="space-grotesk btn-area1"  >
-								<a class="space-grotesk vl-btn4">Register Now</a>
+							<div class="buttons-wrapper">
+								<div>
+									<a href="https://tickets.startupmission.in/kerala-innovation-festival" target="_blank" class="click-btn btn-style500 px-4 py-3 text-xl  border-2 border-[#4c9f38] font-bold rounded-md uppercase" href="#">Register Now</a>
+								</div>
 							</div>
 						</div>
 					</div>
@@ -348,7 +352,7 @@ import LottieAnimation from "astro-integration-lottie/Lottie.astro";
 			</div>
 		  </div>
 
-		
+		  <!-- 5 Pillars of KIF 2025 -->
 		<div class="space-grotesk container pt-24">
 			<div class="space-grotesk row">
 				<div class="space-grotesk col-lg-5 m-auto">
@@ -412,473 +416,75 @@ import LottieAnimation from "astro-integration-lottie/Lottie.astro";
 			</div>
 		</div>
 
-		
-
-		<div class="space-grotesk choose-section-area sp2">
-			<div class="space-grotesk container">
+		<!-- Programs -->
+		<div class="space-grotesk relative md:h-[80vh] h-auto container flex flex-col">
+			<div class="space-grotesk pt-20">
 				<div class="space-grotesk row">
-					<div class="space-grotesk col-lg-4 m-auto">
-						<div class="space-grotesk heading2 text-center space-margin60">
+					<div class="space-grotesk col-lg-4">
+						<div class="space-grotesk heading2  space-margin60 pt-10">
 							<!-- <h5 >why choose us</h5> -->
-							<div class="space-grotesk space18"></div>
-							<h2>Why Attend KIF?</h2>
+							<h2>Programs</h2>
 						</div>
 					</div>
 				</div>
-				<div class="space-grotesk row" style="--ztc-bg-bg-3: #fcc310;">
-					<div class="space-grotesk col-lg-4 col-md-6">
-						<div class="space-grotesk choose-widget-boxarea">
-							<div class="space-grotesk icons md:-top-4 absolute md:-left-4 top-0 left-0">
-								<!-- <img src="assets/img/icons/choose-icons1.svg" alt="" /> -->
-								<svg  xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="space-grotesk icon icon-tabler w-12 -translate-x-3 -translate-y-2 icons-tabler-outline icon-tabler-bulb"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M3 12h1m8 -9v1m8 8h1m-15.4 -6.4l.7 .7m12.1 -.7l-.7 .7" /><path d="M9 16a5 5 0 1 1 6 0a3.5 3.5 0 0 0 -1 3a2 2 0 0 1 -4 0a3.5 3.5 0 0 0 -1 -3" /><path d="M9.7 17l4.6 0" /></svg>
-							</div>
-							<!-- <div class="space-grotesk space24"></div> -->
-							<div class="space-grotesk content-area">
-								<a>Discover</a>
-								<!-- <div class="space-grotesk space16"></div> -->
-								<p>The next big ideas from over 200+ startups</p>
-								<!-- <div class="space-grotesk space24"></div> -->
-								
-							</div>
+				<div class="space-grotesk md:w-2/3 w-full" id="programs-grid">
+					<div class="space-grotesk grid md:grid-cols-3 grid-cols-1 gap-2 pb-2">
+						<div class="space-grotesk bg-[#e5243b] text-white p-4 rounded-md pitem">
+							<p class="space-grotesk text-center">SDG & Creators’ Summit</p>
 						</div>
-					</div>
+						<div class="space-grotesk bg-[#26bde2] text-white p-4 rounded-md pitem">
+							<p class="space-grotesk text-center">Workshops & Panel Talks</p>
+						</div>
+						<div></div>
+						<div class="space-grotesk bg-[#4c9f38] text-white p-4 rounded-md pitem">
+							<p class="space-grotesk text-center">Drone & fashion Show</p>
+						</div>
+						<div class="space-grotesk bg-[#fcc310] text-white p-4 rounded-md pitem">
+							<p class="space-grotesk text-center">Product Showcase</p>
+						</div>
+						<div class="space-grotesk bg-[#4c9f38] text-white p-4 rounded-md pitem">
+							<p class="space-grotesk text-center">Networking Zone</p>
+						</div>
+					
+						<div class="space-grotesk bg-[#26bde2] text-white p-4 rounded-md pitem">
+							<p class="space-grotesk text-center">Maker Fest</p>
+						</div>
+						<div class="space-grotesk bg-[#e5243b] text-white p-4 rounded-md pitem">
+							<p class="space-grotesk text-center">Robotics, AR/VR Expo</p>
+						</div>
+						<div class="space-grotesk bg-[#1a486a] text-white p-4 rounded-md pitem">
+							<p class="space-grotesk text-center">Food & Music Festival</p>
+						</div>
+						<div class="space-grotesk bg-[#1a486a] text-white p-4 rounded-md pitem">
+							<p class="space-grotesk text-center">#SheLeads</p>
+						</div>
+						<div class="space-grotesk bg-[#4c9f38] text-white p-4 rounded-md pitem">
+							<p class="space-grotesk text-center">Cyclothon</p>
+						</div>
+						<div class="space-grotesk bg-[#26bde2] text-white p-4 rounded-md pitem">
+							<p class="space-grotesk text-center">Pitchathon</p>
+						</div>
 
-					<div class="space-grotesk col-lg-4 col-md-6">
-						<div class="space-grotesk choose-widget-boxarea">
-							<div  class="space-grotesk icons md:-top-4 absolute md:-left-4 top-0 left-0">
-								<!-- <img src="assets/img/icons/choose-icons1.svg" alt="" /> -->
-								<svg  xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="space-grotesk icon icon-tabler w-12 -translate-x-3 -translate-y-2 icons-tabler-outline icon-tabler-users-group"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M10 13a2 2 0 1 0 4 0a2 2 0 0 0 -4 0" /><path d="M8 21v-1a2 2 0 0 1 2 -2h4a2 2 0 0 1 2 2v1" /><path d="M15 5a2 2 0 1 0 4 0a2 2 0 0 0 -4 0" /><path d="M17 10h2a2 2 0 0 1 2 2v1" /><path d="M5 5a2 2 0 1 0 4 0a2 2 0 0 0 -4 0" /><path d="M3 13v-1a2 2 0 0 1 2 -2h2" /></svg>							
-							</div>
-							<!-- <div class="space-grotesk space24"></div> -->
-							<div class="space-grotesk content-area">
-								<a >Network</a>
-								<!-- <div class="space-grotesk space16"></div> -->
-								<p>Top investors, Global leaders, and Industry pioneers</p>
-								<!-- <div class="space-grotesk space24"></div> -->
-								
-							</div>
+						<div class="space-grotesk bg-[#4c9f38] text-white p-4 rounded-md pitem">
+							<p class="space-grotesk text-center">Student Innovation
+								Biennale</p>
 						</div>
-					</div>
 
-					<div class="space-grotesk col-lg-4 col-md-6">
-						<div class="space-grotesk choose-widget-boxarea">
-							<div  class="space-grotesk icons md:-top-4 absolute md:-left-4 top-0 left-0">
-								<!-- <img src="assets/img/icons/choose-icons1.svg" alt="" /> -->
-								<svg  xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="space-grotesk icon icon-tabler w-12 -translate-x-3 -translate-y-2 icons-tabler-outline icon-tabler-drone"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M10 10h4v4h-4z" /><path d="M10 10l-3.5 -3.5" /><path d="M9.96 6a3.5 3.5 0 1 0 -3.96 3.96" /><path d="M14 10l3.5 -3.5" /><path d="M18 9.96a3.5 3.5 0 1 0 -3.96 -3.96" /><path d="M14 14l3.5 3.5" /><path d="M14.04 18a3.5 3.5 0 1 0 3.96 -3.96" /><path d="M10 14l-3.5 3.5" /><path d="M6 14.04a3.5 3.5 0 1 0 3.96 3.96" /></svg>
-							</div>
-							<!-- <div class="space-grotesk space24"></div> -->
-							<div class="space-grotesk content-area">
-								<a>Experience</a>
-								<!-- <div class="space-grotesk space16"></div> -->
-								<p>Live demos, Immersive tech, and Creative showcases</p>
-								<!-- <div class="space-grotesk space24"></div> -->
-								
-							</div>
+						<div class="space-grotesk bg-[#fcc310] text-white p-4 rounded-md pitem">
+							<p class="space-grotesk text-center"> Flea Market &
+								Games Zone</p>
 						</div>
-					</div>
 
-					<div class="space-grotesk col-lg-4 col-md-6">
-						<div class="space-grotesk choose-widget-boxarea">
-							<div  class="space-grotesk icons md:-top-4 absolute md:-left-4 top-0 left-0">
-								<!-- <img src="assets/img/icons/choose-icons1.svg" alt="" /> -->
-								<svg  xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="space-grotesk icon icon-tabler w-12 -translate-x-3 -translate-y-2 icons-tabler-outline icon-tabler-trophy"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M8 21l8 0" /><path d="M12 17l0 4" /><path d="M7 4l10 0" /><path d="M17 4v8a5 5 0 0 1 -10 0v-8" /><path d="M5 9m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" /><path d="M19 9m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" /></svg>
-							</div>
-							<!-- <div class="space-grotesk space24"></div> -->
-							<div class="space-grotesk content-area">
-								<a >Compete</a>
-								<!-- <div class="space-grotesk space16"></div> -->
-								<p>Hackathons, Maker challenges, and Pitch sessions</p>
-								<!-- <div class="space-grotesk space24"></div> -->
-								<!-- <a  class="space-grotesk readmore">Read More <i class="space-grotesk fa-solid fa-arrow-right"></i></a> -->
-							</div>
+						<div class="space-grotesk bg-[#e5243b] text-white p-4 rounded-md pitem">
+							<p class="space-grotesk text-center">Gen Ai for all</p>
 						</div>
-					</div>
 
-					<div class="space-grotesk col-lg-4 col-md-6">
-						<div class="space-grotesk choose-widget-boxarea">
-							<div  class="space-grotesk icons md:-top-4 absolute md:-left-4 top-0 left-0">
-								<!-- <img src="assets/img/icons/choose-icons1.svg" alt="" /> -->
-								<svg  xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="space-grotesk icon icon-tabler w-12 -translate-x-3 -translate-y-2 icons-tabler-outline icon-tabler-book"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M3 19a9 9 0 0 1 9 0a9 9 0 0 1 9 0" /><path d="M3 6a9 9 0 0 1 9 0a9 9 0 0 1 9 0" /><path d="M3 6l0 13" /><path d="M12 6l0 13" /><path d="M21 6l0 13" /></svg>
-							</div>
-							<!-- <div class="space-grotesk space24"></div> -->
-							<div class="space-grotesk content-area">
-								<a >Learn</a>
-								<!-- <div class="space-grotesk space16"></div> -->
-								<p>Expert-led masterclasses and insightful talks</p>
-								<!-- <div class="space-grotesk space24"></div> -->
-								<!-- <a  class="space-grotesk readmore">Read More <i class="space-grotesk fa-solid fa-arrow-right"></i></a> -->
-							</div>
-						</div>
-					</div>
-
-					<div class="space-grotesk col-lg-4 col-md-6">
-						<div class="space-grotesk choose-widget-boxarea">
-							<div  class="space-grotesk icons md:-top-4 absolute md:-left-4 top-0 left-0">
-								<!-- <img src="assets/img/icons/choose-icons1.svg" alt="" /> -->
-								<svg  xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="space-grotesk icon icon-tabler w-12 -translate-x-3 -translate-y-2 icons-tabler-outline icon-tabler-confetti"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M4 5h2" /><path d="M5 4v2" /><path d="M11.5 4l-.5 2" /><path d="M18 5h2" /><path d="M19 4v2" /><path d="M15 9l-1 1" /><path d="M18 13l2 -.5" /><path d="M18 19h2" /><path d="M19 18v2" /><path d="M14 16.518l-6.518 -6.518l-4.39 9.58a1 1 0 0 0 1.329 1.329l9.579 -4.39z" /></svg>
-							</div>
-							<!-- <div class="space-grotesk space24"></div> -->
-							<div class="space-grotesk content-area">
-								<a >Celebrate</a>
-								<!-- <div class="space-grotesk space16"></div> -->
-								<p>Kerala's vibrant culture with music, art and food</p>
-								<!-- <div class="space-grotesk space24"></div> -->
-								<!-- <a  class="space-grotesk readmore">Read More <i class="space-grotesk fa-solid fa-arrow-right"></i></a> -->
-							</div>
-						</div>
+						
 					</div>
 				</div>
 			</div>
+			<div class="space-grotesk  md:absolute md:w-[110vh] md:h-[110vh] w-full h-44 md:-right-[65vh] animate-spin-slow  z-30 "> <img src="img/Asset 1.svg" alt=""></div>
 		</div>
-
-		
-		<div class="space-grotesk event6-section-area sp1" id="events">
-			<div class="space-grotesk container">
-				<div class="space-grotesk row">
-					<div class="space-grotesk col-lg-8 m-auto">
-						<div class="space-grotesk event-heading heading9 text-center space-margin60">
-							<div class="space-grotesk space20"></div>
-							<h2 class="space-grotesk text-anime-style-3">What's Happening at KIF 2025</h2>
-						</div>
-					</div>
-				</div>
-				<div class="space-grotesk grid md:grid-cols-3 grid-cols-1 gap-4">
-					
-						
-						<div class="space-grotesk event6-widget-boxarea hidden"  data-aos-duration="1000">
-							<div class="space-grotesk flex flex-col ">
-								<div class="space-grotesk ">
-									<div class="space-grotesk content-area">
-										<h4 class="space-grotesk text-2xl pt-2 text-white font-bold">Talks & Masterclasses with global experts</h4>
-																				<div class="space-grotesk space24"></div>
-										<!-- <div class="space-grotesk btn-area1">
-											<a  class="space-grotesk vl-btn6">Buy Tickets Now <img src="assets/img/icons/arrow2.svg" alt="" /></a>
-										</div> -->
-									</div>
-								</div>
-								<div class="space-grotesk ">
-									<div class="space-grotesk img1 image-anime ">
-										<!-- <img src="assets/img/allimages/event/event-img12.png" alt="" /> -->
-										<img src="/img/summit_5.svg" alt="" />
-										
-									</div>
-									
-								</div>
-								
-							</div>
-						</div>
-						
-						<div class="space-grotesk event6-widget-boxarea2" data-aos="fade-right" data-aos-duration="1100">
-							<div class="space-grotesk flex flex-col ">
-								<div class="space-grotesk ">
-									<div class="space-grotesk content-area">
-										<h4 class="space-grotesk text-2xl pt-2 text-white font-bold">Startup Expo featuring groundbreaking innovations</h4>
-																				<div class="space-grotesk space24"></div>
-										<!-- <div class="space-grotesk btn-area1">
-											<a  class="space-grotesk vl-btn6">Buy Tickets Now <img src="assets/img/icons/arrow2.svg" alt="" /></a>
-										</div> -->
-									</div>
-								</div>
-								<div class="space-grotesk ">
-									<div class="space-grotesk img1 image-anime ">
-										<!-- <img src="assets/img/allimages/event/event-img13.png" alt="" /> -->
-										<img src="/img/startupexpo.svg" alt="" />
-
-									</div>
-								</div>
-								
-							</div>
-						</div>
-						
-						
-						<div class="space-grotesk event6-widget-boxareamain   bg-[#4C9F37]"  >
-							<div class="space-grotesk flex flex-col ">
-								<div class="space-grotesk ">
-									<div class="space-grotesk content-area">
-										<h4 class="space-grotesk text-2xl pt-2 text-white font-bold">Sustainability Pavilion showcasing smart city and green solutions</h4>
-																				<div class="space-grotesk space24"></div>
-										<!-- <div class="space-grotesk btn-area1">
-											<a  class="space-grotesk vl-btn6">Buy Tickets Now <img src="assets/img/icons/arrow2.svg" alt="" /></a>
-										</div> -->
-									</div>
-								</div>
-								<div class="space-grotesk ">
-									<div class="space-grotesk img1 image-anime ">
-										<img src="/img/expo.svg" alt="" />
-									</div>
-								</div>
-								
-							</div>
-						</div>
-
-						
-						<div class="space-grotesk event6-widget-boxareamain bg-[#FCC310]" data-aos="fade-right" >
-							<div class="space-grotesk flex flex-col ">
-								<div class="space-grotesk ">
-									<div class="space-grotesk content-area">
-										<h4 class="space-grotesk text-2xl pt-2 text-white font-bold">Creators Summit blending art, design, and technology</h4>
-																				<div class="space-grotesk space24"></div>
-										<!-- <div class="space-grotesk btn-area1">
-											<a  class="space-grotesk vl-btn6">Buy Tickets Now <img src="assets/img/icons/arrow2.svg" alt="" /></a>
-										</div> -->
-									</div>
-								</div>
-								<div class="space-grotesk ">
-									<div class="space-grotesk img1 image-anime ">
-										<img src="assets/img/allimages/event/event-img14.png" alt="" />
-									</div>
-								</div>
-								
-							</div>
-						</div>
-
-						
-						<div class="space-grotesk event6-widget-boxareamain bg-[#2EBCE0]"  >
-							<div class="space-grotesk flex flex-col ">
-								<div class="space-grotesk ">
-									<div class="space-grotesk content-area">
-										<h4 class="space-grotesk text-2xl pt-2 text-white font-bold">Hackathons & Challenges solving real-world problems</h4>
-																				<div class="space-grotesk space24"></div>
-										<!-- <div class="space-grotesk btn-area1">
-											<a  class="space-grotesk vl-btn6">Buy Tickets Now <img src="assets/img/icons/arrow2.svg" alt="" /></a>
-										</div> -->
-									</div>
-								</div>
-								<div class="space-grotesk ">
-									<div class="space-grotesk img1 image-anime ">
-										<!-- <img src="assets/img/allimages/event/event-img14.png" alt="" /> -->
-										<img src="/img/build_4.svg" alt="" />
-
-										
-									</div>
-								</div>
-								
-							</div>
-						</div>
-
-						
-						<div class="space-grotesk event6-widget-boxareamain bg-[#1a496a]" data-aos="fade-right" >
-							<div class="space-grotesk flex flex-col ">
-								<div class="space-grotesk ">
-									<div class="space-grotesk content-area">
-										<h4 class="space-grotesk text-2xl pt-2 text-white font-bold">Music & Food Fest celebrating Kerala’s culture and flavors</h4>
-																				<div class="space-grotesk space24"></div>
-										<!-- <div class="space-grotesk btn-area1">
-											<a  class="space-grotesk vl-btn6">Buy Tickets Now <img src="assets/img/icons/arrow2.svg" alt="" /></a>
-										</div> -->
-									</div>
-								</div>
-								<div class="space-grotesk ">
-									<div class="space-grotesk img1 image-anime ">
-										<img src="/img/g4.svg" alt="" />
-
-									</div>
-								</div>
-								
-							</div>
-						</div>
-						
-						<div class="space-grotesk event6-widget-boxareamain bg-[#E8422E]"  >
-							<div class="space-grotesk flex flex-col ">
-								<div class="space-grotesk ">
-									<div class="space-grotesk content-area">
-										<h4 class="space-grotesk text-2xl pt-2 text-white font-bold">Cyclothon & Drone Show showcasing innovation in motion</h4>
-																				<div class="space-grotesk space24"></div>
-										<!-- <div class="space-grotesk btn-area1">
-											<a  class="space-grotesk vl-btn6">Buy Tickets Now <img src="assets/img/icons/arrow2.svg" alt="" /></a>
-										</div> -->
-									</div>
-								</div>
-								<div class="space-grotesk ">
-									<div class="space-grotesk img1 image-anime ">
-										<img src="/img/cyclothon_5.svg" alt="" />
-									</div>
-								</div>
-								
-							</div>
-						</div>
-					
-					
-				</div>
-			</div>
-		</div>
-
-		<div class="space-grotesk event6-section-area sp1 hidden" id="events">
-			<div class="space-grotesk container">
-				<div class="space-grotesk row">
-					<div class="space-grotesk col-lg-8 m-auto">
-						<div class="space-grotesk event-heading heading9 text-center space-margin60">
-							<div class="space-grotesk space20"></div>
-							<h2 class="space-grotesk text-anime-style-3">What's Happening at KIF 2025</h2>
-						</div>
-					</div>
-				</div>
-				<div class="space-grotesk row">
-					<div class="space-grotesk col-lg-12">
-						
-						<div class="space-grotesk event6-widget-boxarea"  data-aos-duration="1000">
-							<div class="space-grotesk row align-items-center">
-								<div class="space-grotesk col-lg-5">
-									<div class="space-grotesk img1 image-anime ">
-										<!-- <img src="assets/img/allimages/event/event-img12.png" alt="" /> -->
-										<img src="/img/summit_5.svg" alt="" />
-										
-										
-									</div>
-								</div>
-								<div class="space-grotesk col-lg-7">
-									<div class="space-grotesk content-area">
-										<h3 class="space-grotesk text-anime-style-3">Talks & Masterclasses with global experts</h3>
-																				<div class="space-grotesk space24"></div>
-										<!-- <div class="space-grotesk btn-area1">
-											<a  class="space-grotesk vl-btn6">Buy Tickets Now <img src="assets/img/icons/arrow2.svg" alt="" /></a>
-										</div> -->
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="space-grotesk space50"></div>
-
-						
-						
-						<div class="space-grotesk event6-widget-boxarea2" data-aos="fade-right" data-aos-duration="1100">
-							<div class="space-grotesk row align-items-center">
-								<div class="space-grotesk col-lg-7">
-									<div class="space-grotesk content-area">
-										<h3 class="space-grotesk text-anime-style-3">Startup Expo featuring groundbreaking innovations</h3>
-																				<div class="space-grotesk space24"></div>
-										<!-- <div class="space-grotesk btn-area1">
-											<a  class="space-grotesk vl-btn6">Buy Tickets Now <img src="assets/img/icons/arrow2.svg" alt="" /></a>
-										</div> -->
-									</div>
-								</div>
-								<div class="space-grotesk col-lg-5">
-									<div class="space-grotesk img1 image-anime ">
-										<!-- <img src="assets/img/allimages/event/event-img13.png" alt="" /> -->
-										<img src="/img/startupexpo.svg" alt="" />
-
-									</div>
-								</div>
-								
-							</div>
-						</div>
-						
-						<div class="space-grotesk space50"></div>
-						
-						<div class="space-grotesk event6-widget-boxareamain  bg-[#1A496A]"  >
-							<div class="space-grotesk row align-items-center">
-								<div class="space-grotesk col-lg-5">
-									<div class="space-grotesk img1 image-anime ">
-										<img src="/img/expo.svg" alt="" />
-									</div>
-								</div>
-								<div class="space-grotesk col-lg-7">
-									<div class="space-grotesk content-area">
-										<h3 class="space-grotesk text-anime-style-3">Sustainability Pavilion showcasing smart city and green solutions</h3>
-																				<div class="space-grotesk space24"></div>
-										<!-- <div class="space-grotesk btn-area1">
-											<a  class="space-grotesk vl-btn6">Buy Tickets Now <img src="assets/img/icons/arrow2.svg" alt="" /></a>
-										</div> -->
-									</div>
-								</div>
-							</div>
-						</div>
-
-						<div class="space-grotesk space50"></div>
-						
-						<div class="space-grotesk event6-widget-boxareamain bg-[#FCC310]" data-aos="fade-right" >
-							<div class="space-grotesk row align-items-center">
-								<div class="space-grotesk col-lg-7">
-									<div class="space-grotesk content-area">
-										<h3 class="space-grotesk text-anime-style-3">Creators Summit blending art, design, and technology</h3>
-																				<div class="space-grotesk space24"></div>
-										<!-- <div class="space-grotesk btn-area1">
-											<a  class="space-grotesk vl-btn6">Buy Tickets Now <img src="assets/img/icons/arrow2.svg" alt="" /></a>
-										</div> -->
-									</div>
-								</div>
-								<div class="space-grotesk col-lg-5">
-									<div class="space-grotesk img1 image-anime ">
-										<img src="assets/img/allimages/event/event-img14.png" alt="" />
-									</div>
-								</div>
-								
-							</div>
-						</div>
-
-						<div class="space-grotesk space50"></div>
-						
-						<div class="space-grotesk event6-widget-boxareamain bg-[#2EBCE0]"  >
-							<div class="space-grotesk row align-items-center">
-								<div class="space-grotesk col-lg-5">
-									<div class="space-grotesk img1 image-anime ">
-										<!-- <img src="assets/img/allimages/event/event-img14.png" alt="" /> -->
-										<img src="/img/build_4.svg" alt="" />
-
-										
-									</div>
-								</div>
-								<div class="space-grotesk col-lg-7">
-									<div class="space-grotesk content-area">
-										<h3 class="space-grotesk text-anime-style-3">Hackathons & Challenges solving real-world problems</h3>
-																				<div class="space-grotesk space24"></div>
-										<!-- <div class="space-grotesk btn-area1">
-											<a  class="space-grotesk vl-btn6">Buy Tickets Now <img src="assets/img/icons/arrow2.svg" alt="" /></a>
-										</div> -->
-									</div>
-								</div>
-							</div>
-						</div>
-
-						<div class="space-grotesk space50"></div>
-						
-						<div class="space-grotesk event6-widget-boxareamain bg-[#4C9F37]" data-aos="fade-right" >
-							<div class="space-grotesk row align-items-center">
-								<div class="space-grotesk col-lg-7">
-									<div class="space-grotesk content-area">
-										<h3 class="space-grotesk text-anime-style-3">Music & Food Fest celebrating Kerala’s culture and flavors</h3>
-																				<div class="space-grotesk space24"></div>
-										<!-- <div class="space-grotesk btn-area1">
-											<a  class="space-grotesk vl-btn6">Buy Tickets Now <img src="assets/img/icons/arrow2.svg" alt="" /></a>
-										</div> -->
-									</div>
-								</div>
-								<div class="space-grotesk col-lg-5">
-									<div class="space-grotesk img1 image-anime ">
-										<img src="/img/g4.svg" alt="" />
-
-									</div>
-								</div>
-								
-							</div>
-						</div>
-
-						<div class="space-grotesk space50"></div>
-						
-						<div class="space-grotesk event6-widget-boxareamain bg-[#E8422E]"  >
-							<div class="space-grotesk row align-items-center">
-								<div class="space-grotesk col-lg-5">
-									<div class="space-grotesk img1 image-anime ">
-										<img src="/img/cyclothon_5.svg" alt="" />
-									</div>
-								</div>
-								<div class="space-grotesk col-lg-7">
-									<div class="space-grotesk content-area">
-										<h3 class="space-grotesk text-anime-style-3">Cyclothon & Drone Show showcasing innovation in motion</h3>
-																				<div class="space-grotesk space24"></div>
-										<!-- <div class="space-grotesk btn-area1">
-											<a  class="space-grotesk vl-btn6">Buy Tickets Now <img src="assets/img/icons/arrow2.svg" alt="" /></a>
-										</div> -->
-									</div>
-								</div>
-							</div>
-						</div>
-					
-					</div>
-				</div>
-			</div>
-		</div>
-
 
 		<div class="space-grotesk memory5-section-area bg-[#1A496A] sp1 hidden">
 			<div class="space-grotesk container">
@@ -1114,74 +720,477 @@ import LottieAnimation from "astro-integration-lottie/Lottie.astro";
 		</div>
 
 
-		<div class="space-grotesk relative md:h-[80vh] h-auto container flex flex-col">
-			<div class="space-grotesk ">
+		
+
+		<div class="space-grotesk choose-section-area sp2">
+			<div class="space-grotesk container">
 				<div class="space-grotesk row">
-					<div class="space-grotesk col-lg-4">
-						<div class="space-grotesk heading2  space-margin60 pt-10">
+					<div class="space-grotesk col-lg-4 m-auto">
+						<div class="space-grotesk heading2 text-center space-margin60">
 							<!-- <h5 >why choose us</h5> -->
-							<h2>Programs</h2>
+							<div class="space-grotesk space18"></div>
+							<h2>Why Attend KIF?</h2>
 						</div>
 					</div>
 				</div>
-				<div class="space-grotesk md:w-2/3 w-full" id="programs-grid">
-					<div class="space-grotesk grid md:grid-cols-3 grid-cols-1 gap-2 pb-2">
-						<div class="space-grotesk bg-[#e5243b] text-white p-4 rounded-md pitem">
-							<p class="space-grotesk text-center">SDG & Creators’ Summit</p>
+				<div class="space-grotesk row" style="--ztc-bg-bg-3: #fcc310;">
+					<div class="space-grotesk col-lg-4 col-md-6">
+						<div class="space-grotesk choose-widget-boxarea">
+							<div class="space-grotesk icons md:-top-4 absolute md:-left-4 top-0 left-0">
+								<!-- <img src="assets/img/icons/choose-icons1.svg" alt="" /> -->
+								<svg  xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="space-grotesk icon icon-tabler w-12 -translate-x-3 -translate-y-2 icons-tabler-outline icon-tabler-bulb"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M3 12h1m8 -9v1m8 8h1m-15.4 -6.4l.7 .7m12.1 -.7l-.7 .7" /><path d="M9 16a5 5 0 1 1 6 0a3.5 3.5 0 0 0 -1 3a2 2 0 0 1 -4 0a3.5 3.5 0 0 0 -1 -3" /><path d="M9.7 17l4.6 0" /></svg>
+							</div>
+							<!-- <div class="space-grotesk space24"></div> -->
+							<div class="space-grotesk content-area">
+								<a>Discover</a>
+								<!-- <div class="space-grotesk space16"></div> -->
+								<p>The next big ideas from over 200+ startups</p>
+								<!-- <div class="space-grotesk space24"></div> -->
+								
+							</div>
 						</div>
-						<div class="space-grotesk bg-[#26bde2] text-white p-4 rounded-md pitem">
-							<p class="space-grotesk text-center">Workshops & Panel Talks</p>
-						</div>
-						<div></div>
-						<div class="space-grotesk bg-[#4c9f38] text-white p-4 rounded-md pitem">
-							<p class="space-grotesk text-center">Drone & fashion Show</p>
-						</div>
-						<div class="space-grotesk bg-[#fcc310] text-white p-4 rounded-md pitem">
-							<p class="space-grotesk text-center">Product Showcase</p>
-						</div>
-						<div class="space-grotesk bg-[#4c9f38] text-white p-4 rounded-md pitem">
-							<p class="space-grotesk text-center">Networking Zone</p>
-						</div>
-					
-						<div class="space-grotesk bg-[#26bde2] text-white p-4 rounded-md pitem">
-							<p class="space-grotesk text-center">Maker Fest</p>
-						</div>
-						<div class="space-grotesk bg-[#e5243b] text-white p-4 rounded-md pitem">
-							<p class="space-grotesk text-center">Robotics, AR/VR Expo</p>
-						</div>
-						<div class="space-grotesk bg-[#1a486a] text-white p-4 rounded-md pitem">
-							<p class="space-grotesk text-center">Food & Music Festival</p>
-						</div>
-						<div class="space-grotesk bg-[#1a486a] text-white p-4 rounded-md pitem">
-							<p class="space-grotesk text-center">#SheLeads</p>
-						</div>
-						<div class="space-grotesk bg-[#4c9f38] text-white p-4 rounded-md pitem">
-							<p class="space-grotesk text-center">Cyclothon</p>
-						</div>
-						<div class="space-grotesk bg-[#26bde2] text-white p-4 rounded-md pitem">
-							<p class="space-grotesk text-center">Pitchathon</p>
-						</div>
+					</div>
 
-						<div class="space-grotesk bg-[#4c9f38] text-white p-4 rounded-md pitem">
-							<p class="space-grotesk text-center">Student Innovation
-								Biennale</p>
+					<div class="space-grotesk col-lg-4 col-md-6">
+						<div class="space-grotesk choose-widget-boxarea">
+							<div  class="space-grotesk icons md:-top-4 absolute md:-left-4 top-0 left-0">
+								<!-- <img src="assets/img/icons/choose-icons1.svg" alt="" /> -->
+								<svg  xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="space-grotesk icon icon-tabler w-12 -translate-x-3 -translate-y-2 icons-tabler-outline icon-tabler-users-group"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M10 13a2 2 0 1 0 4 0a2 2 0 0 0 -4 0" /><path d="M8 21v-1a2 2 0 0 1 2 -2h4a2 2 0 0 1 2 2v1" /><path d="M15 5a2 2 0 1 0 4 0a2 2 0 0 0 -4 0" /><path d="M17 10h2a2 2 0 0 1 2 2v1" /><path d="M5 5a2 2 0 1 0 4 0a2 2 0 0 0 -4 0" /><path d="M3 13v-1a2 2 0 0 1 2 -2h2" /></svg>							
+							</div>
+							<!-- <div class="space-grotesk space24"></div> -->
+							<div class="space-grotesk content-area">
+								<a >Network</a>
+								<!-- <div class="space-grotesk space16"></div> -->
+								<p>Top investors, Global leaders, and Industry pioneers</p>
+								<!-- <div class="space-grotesk space24"></div> -->
+								
+							</div>
 						</div>
+					</div>
 
-						<div class="space-grotesk bg-[#fcc310] text-white p-4 rounded-md pitem">
-							<p class="space-grotesk text-center"> Flea Market &
-								Games Zone</p>
+					<div class="space-grotesk col-lg-4 col-md-6">
+						<div class="space-grotesk choose-widget-boxarea">
+							<div  class="space-grotesk icons md:-top-4 absolute md:-left-4 top-0 left-0">
+								<!-- <img src="assets/img/icons/choose-icons1.svg" alt="" /> -->
+								<svg  xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="space-grotesk icon icon-tabler w-12 -translate-x-3 -translate-y-2 icons-tabler-outline icon-tabler-drone"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M10 10h4v4h-4z" /><path d="M10 10l-3.5 -3.5" /><path d="M9.96 6a3.5 3.5 0 1 0 -3.96 3.96" /><path d="M14 10l3.5 -3.5" /><path d="M18 9.96a3.5 3.5 0 1 0 -3.96 -3.96" /><path d="M14 14l3.5 3.5" /><path d="M14.04 18a3.5 3.5 0 1 0 3.96 -3.96" /><path d="M10 14l-3.5 3.5" /><path d="M6 14.04a3.5 3.5 0 1 0 3.96 3.96" /></svg>
+							</div>
+							<!-- <div class="space-grotesk space24"></div> -->
+							<div class="space-grotesk content-area">
+								<a>Experience</a>
+								<!-- <div class="space-grotesk space16"></div> -->
+								<p>Live demos, Immersive tech, and Creative showcases</p>
+								<!-- <div class="space-grotesk space24"></div> -->
+								
+							</div>
 						</div>
+					</div>
 
-						<div class="space-grotesk bg-[#e5243b] text-white p-4 rounded-md pitem">
-							<p class="space-grotesk text-center">Gen Ai for all</p>
+					<div class="space-grotesk col-lg-4 col-md-6">
+						<div class="space-grotesk choose-widget-boxarea">
+							<div  class="space-grotesk icons md:-top-4 absolute md:-left-4 top-0 left-0">
+								<!-- <img src="assets/img/icons/choose-icons1.svg" alt="" /> -->
+								<svg  xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="space-grotesk icon icon-tabler w-12 -translate-x-3 -translate-y-2 icons-tabler-outline icon-tabler-trophy"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M8 21l8 0" /><path d="M12 17l0 4" /><path d="M7 4l10 0" /><path d="M17 4v8a5 5 0 0 1 -10 0v-8" /><path d="M5 9m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" /><path d="M19 9m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" /></svg>
+							</div>
+							<!-- <div class="space-grotesk space24"></div> -->
+							<div class="space-grotesk content-area">
+								<a >Compete</a>
+								<!-- <div class="space-grotesk space16"></div> -->
+								<p>Hackathons, Maker challenges, and Pitch sessions</p>
+								<!-- <div class="space-grotesk space24"></div> -->
+								<!-- <a  class="space-grotesk readmore">Read More <i class="space-grotesk fa-solid fa-arrow-right"></i></a> -->
+							</div>
 						</div>
+					</div>
 
-						
+					<div class="space-grotesk col-lg-4 col-md-6">
+						<div class="space-grotesk choose-widget-boxarea">
+							<div  class="space-grotesk icons md:-top-4 absolute md:-left-4 top-0 left-0">
+								<!-- <img src="assets/img/icons/choose-icons1.svg" alt="" /> -->
+								<svg  xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="space-grotesk icon icon-tabler w-12 -translate-x-3 -translate-y-2 icons-tabler-outline icon-tabler-book"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M3 19a9 9 0 0 1 9 0a9 9 0 0 1 9 0" /><path d="M3 6a9 9 0 0 1 9 0a9 9 0 0 1 9 0" /><path d="M3 6l0 13" /><path d="M12 6l0 13" /><path d="M21 6l0 13" /></svg>
+							</div>
+							<!-- <div class="space-grotesk space24"></div> -->
+							<div class="space-grotesk content-area">
+								<a >Learn</a>
+								<!-- <div class="space-grotesk space16"></div> -->
+								<p>Expert-led masterclasses and insightful talks</p>
+								<!-- <div class="space-grotesk space24"></div> -->
+								<!-- <a  class="space-grotesk readmore">Read More <i class="space-grotesk fa-solid fa-arrow-right"></i></a> -->
+							</div>
+						</div>
+					</div>
+
+					<div class="space-grotesk col-lg-4 col-md-6">
+						<div class="space-grotesk choose-widget-boxarea">
+							<div  class="space-grotesk icons md:-top-4 absolute md:-left-4 top-0 left-0">
+								<!-- <img src="assets/img/icons/choose-icons1.svg" alt="" /> -->
+								<svg  xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="space-grotesk icon icon-tabler w-12 -translate-x-3 -translate-y-2 icons-tabler-outline icon-tabler-confetti"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M4 5h2" /><path d="M5 4v2" /><path d="M11.5 4l-.5 2" /><path d="M18 5h2" /><path d="M19 4v2" /><path d="M15 9l-1 1" /><path d="M18 13l2 -.5" /><path d="M18 19h2" /><path d="M19 18v2" /><path d="M14 16.518l-6.518 -6.518l-4.39 9.58a1 1 0 0 0 1.329 1.329l9.579 -4.39z" /></svg>
+							</div>
+							<!-- <div class="space-grotesk space24"></div> -->
+							<div class="space-grotesk content-area">
+								<a >Celebrate</a>
+								<!-- <div class="space-grotesk space16"></div> -->
+								<p>Kerala's vibrant culture with music, art and food</p>
+								<!-- <div class="space-grotesk space24"></div> -->
+								<!-- <a  class="space-grotesk readmore">Read More <i class="space-grotesk fa-solid fa-arrow-right"></i></a> -->
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
-			<div class="space-grotesk  md:absolute md:w-[110vh] md:h-[110vh] w-full h-44 md:-right-[65vh] animate-spin-slow  z-30 "> <img src="img/Asset 1.svg" alt=""></div>
 		</div>
+
+		
+		<div class="space-grotesk event6-section-area sp1" id="Highlights">
+			<div class="space-grotesk container">
+				<div class="space-grotesk row">
+					<div class="space-grotesk col-lg-8 m-auto">
+						<div class="space-grotesk event-heading heading9 text-center space-margin60">
+							<div class="space-grotesk space20"></div>
+							<h2 class="space-grotesk text-anime-style-3">What's Happening at KIF 2025</h2>
+						</div>
+					</div>
+				</div>
+				<div class="space-grotesk grid md:grid-cols-3 grid-cols-1 gap-4">
+					
+						
+						<div class="space-grotesk event6-widget-boxarea hidden"  data-aos-duration="1000">
+							<div class="space-grotesk flex flex-col ">
+								<div class="space-grotesk ">
+									<div class="space-grotesk content-area">
+										<h4 class="space-grotesk text-2xl pt-2 text-white font-bold">Talks & Masterclasses with global experts</h4>
+																				<div class="space-grotesk space24"></div>
+										<!-- <div class="space-grotesk btn-area1">
+											<a  class="space-grotesk vl-btn6">Buy Tickets Now <img src="assets/img/icons/arrow2.svg" alt="" /></a>
+										</div> -->
+									</div>
+								</div>
+								<div class="space-grotesk ">
+									<div class="space-grotesk img1 image-anime ">
+										<!-- <img src="assets/img/allimages/event/event-img12.png" alt="" /> -->
+										<img src="/img/summit_5.svg" alt="" />
+										
+									</div>
+									
+								</div>
+								
+							</div>
+						</div>
+						
+						<div class="space-grotesk event6-widget-boxarea2" data-aos="fade-right" data-aos-duration="1100">
+							<div class="space-grotesk flex flex-col ">
+								<div class="space-grotesk ">
+									<div class="space-grotesk content-area">
+										<h4 class="space-grotesk text-2xl pt-2 text-white font-bold">Startup Expo featuring groundbreaking innovations</h4>
+																				<div class="space-grotesk space24"></div>
+										<!-- <div class="space-grotesk btn-area1">
+											<a  class="space-grotesk vl-btn6">Buy Tickets Now <img src="assets/img/icons/arrow2.svg" alt="" /></a>
+										</div> -->
+									</div>
+								</div>
+								<div class="space-grotesk ">
+									<div class="space-grotesk img1 image-anime ">
+										<!-- <img src="assets/img/allimages/event/event-img13.png" alt="" /> -->
+										<img src="/img/startupexpo.svg" alt="" />
+
+									</div>
+								</div>
+								
+							</div>
+						</div>
+						
+						
+						<div class="space-grotesk event6-widget-boxareamain   bg-[#4C9F37]"  >
+							<div class="space-grotesk flex flex-col ">
+								<div class="space-grotesk ">
+									<div class="space-grotesk content-area">
+										<h4 class="space-grotesk text-2xl pt-2 text-white font-bold">Sustainability Pavilion showcasing smart city and green solutions</h4>
+																				<div class="space-grotesk space24"></div>
+										<!-- <div class="space-grotesk btn-area1">
+											<a  class="space-grotesk vl-btn6">Buy Tickets Now <img src="assets/img/icons/arrow2.svg" alt="" /></a>
+										</div> -->
+									</div>
+								</div>
+								<div class="space-grotesk ">
+									<div class="space-grotesk img1 image-anime ">
+										<img src="/img/expo.svg" alt="" />
+									</div>
+								</div>
+								
+							</div>
+						</div>
+
+						
+						<div class="space-grotesk event6-widget-boxareamain bg-[#FCC310]" data-aos="fade-right" >
+							<div class="space-grotesk flex flex-col ">
+								<div class="space-grotesk ">
+									<div class="space-grotesk content-area">
+										<h4 class="space-grotesk text-2xl pt-2 text-white font-bold">Creators Summit blending art, design, and technology</h4>
+																				<div class="space-grotesk space24"></div>
+										<!-- <div class="space-grotesk btn-area1">
+											<a  class="space-grotesk vl-btn6">Buy Tickets Now <img src="assets/img/icons/arrow2.svg" alt="" /></a>
+										</div> -->
+									</div>
+								</div>
+								<div class="space-grotesk ">
+									<div class="space-grotesk img1 image-anime ">
+										<img src="assets/img/allimages/event/event-img14.png" alt="" />
+									</div>
+								</div>
+								
+							</div>
+						</div>
+
+						
+						<div class="space-grotesk event6-widget-boxareamain bg-[#2EBCE0]"  >
+							<div class="space-grotesk flex flex-col ">
+								<div class="space-grotesk ">
+									<div class="space-grotesk content-area">
+										<h4 class="space-grotesk text-2xl pt-2 text-white font-bold">Hackathons & Challenges solving real-world problems</h4>
+																				<div class="space-grotesk space24"></div>
+										<!-- <div class="space-grotesk btn-area1">
+											<a  class="space-grotesk vl-btn6">Buy Tickets Now <img src="assets/img/icons/arrow2.svg" alt="" /></a>
+										</div> -->
+									</div>
+								</div>
+								<div class="space-grotesk ">
+									<div class="space-grotesk img1 image-anime ">
+										<!-- <img src="assets/img/allimages/event/event-img14.png" alt="" /> -->
+										<img src="/img/build_4.svg" alt="" />
+
+										
+									</div>
+								</div>
+								
+							</div>
+						</div>
+
+						
+						<div class="space-grotesk event6-widget-boxareamain bg-[#1a496a]" data-aos="fade-right" >
+							<div class="space-grotesk flex flex-col ">
+								<div class="space-grotesk ">
+									<div class="space-grotesk content-area">
+										<h4 class="space-grotesk text-2xl pt-2 text-white font-bold">Music & Food Fest celebrating Kerala’s culture and flavors</h4>
+																				<div class="space-grotesk space24"></div>
+										<!-- <div class="space-grotesk btn-area1">
+											<a  class="space-grotesk vl-btn6">Buy Tickets Now <img src="assets/img/icons/arrow2.svg" alt="" /></a>
+										</div> -->
+									</div>
+								</div>
+								<div class="space-grotesk ">
+									<div class="space-grotesk img1 image-anime ">
+										<img src="/img/g4.svg" alt="" />
+
+									</div>
+								</div>
+								
+							</div>
+						</div>
+						
+						<div class="space-grotesk event6-widget-boxareamain bg-[#E8422E]"  >
+							<div class="space-grotesk flex flex-col ">
+								<div class="space-grotesk ">
+									<div class="space-grotesk content-area">
+										<h4 class="space-grotesk text-2xl pt-2 text-white font-bold">Cyclothon & Drone Show showcasing innovation in motion</h4>
+																				<div class="space-grotesk space24"></div>
+										<!-- <div class="space-grotesk btn-area1">
+											<a  class="space-grotesk vl-btn6">Buy Tickets Now <img src="assets/img/icons/arrow2.svg" alt="" /></a>
+										</div> -->
+									</div>
+								</div>
+								<div class="space-grotesk ">
+									<div class="space-grotesk img1 image-anime ">
+										<img src="/img/cyclothon_5.svg" alt="" />
+									</div>
+								</div>
+								
+							</div>
+						</div>
+					
+					
+				</div>
+			</div>
+		</div>
+
+		<div class="space-grotesk event6-section-area sp1 hidden" id="Highlights">
+			<div class="space-grotesk container">
+				<div class="space-grotesk row">
+					<div class="space-grotesk col-lg-8 m-auto">
+						<div class="space-grotesk event-heading heading9 text-center space-margin60">
+							<div class="space-grotesk space20"></div>
+							<h2 class="space-grotesk text-anime-style-3">What's Happening at KIF 2025</h2>
+						</div>
+					</div>
+				</div>
+				<div class="space-grotesk row">
+					<div class="space-grotesk col-lg-12">
+						
+						<div class="space-grotesk event6-widget-boxarea"  data-aos-duration="1000">
+							<div class="space-grotesk row align-items-center">
+								<div class="space-grotesk col-lg-5">
+									<div class="space-grotesk img1 image-anime ">
+										<!-- <img src="assets/img/allimages/event/event-img12.png" alt="" /> -->
+										<img src="/img/summit_5.svg" alt="" />
+										
+										
+									</div>
+								</div>
+								<div class="space-grotesk col-lg-7">
+									<div class="space-grotesk content-area">
+										<h3 class="space-grotesk text-anime-style-3">Talks & Masterclasses with global experts</h3>
+																				<div class="space-grotesk space24"></div>
+										<!-- <div class="space-grotesk btn-area1">
+											<a  class="space-grotesk vl-btn6">Buy Tickets Now <img src="assets/img/icons/arrow2.svg" alt="" /></a>
+										</div> -->
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="space-grotesk space50"></div>
+
+						
+						
+						<div class="space-grotesk event6-widget-boxarea2" data-aos="fade-right" data-aos-duration="1100">
+							<div class="space-grotesk row align-items-center">
+								<div class="space-grotesk col-lg-7">
+									<div class="space-grotesk content-area">
+										<h3 class="space-grotesk text-anime-style-3">Startup Expo featuring groundbreaking innovations</h3>
+																				<div class="space-grotesk space24"></div>
+										<!-- <div class="space-grotesk btn-area1">
+											<a  class="space-grotesk vl-btn6">Buy Tickets Now <img src="assets/img/icons/arrow2.svg" alt="" /></a>
+										</div> -->
+									</div>
+								</div>
+								<div class="space-grotesk col-lg-5">
+									<div class="space-grotesk img1 image-anime ">
+										<!-- <img src="assets/img/allimages/event/event-img13.png" alt="" /> -->
+										<img src="/img/startupexpo.svg" alt="" />
+
+									</div>
+								</div>
+								
+							</div>
+						</div>
+						
+						<div class="space-grotesk space50"></div>
+						
+						<div class="space-grotesk event6-widget-boxareamain  bg-[#1A496A]"  >
+							<div class="space-grotesk row align-items-center">
+								<div class="space-grotesk col-lg-5">
+									<div class="space-grotesk img1 image-anime ">
+										<img src="/img/expo.svg" alt="" />
+									</div>
+								</div>
+								<div class="space-grotesk col-lg-7">
+									<div class="space-grotesk content-area">
+										<h3 class="space-grotesk text-anime-style-3">Sustainability Pavilion showcasing smart city and green solutions</h3>
+																				<div class="space-grotesk space24"></div>
+										<!-- <div class="space-grotesk btn-area1">
+											<a  class="space-grotesk vl-btn6">Buy Tickets Now <img src="assets/img/icons/arrow2.svg" alt="" /></a>
+										</div> -->
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="space-grotesk space50"></div>
+						
+						<div class="space-grotesk event6-widget-boxareamain bg-[#FCC310]" data-aos="fade-right" >
+							<div class="space-grotesk row align-items-center">
+								<div class="space-grotesk col-lg-7">
+									<div class="space-grotesk content-area">
+										<h3 class="space-grotesk text-anime-style-3">Creators Summit blending art, design, and technology</h3>
+																				<div class="space-grotesk space24"></div>
+										<!-- <div class="space-grotesk btn-area1">
+											<a  class="space-grotesk vl-btn6">Buy Tickets Now <img src="assets/img/icons/arrow2.svg" alt="" /></a>
+										</div> -->
+									</div>
+								</div>
+								<div class="space-grotesk col-lg-5">
+									<div class="space-grotesk img1 image-anime ">
+										<img src="assets/img/allimages/event/event-img14.png" alt="" />
+									</div>
+								</div>
+								
+							</div>
+						</div>
+
+						<div class="space-grotesk space50"></div>
+						
+						<div class="space-grotesk event6-widget-boxareamain bg-[#2EBCE0]"  >
+							<div class="space-grotesk row align-items-center">
+								<div class="space-grotesk col-lg-5">
+									<div class="space-grotesk img1 image-anime ">
+										<!-- <img src="assets/img/allimages/event/event-img14.png" alt="" /> -->
+										<img src="/img/build_4.svg" alt="" />
+
+										
+									</div>
+								</div>
+								<div class="space-grotesk col-lg-7">
+									<div class="space-grotesk content-area">
+										<h3 class="space-grotesk text-anime-style-3">Hackathons & Challenges solving real-world problems</h3>
+																				<div class="space-grotesk space24"></div>
+										<!-- <div class="space-grotesk btn-area1">
+											<a  class="space-grotesk vl-btn6">Buy Tickets Now <img src="assets/img/icons/arrow2.svg" alt="" /></a>
+										</div> -->
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="space-grotesk space50"></div>
+						
+						<div class="space-grotesk event6-widget-boxareamain bg-[#4C9F37]" data-aos="fade-right" >
+							<div class="space-grotesk row align-items-center">
+								<div class="space-grotesk col-lg-7">
+									<div class="space-grotesk content-area">
+										<h3 class="space-grotesk text-anime-style-3">Music & Food Fest celebrating Kerala’s culture and flavors</h3>
+																				<div class="space-grotesk space24"></div>
+										<!-- <div class="space-grotesk btn-area1">
+											<a  class="space-grotesk vl-btn6">Buy Tickets Now <img src="assets/img/icons/arrow2.svg" alt="" /></a>
+										</div> -->
+									</div>
+								</div>
+								<div class="space-grotesk col-lg-5">
+									<div class="space-grotesk img1 image-anime ">
+										<img src="/img/g4.svg" alt="" />
+
+									</div>
+								</div>
+								
+							</div>
+						</div>
+
+						<div class="space-grotesk space50"></div>
+						
+						<div class="space-grotesk event6-widget-boxareamain bg-[#E8422E]"  >
+							<div class="space-grotesk row align-items-center">
+								<div class="space-grotesk col-lg-5">
+									<div class="space-grotesk img1 image-anime ">
+										<img src="/img/cyclothon_5.svg" alt="" />
+									</div>
+								</div>
+								<div class="space-grotesk col-lg-7">
+									<div class="space-grotesk content-area">
+										<h3 class="space-grotesk text-anime-style-3">Cyclothon & Drone Show showcasing innovation in motion</h3>
+																				<div class="space-grotesk space24"></div>
+										<!-- <div class="space-grotesk btn-area1">
+											<a  class="space-grotesk vl-btn6">Buy Tickets Now <img src="assets/img/icons/arrow2.svg" alt="" /></a>
+										</div> -->
+									</div>
+								</div>
+							</div>
+						</div>
+					
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		
+
+		
 
 
 		<div class="space-grotesk about7-section-area sp1">
@@ -1232,8 +1241,10 @@ import LottieAnimation from "astro-integration-lottie/Lottie.astro";
 					</div>
 
 					<div class="space-grotesk space32"></div>
-					<div class="space-grotesk btn-area1"  >
-					  <a class="space-grotesk vl-btn7">Become an Attendee <span><i class="space-grotesk fa-solid fa-arrow-right"></i></span></a>
+					<div class="buttons-wrapper">
+						<div>
+							<a href="https://tickets.startupmission.in/kerala-innovation-festival" target="_blank" class="click-btn btn-style500 px-4 py-3 text-xl  border-2 border-[#4c9f38] font-bold rounded-md uppercase" href="#">Register Now</a>
+						</div>
 					</div>
 				  </div>
 				</div>
@@ -1555,16 +1566,15 @@ import LottieAnimation from "astro-integration-lottie/Lottie.astro";
 					<div class="space-grotesk row">
 					  <div class="space-grotesk col-lg-11 m-auto">
 						<div class="space-grotesk cta-heading text-center">
-						  <h2>Partner with us at Kerala Innovation Festival 2025</h2>
-						  <div class="space-grotesk space16"></div>
-						  	<p>
-								Join India's Biggest Celebration of Innovation and be part of a transformative journey as we mark 10 years of Kerala Startup Mission (KSUM). The Kerala Innovation Festival (KIF) 2025 is a premier platform bringing together startups, investors, policymakers, creators, and industry leaders to collaborate, connect, and explore groundbreaking ideas.
-							</p>
-						  <div class="space-grotesk space32"></div>
-						  <div class="space-grotesk btn-area1">
-							<a href="#" class="space-grotesk vl-btn7">Partner With Us!<span><i class="space-grotesk fa-solid fa-arrow-right"></i></span></a>
+							<h2 >Partner with us at Kerala Innovation Festival 2025</h2>
+							<h3 class=" space-grotesk text-white text-2xl">Be a part of India’s largest celebration of innovation!</h3>
+							<div class="space-grotesk space16"></div>
+								<p>Join us on a transformative journey as we mark 10 years of Kerala Startup Mission (KSUM). KIF 2025 is a premier platform bringing together startups, investors, policymakers, creators and industry leaders to connect, collaborate and explore groundbreaking ideas.							</p>
+							<div class="space-grotesk space32"></div>
+							<div class="space-grotesk btn-area1">
+							  <a href="#" class="space-grotesk vl-btn7">Partner With Us!<span><i class="fa-solid fa-arrow-right"></i></span></a>
+							</div>
 						  </div>
-						</div>
 					  </div>
 					</div>
 				  </div>
@@ -1796,3 +1806,27 @@ import LottieAnimation from "astro-integration-lottie/Lottie.astro";
       });
     });
   </script>
+
+
+<style lang="scss" is:global>
+	@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap");
+	.btn-style500 {
+	  $btn-color: #4c9f38;
+	  border-color: #4c9f38;
+	  color: $btn-color;
+	  &:hover {
+		color: #fff;
+		transition-delay: 0.2s;
+		animation: ani500 0.6s forwards;
+		background: radial-gradient(circle, #4c9f38 0.2em, transparent 0.3em) 6em
+			6em/1em 1em,
+		  radial-gradient(circle, #4c9f38 0.2em, transparent 0.3em) 0 0/1em 1em;
+	  }
+	}
+	@keyframes ani500 {
+	  100% {
+		background-size: 2.375em 2.375em, 0.1em 0.1em;
+	  }
+	}
+	</style>
+	
