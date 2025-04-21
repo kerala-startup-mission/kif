@@ -43,14 +43,22 @@
                   <li>
                     <a href="#contact">Contact</i></a>
                   </li>
+                  <li>
+                    <a target="_blank" href="https://tickets.startupmission.in/kerala-innovation-festival">
+                        <div class="button-wrapper">
+                          <button class="button text-black bg-white px-3 py-1 rounded-md" type="button">Register Now</button>
+                          <div class="button-bg rounded-md"></div>
+                        </div>
+                    </a>
+                  </li>
                 </ul>
               </div>
-              <div class="btn-area">
+              <!-- <div class="btn-area">
               
                 <ul>
-                  <!-- <li>
+                  <li>
                     <a href="https://www.facebook.com/keralastartupmission" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
-                  </li> -->
+                  </li>
                   <li>
                     <a href="https://www.instagram.com/keralastartupmission/?hl=en" target="_blank"><i class="fa-brands fa-instagram"></i></a>
                   </li>
@@ -61,7 +69,7 @@
                     <a href="https://www.youtube.com/channel/UCGnD5pg8MOIetz93sEvCHbw" target="_blank" class="m-0"><i class="fa-brands fa-youtube"></i></a>
                   </li>
                 </ul>
-              </div>
+              </div> -->
   
               
               <div class="body-overlay"></div>
@@ -197,3 +205,54 @@
     });
   </script> -->
   
+
+  <style is:global>
+  
+
+
+.button-wrapper {
+  position: relative;
+}
+
+
+
+.button-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  background: linear-gradient(90deg, #e5243b 0%, #fcc310 30.43%, #26bde2 68.23%, #ec9f38 100%);
+  background-size: 600% 600%;
+  animation: AnimateBorder 4s ease infinite;
+  -webkit-animation: AnimateBorder 4s ease infinite;
+  -moz-animation: AnimateBorder 4s ease infinite;
+  z-index: -1;
+  transform: translate(-2px, -2px);
+  transition: filter 1s ease-in;
+}
+
+.button-wrapper:hover .button-bg {
+  filter: blur(10px);
+  transition: filter .4s ease-in;
+}
+
+
+@-webkit-keyframes AnimateBorder {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimateBorder {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimateBorder {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+
+  </style>

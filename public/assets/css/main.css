@@ -8770,7 +8770,6 @@ Location:
      object-fit: contain;
 }
 .homepage1-body .header-area.homepage1 .header-elements .main-menu ul li a.nav-link.active {
-  color: var(--ztc-text-text-2);
   font-weight: var(--ztc-weight-medium) !important;
 }
 .homepage1-body .header-area.homepage1 .header-elements .main-menu .tp-submenu {
@@ -8959,7 +8958,7 @@ Location:
 }
 .homepage1-body .header-area.homepage1 .header-elements .main-menu ul li:hover > a {
   transition: all 0.4s;
-  color: var(--ztc-text-text-4) !important;
+  color: #4c9f38 !important;
   font-weight: var(--ztc-weight-medium);
 }
 .homepage1-body .header-area.homepage1 .header-elements .main-menu ul li .tp-submenu {
@@ -9081,12 +9080,12 @@ Location:
   display: inline-block;
   transition: all 0.4s;
   color: var(--ztc-text-text-2);
-  background: var(--ztc-bg-bg-1);
+  /* background: var(--ztc-bg-bg-1); */
   font-size: var(--ztc-font-size-font-s18);
   margin: 0 6px 0 0;
 }
 .homepage1-body .header-area.homepage1 .header-elements .btn-area ul li a:hover {
-  background: var(--ztc-bg-bg-3);
+  background: #fcc310;
   transition: all 0.4s;
 }
 
@@ -20483,7 +20482,7 @@ Location:
 .about7-section-area .about-header-area .about-auhtor-box {
   position: relative;
   z-index: 1;
-  background: #FFF3F6;
+  /* background: #FFF3F6; */
   border-radius: 8px;
   padding: 20px 24px;
   transition: all 0.4s;
