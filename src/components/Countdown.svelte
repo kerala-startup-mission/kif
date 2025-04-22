@@ -40,27 +40,22 @@
 
 </script>
 
-<div class="flex  flex-wrap gap-2">
-	<div class="counter rounded-2xl text-black  font-bold font-heading md:text-3xl text-2xl  py-8  flex flex-col ">
+<div class="flex  flex-wrap gap-4 mb-2">
+	<div class="counter rounded-2xl text-black  font-bold font-heading md:text-3xl text-2xl    flex flex-col ">
 		{dayText}
 		<div class="text-sm font-light font-sans">Days</div>
 	</div>
-	<div class=" counter rounded-2xl text-black  font-bold font-heading md:text-3xl text-2xl py-8  flex flex-col ">
+	<div class=" counter rounded-2xl text-black  font-bold font-heading md:text-3xl text-2xl   flex flex-col ">
 		{hourText}
 		<div class="text-sm font-light font-sans">Hours</div>
 	</div>
-	<div class="counter rounded-2xl text-black  font-bold font-heading md:text-3xl text-2xl py-8  flex flex-col ">
+	<div class="counter rounded-2xl text-black  font-bold font-heading md:text-3xl text-2xl   flex flex-col ">
 		{minText}
 		<div class="text-sm font-light font-sans">Mins</div>
 	</div>
-	<div class="counter rounded-2xl text-black  font-bold font-heading md:text-3xl text-2xl py-8  flex flex-col ">
+	<div class="counter rounded-2xl text-black  font-bold font-heading md:text-3xl text-2xl   flex flex-col ">
 		{secText}
 		<div class="text-sm font-light font-sans">Secs</div>
 	</div>
 </div>
 
-<style lang="scss">
-	.counter{
-		margin: .5rem;
-	}
-</style>
