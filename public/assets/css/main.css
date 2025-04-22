@@ -638,7 +638,7 @@ Location:
 /*============= COMMON CSS AREA ===============*/
 .heading1 h5 {
   color: var(--ztc-text-text-1);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s20);
@@ -656,7 +656,7 @@ Location:
 }
 .heading1 h1 {
   color: var(--ztc-text-text-1);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s60);
@@ -683,7 +683,7 @@ Location:
 
 .heading2 h5 {
   color: var(--ztc-text-text-2);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s18);
@@ -698,7 +698,7 @@ Location:
 }
 .heading2 h2 {
   color: var(--ztc-text-text-2);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s44);
@@ -715,7 +715,7 @@ Location:
 }
 .heading2 p {
   color: var(--ztc-text-text-3);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s18);
@@ -726,7 +726,7 @@ Location:
 
 .heading4 h5 {
   color: var(--ztc-text-text-1);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s18);
@@ -741,7 +741,7 @@ Location:
 }
 .heading4 h2 {
   color: var(--ztc-text-text-1);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s44);
@@ -758,7 +758,7 @@ Location:
 }
 .heading4 p {
   color: rgba(255, 255, 255, 0.9);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s18);
@@ -769,7 +769,7 @@ Location:
 
 .heading5 h5 {
   color: var(--ztc-text-text-10);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s18);
@@ -784,7 +784,7 @@ Location:
 }
 .heading5 h2 {
   color: var(--ztc-text-text-8);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s44);
@@ -801,7 +801,7 @@ Location:
 }
 .heading5 p {
   color: var(--ztc-text-text-9);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s18);
@@ -812,7 +812,7 @@ Location:
 
 .heading6 h5 {
   color: #1a486a;
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s20);
@@ -833,7 +833,7 @@ Location:
 }
 .heading6 h2 {
   color: var(--ztc-text-text-11);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s44);
@@ -850,7 +850,7 @@ Location:
 }
 .heading6 p {
   color: var(--ztc-text-text-12);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s18);
@@ -861,7 +861,7 @@ Location:
 
 .heading7 h5 {
   color: var(--ztc-text-text-1);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s20);
@@ -882,7 +882,7 @@ Location:
 }
 .heading7 h2 {
   color: var(--ztc-text-text-1);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s44);
@@ -899,7 +899,7 @@ Location:
 }
 .heading7 p {
   color: var(--ztc-text-text-1);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s18);
@@ -911,7 +911,7 @@ Location:
 
 .heading8 h5 {
   color: var(--ztc-text-text-1);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s28);
@@ -931,7 +931,7 @@ Location:
 }
 .heading8 h2 {
   color: var(--ztc-text-text-1);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: 80px;
@@ -964,7 +964,7 @@ Location:
 
 .heading9 h5 {
   color: var(--ztc-text-text-2);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s20);
@@ -985,7 +985,7 @@ Location:
 }
 .heading9 h2 {
   color: var(--ztc-text-text-2);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: 44px;
@@ -1001,7 +1001,7 @@ Location:
 }
 .heading9 p {
   color: var(--ztc-text-text-9);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s18);
@@ -1012,7 +1012,7 @@ Location:
 
 .heading10 h2 {
   color: var(--ztc-text-text-2);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s44);
@@ -1028,7 +1028,7 @@ Location:
 }
 .heading10 p {
   color: var(--ztc-text-text-3);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s18);
@@ -1039,7 +1039,7 @@ Location:
 
 .heading11 h5 {
   color: var(--ztc-text-text-1);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s18);
@@ -1054,7 +1054,7 @@ Location:
 }
 .heading11 h2 {
   color: var(--ztc-text-text-1);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s44);
@@ -1071,7 +1071,7 @@ Location:
 }
 .heading11 p {
   color: var(--ztc-text-text-9);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s18);
@@ -1082,7 +1082,7 @@ Location:
 
 .heading12 h5 {
   color: var(--ztc-text-text-17);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s18);
@@ -1097,7 +1097,7 @@ Location:
 }
 .heading12 h2 {
   color: var(--ztc-text-text-18);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s44);
@@ -1114,7 +1114,7 @@ Location:
 }
 .heading12 p {
   color: var(--ztc-text-text-19);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s18);
@@ -1125,7 +1125,7 @@ Location:
 
 .heading13 h5 {
   color: var(--ztc-text-text-1);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s20);
@@ -1141,7 +1141,7 @@ Location:
 }
 .heading13 h2 {
   color: var(--ztc-text-text-1);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s44);
@@ -1158,7 +1158,7 @@ Location:
 }
 .heading13 p {
   color: var(--ztc-text-text-1);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s18);
@@ -1170,7 +1170,7 @@ Location:
 
 .vl-btn1 {
   color: var(--ztc-text-text-2);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s20);
@@ -1232,7 +1232,7 @@ Location:
 
 .vl-btn2 {
   color: var(--ztc-text-text-2);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s20);
@@ -1278,7 +1278,7 @@ Location:
 
 .vl-btn3 {
   color: var(--ztc-text-text-1);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s20);
@@ -1318,7 +1318,7 @@ Location:
 
 .vl-btn4 {
   color: var(--ztc-text-text-1);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s20);
@@ -1365,7 +1365,7 @@ Location:
 
 .vl-btn5 {
   color: var(--ztc-text-text-1);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s20);
@@ -1413,7 +1413,7 @@ Location:
 
 .vl-btn6 {
   color: var(--ztc-text-text-1);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s20);
@@ -1472,7 +1472,7 @@ Location:
 
 .vl-btn7 {
   color: var(--ztc-text-text-1);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s20);
@@ -1513,7 +1513,7 @@ Location:
 
 .vl-btn8 {
   color: var(--ztc-text-text-1);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s20);
@@ -1559,7 +1559,7 @@ Location:
 
 .vl-btn9 {
   color: var(--ztc-text-text-1);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s20);
@@ -1620,7 +1620,7 @@ Location:
 
 .vl-btn10 {
   color: var(--ztc-text-text-2);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s20);
@@ -1892,7 +1892,7 @@ Location:
 .pricing-plan-section-area .pricing-boxarea .ticket-box h3 {
   color: var(--ztc-text-text-1);
   text-align: center;
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s44);
@@ -1934,7 +1934,7 @@ Location:
 .pricing-plan-section-area .pricing-boxarea.box2 .ticket-box h3 {
   color: var(--ztc-text-text-2);
   text-align: center;
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s44);
@@ -1979,7 +1979,7 @@ Location:
 }
 .pricing-lan-section-area .pricing-boxarea h5 {
   color: var(--ztc-text-text-1);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s18);
@@ -1997,7 +1997,7 @@ Location:
 }
 .pricing-lan-section-area .pricing-boxarea h2 {
   color: var(--ztc-text-text-2);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s44);
@@ -2008,7 +2008,7 @@ Location:
 }
 .pricing-lan-section-area .pricing-boxarea h2 span {
   color: var(--ztc-text-text-3);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s18);
@@ -2020,7 +2020,7 @@ Location:
 }
 .pricing-lan-section-area .pricing-boxarea ul li {
   color: var(--ztc-text-text-2);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s16);
@@ -2080,7 +2080,7 @@ Location:
 }
 .hero1-section-area .hero1-header .btn-area1 .vl-btn2 {
   color: var(--ztc-text-text-1);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s20);
@@ -2193,7 +2193,7 @@ Location:
 }
 .hero1-section-area .header-images .images-content-area h3 {
   color: var(--ztc-text-text-2);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s24);
@@ -2204,7 +2204,7 @@ Location:
 }
 .hero1-section-area .header-images .images-content-area a {
   color: var(--ztc-text-text-2);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s16);
@@ -2276,7 +2276,7 @@ Location:
 .hero1-section-area .timer .time-box .time-value span {
   color: rgba(255, 255, 255, 0.9);
   text-align: center;
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s16);
@@ -2288,7 +2288,7 @@ Location:
 .hero1-section-area .timer .time-value {
   color: var(--ztc-text-text-1);
   text-align: center;
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s32);
@@ -2421,7 +2421,7 @@ Location:
 }
 .hero2-slider-area .her2-section-area .hero2-header h5 {
   color: var(--ztc-text-text-1);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s20);
@@ -2446,7 +2446,7 @@ Location:
 }
 .hero2-slider-area .her2-section-area .hero2-header h1 {
   color: var(--ztc-text-text-1);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s60);
@@ -2511,7 +2511,7 @@ Location:
 .hero2-slider-area .her2-section-area .hero2-header .timer .time-box p {
   color: rgba(255, 255, 255, 0.9);
   text-align: center;
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s16);
@@ -2524,7 +2524,7 @@ Location:
 .hero2-slider-area .her2-section-area .hero2-header .timer .time-box .time-value span {
   color: rgba(255, 255, 255, 0.9);
   text-align: center;
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s16);
@@ -2537,7 +2537,7 @@ Location:
 .hero2-slider-area .her2-section-area .hero2-header .timer .time-value {
   color: var(--ztc-text-text-1);
   text-align: center;
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s32);
@@ -2590,7 +2590,7 @@ Location:
 .hero2-slider-area .her2-section-area .about-btnarea a {
   color: var(--ztc-text-text-2);
   text-align: center;
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s24);
@@ -2803,7 +2803,7 @@ Location:
 .hero3-section-area .hero3-header .date-btn h4 {
   color: var(--ztc-text-text-8);
   text-align: center;
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s60);
@@ -2814,7 +2814,7 @@ Location:
 }
 .hero3-section-area .hero3-header .date-btn p {
   color: var(--ztc-text-text-8);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s20);
@@ -2826,7 +2826,7 @@ Location:
 .hero3-section-area .hero3-header .date-btn a {
   color: var(--ztc-text-text-1);
   text-align: center;
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s18);
@@ -2842,7 +2842,7 @@ Location:
 }
 .hero3-section-area .hero3-header h5 {
   color: var(--ztc-text-text-1);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s28);
@@ -2869,7 +2869,7 @@ Location:
 }
 .hero3-section-area .hero3-header h1 {
   color: var(--ztc-text-text-1);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: 90px;
@@ -2930,7 +2930,7 @@ Location:
 }
 .hero4-section-area .hero4-header h5 {
   color: #1a486a;
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s20);
@@ -2958,7 +2958,7 @@ Location:
 }
 .hero4-section-area .hero4-header h1 {
   color: var(--ztc-text-text-11);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s64);
@@ -2975,7 +2975,7 @@ Location:
 }
 .hero4-section-area .hero4-header p {
   color: var(--ztc-text-text-12);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s18);
@@ -3036,7 +3036,7 @@ Location:
 }
 .hero4-section-area .hero-content-images .content-area .date {
   color: #1a486a;
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s20);
@@ -3048,7 +3048,7 @@ Location:
 }
 .hero4-section-area .hero-content-images .content-area ul li a {
   color: var(--ztc-text-text-12);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s16);
@@ -3074,7 +3074,7 @@ Location:
 .inner-page-header .heading1 a {
   color: var(--ztc-text-text-1);
   text-align: center;
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s28);
@@ -3103,7 +3103,7 @@ Location:
 }
 .hero5-section-area .header5-heading h5 {
   color: var(--ztc-text-text-1);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s28);
@@ -3135,7 +3135,7 @@ Location:
 }
 .hero5-section-area .header5-heading h1 {
   color: var(--ztc-text-text-1);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: 120px;
@@ -3157,7 +3157,7 @@ Location:
   -webkit-backdrop-filter: blur(5px);
           backdrop-filter: blur(5px);
   color: var(--ztc-text-text-1);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: 120px;
@@ -3286,7 +3286,7 @@ Location:
 }
 .hero6-section-area .hero6-header h5 {
   color: var(--ztc-text-text-1);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s28);
@@ -3306,7 +3306,7 @@ Location:
 }
 .hero6-section-area .hero6-header h1 {
   color: var(--ztc-text-text-1);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: 100px;
@@ -3395,7 +3395,7 @@ Location:
 }
 .hero6-section-area .img1 .date-format h5 {
   color: var(--ztc-text-text-1);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: 57.262px;
@@ -3405,7 +3405,7 @@ Location:
 }
 .hero6-section-area .img1 .date-format p {
   color: var(--ztc-text-text-1);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: 23.199px;
@@ -3438,7 +3438,7 @@ Location:
 }
 .hero7-section-area .date-btn h2 {
   color: var(--ztc-text-text-1);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s44);
@@ -3449,7 +3449,7 @@ Location:
 }
 .hero7-section-area .date-btn p {
   color: var(--ztc-text-text-1);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s20);
@@ -3460,7 +3460,7 @@ Location:
 }
 .hero7-section-area .heading-area h1 {
   color: var(--ztc-text-text-1);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s64);
@@ -3477,7 +3477,7 @@ Location:
 }
 .hero7-section-area .heading-area p {
   color: var(--ztc-text-text-1);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s18);
@@ -3626,7 +3626,7 @@ Location:
 .hero7-section-area .timer-btn-area .timer .time-box .time-value span {
   color: var(--ztc-text-text-3);
   text-align: center;
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s16);
@@ -3640,7 +3640,7 @@ Location:
 .hero7-section-area .timer-btn-area .timer .time-value {
   color: var(--ztc-text-text-2);
   text-align: center;
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s32);
@@ -3763,7 +3763,7 @@ Location:
 .hero8-slider-area .date-btn h4 {
   color: var(--ztc-text-text-8);
   text-align: center;
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s60);
@@ -3774,7 +3774,7 @@ Location:
 }
 .hero8-slider-area .date-btn p {
   color: var(--ztc-text-text-8);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s20);
@@ -3786,7 +3786,7 @@ Location:
 .hero8-slider-area .date-btn a {
   color: var(--ztc-text-text-1);
   text-align: center;
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s18);
@@ -3802,7 +3802,7 @@ Location:
 }
 .hero8-slider-area .hero8-header h5 {
   color: var(--ztc-text-text-1);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s28);
@@ -3829,7 +3829,7 @@ Location:
 }
 .hero8-slider-area .hero8-header h1 {
   color: var(--ztc-text-text-1);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: 90px;
@@ -3903,7 +3903,7 @@ Location:
 }
 .hero9-slider-area .hero8-header h5 {
   color: var(--ztc-text-text-1);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s32);
@@ -3930,7 +3930,7 @@ Location:
 }
 .hero9-slider-area .hero8-header h1 {
   color: var(--ztc-text-text-1);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: 100px;
@@ -4057,7 +4057,7 @@ Location:
 .hero9-slider-area .timer-bg-area .timer-btn-area .timer .time-box .time-value span {
   color: var(--ztc-text-text-1);
   text-align: center;
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s16);
@@ -4071,7 +4071,7 @@ Location:
 .hero9-slider-area .timer-bg-area .timer-btn-area .timer .time-value {
   color: var(--ztc-text-text-1);
   text-align: center;
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s32);
@@ -4088,7 +4088,7 @@ Location:
 }
 .hero9-slider-area .heading12 h3 {
   color: var(--ztc-text-text-1);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s44);
@@ -4104,7 +4104,7 @@ Location:
 }
 .hero9-slider-area .heading12 p {
   color: rgba(255, 255, 255, 0.8);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s24);
@@ -4137,7 +4137,7 @@ Location:
 }
 .hero10-section-area .hero6-header h5 {
   color: var(--ztc-text-text-1);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s20);
@@ -4157,7 +4157,7 @@ Location:
 }
 .hero10-section-area .hero6-header h1 {
   color: var(--ztc-text-text-1);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: 100px;
@@ -4429,7 +4429,7 @@ Location:
   margin-top: 20px;
 }
 .mobile-sidebar.mobile-sidebar1 .single-footer h3 {
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s24);
@@ -4523,7 +4523,7 @@ Location:
   margin-top: 20px;
 }
 .mobile-sidebar.mobile-sidebar2 .single-footer h3 {
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s24);
@@ -4618,7 +4618,7 @@ Location:
   text-align: center;
 }
 .mobile-sidebar.mobile-sidebar3 .single-footer h3 {
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s24);
@@ -4719,7 +4719,7 @@ Location:
   text-align: center;
 }
 .mobile-sidebar.mobile-sidebar4 .single-footer h3 {
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s24);
@@ -4813,7 +4813,7 @@ Location:
   margin-top: 20px;
 }
 .mobile-sidebar.mobile-sidebar5 .single-footer h3 {
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s24);
@@ -4914,7 +4914,7 @@ Location:
   text-align: center;
 }
 .mobile-sidebar.mobile-sidebar6 .single-footer h3 {
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s24);
@@ -5009,7 +5009,7 @@ Location:
   margin-top: 20px;
 }
 .mobile-sidebar.mobile-sidebar7 .single-footer h3 {
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s24);
@@ -5103,7 +5103,7 @@ Location:
   margin-top: 20px;
 }
 .mobile-sidebar.mobile-sidebar8 .single-footer h3 {
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s24);
@@ -5198,7 +5198,7 @@ Location:
   text-align: center;
 }
 .mobile-sidebar.mobile-sidebar9 .single-footer h3 {
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s24);
@@ -5299,7 +5299,7 @@ Location:
   text-align: center;
 }
 .mobile-sidebar.mobile-sidebar10 .single-footer h3 {
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s24);
@@ -5427,7 +5427,7 @@ Location:
 }
 .blog1-section-area .blog1-auhtor-boxarea .content-area a {
   color: var(--ztc-text-text-2);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s24);
@@ -5443,7 +5443,7 @@ Location:
 }
 .blog1-section-area .blog1-auhtor-boxarea .content-area .vl-btn2 {
   color: var(--ztc-text-text-2);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s20);
@@ -5578,7 +5578,7 @@ Location:
 }
 .blog4-section-area .blog4-boxarea .content-area ul li a {
   color: var(--ztc-text-text-12);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s18);
@@ -5603,7 +5603,7 @@ Location:
 }
 .blog4-section-area .blog4-boxarea .content-area a {
   color: var(--ztc-text-text-11);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s24);
@@ -5619,7 +5619,7 @@ Location:
 }
 .blog4-section-area .blog4-boxarea .content-area .readmore {
   color: var(--ztc-text-text-11);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s20);
@@ -5710,7 +5710,7 @@ Location:
 }
 .bloginner-section-area .blog4-boxarea .content-area ul li a {
   color: var(--ztc-text-text-3);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s18);
@@ -5735,7 +5735,7 @@ Location:
 }
 .bloginner-section-area .blog4-boxarea .content-area a {
   color: var(--ztc-text-text-2);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s24);
@@ -5751,7 +5751,7 @@ Location:
 }
 .bloginner-section-area .blog4-boxarea .content-area .readmore {
   color: var(--ztc-text-text-2);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s20);
@@ -5791,7 +5791,7 @@ Location:
 }
 .blog-details-section .blog-deatils-content h3 {
   color: var(--ztc-text-text-2);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s32);
@@ -5879,7 +5879,7 @@ Location:
 }
 .blog-details-section .blog-deatils-content .tags-social-area .tags h4 {
   color: var(--ztc-text-text-2);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s24);
@@ -5918,7 +5918,7 @@ Location:
 }
 .blog-details-section .blog-deatils-content .tags-social-area .social h4 {
   color: var(--ztc-text-text-2);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s24);
@@ -5946,7 +5946,7 @@ Location:
 }
 .blog-details-section .blog-auhtor-details h3 {
   color: var(--ztc-text-text-2);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s24);
@@ -5966,7 +5966,7 @@ Location:
   border-radius: 8px;
   background: #FFF;
   color: var(--ztc-text-text-2);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s16);
@@ -5995,7 +5995,7 @@ Location:
   align-items: center;
   justify-content: space-between;
   color: var(--ztc-text-text-2);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s18);
@@ -6023,7 +6023,7 @@ Location:
 }
 .blog-details-section .blog-auhtor-details .tags-area ul li a {
   color: var(--ztc-text-text-2);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s16);
@@ -6128,7 +6128,7 @@ Location:
 }
 .blog7-section-area .blog1-auhtor-boxarea .content-area a {
   color: var(--ztc-text-text-2);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s24);
@@ -6144,7 +6144,7 @@ Location:
 }
 .blog7-section-area .blog1-auhtor-boxarea .content-area .vl-btn7 {
   color: var(--ztc-text-text-2);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s20);
@@ -6239,7 +6239,7 @@ Location:
 }
 .footer1-sertion-area .link-content h3 {
   color: var(--ztc-text-text-2);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s24);
@@ -6249,7 +6249,7 @@ Location:
 }
 .footer1-sertion-area .link-content ul li a {
   color: #544E51;
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s16);
@@ -6282,7 +6282,7 @@ Location:
 }
 .footer1-sertion-area .link-content2 h3 {
   color: var(--ztc-text-text-2);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s24);
@@ -6292,7 +6292,7 @@ Location:
 }
 .footer1-sertion-area .link-content2 ul li a {
   color: #544E51;
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s16);
@@ -6327,7 +6327,7 @@ Location:
 }
 .footer1-sertion-area .footer-social-box h3 {
   color: var(--ztc-text-text-2);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s24);
@@ -6472,7 +6472,7 @@ Location:
 }
 .footer2-sertion-area .link-content h3 {
   color: var(--ztc-text-text-1);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s24);
@@ -6482,7 +6482,7 @@ Location:
 }
 .footer2-sertion-area .link-content ul li a {
   color: var(--ztc-text-text-1);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s16);
@@ -6515,7 +6515,7 @@ Location:
 }
 .footer2-sertion-area .link-content2 h3 {
   color: var(--ztc-text-text-1);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s24);
@@ -6525,7 +6525,7 @@ Location:
 }
 .footer2-sertion-area .link-content2 ul li a {
   color: var(--ztc-text-text-1);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s16);
@@ -6561,7 +6561,7 @@ Location:
 }
 .footer2-sertion-area .footer-social-box h3 {
   color: var(--ztc-text-text-1);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s24);
@@ -6703,7 +6703,7 @@ Location:
 }
 .footer3-sertion-area .link-content h3 {
   color: var(--ztc-text-text-1);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s24);
@@ -6713,7 +6713,7 @@ Location:
 }
 .footer3-sertion-area .link-content ul li a {
   color: var(--ztc-text-text-1);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s16);
@@ -6746,7 +6746,7 @@ Location:
 }
 .footer3-sertion-area .link-content2 h3 {
   color: var(--ztc-text-text-1);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s24);
@@ -6756,7 +6756,7 @@ Location:
 }
 .footer3-sertion-area .link-content2 ul li a {
   color: var(--ztc-text-text-1);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s16);
@@ -6792,7 +6792,7 @@ Location:
 }
 .footer3-sertion-area .footer-social-box h3 {
   color: var(--ztc-text-text-1);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s24);
@@ -6934,7 +6934,7 @@ Location:
 }
 .footer4-sertion-area .link-content h3 {
   color: var(--ztc-text-text-11);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s24);
@@ -6944,7 +6944,7 @@ Location:
 }
 .footer4-sertion-area .link-content ul li a {
   color: var(--ztc-text-text-12);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s16);
@@ -6977,7 +6977,7 @@ Location:
 }
 .footer4-sertion-area .link-content2 h3 {
   color: var(--ztc-text-text-11);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s24);
@@ -6987,7 +6987,7 @@ Location:
 }
 .footer4-sertion-area .link-content2 ul li a {
   color: var(--ztc-text-text-12);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s16);
@@ -7022,7 +7022,7 @@ Location:
 }
 .footer4-sertion-area .footer-social-box h3 {
   color: var(--ztc-text-text-11);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s24);
@@ -7172,7 +7172,7 @@ Location:
 }
 .footer5-sertion-area .link-content h3 {
   color: var(--ztc-text-text-1);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s24);
@@ -7182,7 +7182,7 @@ Location:
 }
 .footer5-sertion-area .link-content ul li a {
   color: var(--ztc-text-text-1);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s16);
@@ -7215,7 +7215,7 @@ Location:
 }
 .footer5-sertion-area .link-content2 h3 {
   color: var(--ztc-text-text-1);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s24);
@@ -7225,7 +7225,7 @@ Location:
 }
 .footer5-sertion-area .link-content2 ul li a {
   color: var(--ztc-text-text-1);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s16);
@@ -7261,7 +7261,7 @@ Location:
 }
 .footer5-sertion-area .footer-social-box h3 {
   color: var(--ztc-text-text-1);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s24);
@@ -7403,7 +7403,7 @@ Location:
 }
 .footer6-sertion-area .link-content h3 {
   color: var(--ztc-text-text-2);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s24);
@@ -7413,7 +7413,7 @@ Location:
 }
 .footer6-sertion-area .link-content ul li a {
   color: var(--ztc-text-text-2);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s16);
@@ -7446,7 +7446,7 @@ Location:
 }
 .footer6-sertion-area .link-content2 h3 {
   color: var(--ztc-text-text-2);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s24);
@@ -7456,7 +7456,7 @@ Location:
 }
 .footer6-sertion-area .link-content2 ul li a {
   color: var(--ztc-text-text-2);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s16);
@@ -7491,7 +7491,7 @@ Location:
 }
 .footer6-sertion-area .footer-social-box h3 {
   color: var(--ztc-text-text-2);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s24);
@@ -7627,7 +7627,7 @@ Location:
 }
 .footer7-sertion-area .link-content h3 {
   color: var(--ztc-text-text-2);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s24);
@@ -7637,7 +7637,7 @@ Location:
 }
 .footer7-sertion-area .link-content ul li a {
   color: var(--ztc-text-text-3);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s16);
@@ -7670,7 +7670,7 @@ Location:
 }
 .footer7-sertion-area .link-content2 h3 {
   color: var(--ztc-text-text-2);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s24);
@@ -7680,7 +7680,7 @@ Location:
 }
 .footer7-sertion-area .link-content2 ul li a {
   color: #544E51;
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s16);
@@ -7714,7 +7714,7 @@ Location:
 }
 .footer7-sertion-area .footer-social-box h3 {
   color: var(--ztc-text-text-2);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s24);
@@ -7862,7 +7862,7 @@ Location:
 }
 .footer8-sertion-area .link-content h3 {
   color: var(--ztc-text-text-1);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s24);
@@ -7872,7 +7872,7 @@ Location:
 }
 .footer8-sertion-area .link-content ul li a {
   color: var(--ztc-text-text-1);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s16);
@@ -7905,7 +7905,7 @@ Location:
 }
 .footer8-sertion-area .link-content2 h3 {
   color: var(--ztc-text-text-1);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s24);
@@ -7915,7 +7915,7 @@ Location:
 }
 .footer8-sertion-area .link-content2 ul li a {
   color: var(--ztc-text-text-1);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s16);
@@ -7951,7 +7951,7 @@ Location:
 }
 .footer8-sertion-area .footer-social-box h3 {
   color: var(--ztc-text-text-1);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s24);
@@ -8093,7 +8093,7 @@ Location:
 }
 .footer9-sertion-area .link-content h3 {
   color: var(--ztc-text-text-18);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s24);
@@ -8103,7 +8103,7 @@ Location:
 }
 .footer9-sertion-area .link-content ul li a {
   color: var(--ztc-text-text-19);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s16);
@@ -8136,7 +8136,7 @@ Location:
 }
 .footer9-sertion-area .link-content2 h3 {
   color: var(--ztc-text-text-18);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s24);
@@ -8146,7 +8146,7 @@ Location:
 }
 .footer9-sertion-area .link-content2 ul li a {
   color: var(--ztc-text-text-19);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s16);
@@ -8182,7 +8182,7 @@ Location:
 }
 .footer9-sertion-area .footer-social-box h3 {
   color: var(--ztc-text-text-18);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s24);
@@ -8324,7 +8324,7 @@ Location:
 }
 .footer10-sertion-area .link-content h3 {
   color: var(--ztc-text-text-1);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s24);
@@ -8334,7 +8334,7 @@ Location:
 }
 .footer10-sertion-area .link-content ul li a {
   color: var(--ztc-text-text-1);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s16);
@@ -8367,7 +8367,7 @@ Location:
 }
 .footer10-sertion-area .link-content2 h3 {
   color: var(--ztc-text-text-1);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s24);
@@ -8377,7 +8377,7 @@ Location:
 }
 .footer10-sertion-area .link-content2 ul li a {
   color: var(--ztc-text-text-1);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s16);
@@ -8413,7 +8413,7 @@ Location:
 }
 .footer10-sertion-area .footer-social-box h3 {
   color: var(--ztc-text-text-1);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s24);
@@ -8597,7 +8597,7 @@ Location:
   padding: 6px 15px;
 }
 .homepage1-body .header-area.homepage1 .header-elements .main-menu ul li .tp-submenu .homemenu-content a {
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s24);
@@ -8627,7 +8627,7 @@ Location:
   transition: all 0.4s;
 }
 .homepage1-body .header-area.homepage1 .header-elements .main-menu ul li a {
-  font-family: "Space Grotesk", sans-serif;
+    /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s18);
@@ -8690,7 +8690,7 @@ Location:
   display: block;
 }
 .homepage1-body .header-area.homepage1 .header-elements .main-menu ul li ul.dropdown-padding li a {
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-weight: var(--ztc-weight-medium);
@@ -8852,7 +8852,7 @@ Location:
 }
 .homepage1-body .header-area.homepage1 .header-elements .main-menu ul li .tp-submenu .homemenu-thumb .homemenu-btn .vl-btn1 {
   color: var(--ztc-text-text-2);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s20);
@@ -8912,7 +8912,7 @@ Location:
   z-index: -1;
 }
 .homepage1-body .header-area.homepage1 .header-elements .main-menu ul li .tp-submenu .homemenu-thumb .homemenu-text a {
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s16);
@@ -9016,7 +9016,7 @@ Location:
   display: block;
 }
 .homepage1-body .header-area.homepage1 .header-elements .main-menu ul li ul.dropdown-padding li a {
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-weight: var(--ztc-weight-medium);
@@ -9148,7 +9148,7 @@ Location:
 }
 .homepage2-body .header-area.homepage2 .menu-top-area .top-menu-area p {
   color: var(--ztc-text-text-5);
-  font-family: "Space Grotesk", sans-serif;
+    /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s16);
@@ -9159,7 +9159,7 @@ Location:
 .homepage2-body .header-area.homepage2 .menu-top-area .top-menu-area p a {
   text-decoration-line: underline;
   color: var(--ztc-text-text-5);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s16);
@@ -9175,7 +9175,7 @@ Location:
 }
 .homepage2-body .header-area.homepage2 .menu-top-area .top-menu-area ul li a {
   color: var(--ztc-text-text-5);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s16);
@@ -9305,7 +9305,7 @@ Location:
 }
 .homepage2-body .header-area.homepage2 .header-elements .main-menu ul li .tp-submenu .homemenu-thumb .homemenu-btn .vl-btn2 {
   color: var(--ztc-text-text-2);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s20);
@@ -9347,7 +9347,7 @@ Location:
   transform: rotate(0deg);
 }
 .homepage2-body .header-area.homepage2 .header-elements .main-menu ul li .tp-submenu .homemenu-thumb .homemenu-text a {
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s16);
@@ -9450,7 +9450,7 @@ Location:
   display: block;
 }
 .homepage2-body .header-area.homepage2 .header-elements .main-menu ul li ul.dropdown-padding li a {
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-weight: var(--ztc-weight-medium);
@@ -9598,7 +9598,7 @@ Location:
 }
 .homepage3-body .header-area.homepage3 .menu-top-area .top-menu-area p {
   color: var(--ztc-text-text-8);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s16);
@@ -9609,7 +9609,7 @@ Location:
 .homepage3-body .header-area.homepage3 .menu-top-area .top-menu-area p a {
   text-decoration-line: underline;
   color: var(--ztc-text-text-8);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s16);
@@ -9625,7 +9625,7 @@ Location:
 }
 .homepage3-body .header-area.homepage3 .menu-top-area .top-menu-area ul li a {
   color: var(--ztc-text-text-8);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s16);
@@ -9756,7 +9756,7 @@ Location:
 }
 .homepage3-body .header-area.homepage3 .header-elements .main-menu ul li .tp-submenu .homemenu-thumb .homemenu-btn .vl-btn3 {
   color: var(--ztc-text-text-1);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s20);
@@ -9793,7 +9793,7 @@ Location:
   transition: all 0.4s;
 }
 .homepage3-body .header-area.homepage3 .header-elements .main-menu ul li .tp-submenu .homemenu-thumb .homemenu-text a {
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s16);
@@ -9896,7 +9896,7 @@ Location:
   display: block;
 }
 .homepage3-body .header-area.homepage3 .header-elements .main-menu ul li ul.dropdown-padding li a {
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-weight: var(--ztc-weight-medium);
@@ -10120,7 +10120,7 @@ Location:
 }
 .homepage4-body .header-area.homepage4 .header-elements .main-menu ul li .tp-submenu .homemenu-thumb .homemenu-btn .vl-btn4 {
   color: var(--ztc-text-text-1);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s20);
@@ -10165,7 +10165,7 @@ Location:
   opacity: 1;
 }
 .homepage4-body .header-area.homepage4 .header-elements .main-menu ul li .tp-submenu .homemenu-thumb .homemenu-text a {
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s16);
@@ -10268,7 +10268,7 @@ Location:
   display: block;
 }
 .homepage4-body .header-area.homepage4 .header-elements .main-menu ul li ul.dropdown-padding li a {
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-weight: var(--ztc-weight-medium);
@@ -10493,7 +10493,7 @@ Location:
 }
 .homepage5-body .header-area.homepage5 .header-elements .main-menu ul li .tp-submenu .homemenu-thumb .homemenu-btn .vl-btn5 {
   color: var(--ztc-text-text-1);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s20);
@@ -10537,7 +10537,7 @@ Location:
   transform: rotate(0deg);
 }
 .homepage5-body .header-area.homepage5 .header-elements .main-menu ul li .tp-submenu .homemenu-thumb .homemenu-text a {
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s16);
@@ -10640,7 +10640,7 @@ Location:
   display: block;
 }
 .homepage5-body .header-area.homepage5 .header-elements .main-menu ul li ul.dropdown-padding li a {
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-weight: var(--ztc-weight-medium);
@@ -10838,7 +10838,7 @@ Location:
 }
 .homepage6-body .header-area.homepage6 .header-elements .main-menu ul li .tp-submenu .homemenu-thumb .homemenu-btn .vl-btn6 {
   color: var(--ztc-text-text-1);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s20);
@@ -10890,7 +10890,7 @@ Location:
   margin-left: 4px;
 }
 .homepage6-body .header-area.homepage6 .header-elements .main-menu ul li .tp-submenu .homemenu-thumb .homemenu-text a {
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s16);
@@ -10993,7 +10993,7 @@ Location:
   display: block;
 }
 .homepage6-body .header-area.homepage6 .header-elements .main-menu ul li ul.dropdown-padding li a {
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-weight: var(--ztc-weight-medium);
@@ -11199,7 +11199,7 @@ Location:
 }
 .homepage7-body .header-area.homepage7 .header-elements .main-menu ul li .tp-submenu .homemenu-thumb .homemenu-btn .vl-btn7 {
   color: var(--ztc-text-text-1);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s20);
@@ -11237,7 +11237,7 @@ Location:
   background: #26bde2;
 }
 .homepage7-body .header-area.homepage7 .header-elements .main-menu ul li .tp-submenu .homemenu-thumb .homemenu-text a {
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s16);
@@ -11341,7 +11341,7 @@ Location:
   display: block;
 }
 .homepage7-body .header-area.homepage7 .header-elements .main-menu ul li ul.dropdown-padding li a {
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-weight: var(--ztc-weight-medium);
@@ -11462,7 +11462,7 @@ Location:
 }
 .homepage8-body .header-area.homepage8 .menu-top-area .top-menu-area p {
   color: var(--ztc-text-text-1);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s16);
@@ -11473,7 +11473,7 @@ Location:
 .homepage8-body .header-area.homepage8 .menu-top-area .top-menu-area p a {
   text-decoration-line: underline;
   color: var(--ztc-text-text-1);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s16);
@@ -11489,7 +11489,7 @@ Location:
 }
 .homepage8-body .header-area.homepage8 .menu-top-area .top-menu-area ul li a {
   color: var(--ztc-text-text-1);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s16);
@@ -11610,7 +11610,7 @@ Location:
 }
 .homepage8-body .header-area.homepage8 .header-elements .main-menu ul li .tp-submenu .homemenu-thumb .homemenu-btn .vl-btn8 {
   color: var(--ztc-text-text-1);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s20);
@@ -11654,7 +11654,7 @@ Location:
   transform: rotate(0deg);
 }
 .homepage8-body .header-area.homepage8 .header-elements .main-menu ul li .tp-submenu .homemenu-thumb .homemenu-text a {
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s16);
@@ -11757,7 +11757,7 @@ Location:
   display: block;
 }
 .homepage8-body .header-area.homepage8 .header-elements .main-menu ul li ul.dropdown-padding li a {
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-weight: var(--ztc-weight-medium);
@@ -11953,7 +11953,7 @@ Location:
 }
 .homepage9-body .header-area.homepage9 .header-elements .main-menu ul li .tp-submenu .homemenu-thumb .homemenu-btn .vl-btn9 {
   color: var(--ztc-text-text-1);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s20);
@@ -12012,7 +12012,7 @@ Location:
   transition: all 0.4s;
 }
 .homepage9-body .header-area.homepage9 .header-elements .main-menu ul li .tp-submenu .homemenu-thumb .homemenu-text a {
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s16);
@@ -12115,7 +12115,7 @@ Location:
   display: block;
 }
 .homepage9-body .header-area.homepage9 .header-elements .main-menu ul li ul.dropdown-padding li a {
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-weight: var(--ztc-weight-medium);
@@ -12315,7 +12315,7 @@ Location:
 }
 .homepage10-body .header-area.homepage10 .header-elements .main-menu ul li .tp-submenu .homemenu-thumb .homemenu-btn .vl-btn10 {
   color: var(--ztc-text-text-2);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s20);
@@ -12374,7 +12374,7 @@ Location:
   filter: brightness(0);
 }
 .homepage10-body .header-area.homepage10 .header-elements .main-menu ul li .tp-submenu .homemenu-thumb .homemenu-text a {
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s16);
@@ -12477,7 +12477,7 @@ Location:
   display: block;
 }
 .homepage10-body .header-area.homepage10 .header-elements .main-menu ul li ul.dropdown-padding li a {
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-weight: var(--ztc-weight-medium);
@@ -12593,7 +12593,7 @@ Location:
 }
 .attent1-section-area .tab-container .nav-pills .nav-link {
   color: var(--ztc-text-text-1);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s24);
@@ -12806,7 +12806,7 @@ Location:
   background: linear-gradient(90deg, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0.04) 100%);
   color: var(--ztc-text-text-1);
   text-align: center;
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s44);
@@ -12817,7 +12817,7 @@ Location:
 .counter5-section-area .counter-box p {
   color: var(--ztc-text-text-1);
   text-align: center;
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s18);
@@ -12865,7 +12865,7 @@ Location:
 }
 .attent6-section-area .skils-widget-boxarea .content-area a {
   color: var(--ztc-text-text-2);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s24);
@@ -12917,7 +12917,7 @@ Location:
 }
 .attent10-section-area .event6-widget-boxarea .content-area h3 {
   color: var(--ztc-text-text-1);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s32);
@@ -12934,7 +12934,7 @@ Location:
 }
 .attent10-section-area .event6-widget-boxarea .content-area p {
   color: var(--ztc-text-text-1);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s18);
@@ -12996,7 +12996,7 @@ Location:
 }
 .attent10-section-area .schedule-boxarea h4 {
   color: var(--ztc-text-text-1);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s40);
@@ -13325,7 +13325,7 @@ Location:
   padding: 0;
   color: var(--ztc-text-text-2);
   text-align: center;
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s20);
@@ -13382,7 +13382,7 @@ Location:
 }
 .choose-section-area .choose-widget-boxarea .content-area a {
   color: var(--ztc-text-text-2);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s22);
@@ -13407,7 +13407,7 @@ Location:
 }
 .choose-section-area .choose-widget-boxarea .content-area .readmore {
   color: var(--ztc-text-text-2);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s18);
@@ -13464,7 +13464,7 @@ Location:
 .others-timer-area .time-box .time-value span {
   color: rgba(255, 255, 255, 0.9);
   text-align: center;
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s32);
@@ -13479,7 +13479,7 @@ Location:
 .others-timer-area .time-value {
   color: var(--ztc-text-text-1);
   text-align: center;
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s70);
@@ -13512,7 +13512,7 @@ Location:
 }
 .others4-section-area .others-bg .heading-area h4 {
   color: var(--ztc-text-text-1);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s32);
@@ -13551,7 +13551,7 @@ Location:
 .others4-section-area .others-bg .others-times-area .timer .time-box .time-value span {
   color: var(--ztc-text-text-1);
   text-align: center;
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s16);
@@ -13563,7 +13563,7 @@ Location:
 .others4-section-area .others-bg .others-times-area .timer .time-value {
   color: var(--ztc-text-text-1);
   text-align: center;
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s32);
@@ -13628,7 +13628,7 @@ Location:
 .others5-section-area .cta-counter-box h2 {
   color: var(--ztc-text-text-1);
   text-align: center;
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s48);
@@ -13640,7 +13640,7 @@ Location:
 .others5-section-area .cta-counter-box p {
   color: var(--ztc-text-text-1);
   text-align: center;
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s18);
@@ -13652,7 +13652,7 @@ Location:
 .others5-section-area .cta-counter-box .time-value span {
   color: rgba(255, 255, 255, 0.9);
   text-align: center;
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s28);
@@ -13769,7 +13769,7 @@ Location:
 .others1-section-area .timer-btn-area .timer2 .time-box .time-value span {
   color: var(--ztc-text-text-1);
   text-align: center;
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s16);
@@ -13783,7 +13783,7 @@ Location:
 .others1-section-area .timer-btn-area .timer2 .time-value {
   color: var(--ztc-text-text-1);
   text-align: center;
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s32);
@@ -13813,7 +13813,7 @@ Location:
 }
 .others1-section-area .timer-btn-area .btn-area1 .vl-btn6 {
   color: var(--ztc-text-text-21);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s20);
@@ -13867,7 +13867,7 @@ Location:
 }
 .others-pricing-area .pricing-boarea h3 {
   color: var(--ztc-text-text-1);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s24);
@@ -13885,7 +13885,7 @@ Location:
 }
 .others-pricing-area .pricing-boarea h2 {
   color: var(--ztc-text-text-1);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s44);
@@ -13908,7 +13908,7 @@ Location:
 }
 .others-pricing-area .pricing-boarea h4 {
   color: var(--ztc-text-text-1);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s24);
@@ -14048,7 +14048,7 @@ Location:
   z-index: 3;
 }
 .vanue-section-area .vanue-single-item-area .content-area span {
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s16);
@@ -14058,7 +14058,7 @@ Location:
   display: inline-block;
 }
 .vanue-section-area .vanue-single-item-area .content-area a {
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s20);
@@ -14078,7 +14078,7 @@ Location:
 }
 .vanue-section-area .vanue-single-item-area .content-area .tour {
   color: var(--ztc-text-text-2);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s16);
@@ -14151,7 +14151,7 @@ Location:
 .others8-section-area .cta-counter-box h2 {
   color: var(--ztc-text-text-1);
   text-align: center;
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s48);
@@ -14163,7 +14163,7 @@ Location:
 .others8-section-area .cta-counter-box p {
   color: var(--ztc-text-text-1);
   text-align: center;
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s18);
@@ -14175,7 +14175,7 @@ Location:
 .others8-section-area .cta-counter-box .time-value span {
   color: rgba(255, 255, 255, 0.9);
   text-align: center;
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s28);
@@ -14267,7 +14267,7 @@ Location:
 .others10-section-area .cta-counter-box h2 {
   color: var(--ztc-text-text-1);
   text-align: center;
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s48);
@@ -14280,7 +14280,7 @@ Location:
 .others10-section-area .cta-counter-box p {
   color: var(--ztc-text-text-1);
   text-align: center;
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s18);
@@ -14293,7 +14293,7 @@ Location:
 .others10-section-area .cta-counter-box .time-value span {
   color: rgba(255, 255, 255, 0.9);
   text-align: center;
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s28);
@@ -14350,7 +14350,7 @@ Location:
 }
 .others-pricing-area2 .pricing-boarea h3 {
   color: var(--ztc-text-text-18);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s24);
@@ -14368,7 +14368,7 @@ Location:
 }
 .others-pricing-area2 .pricing-boarea h2 {
   color: var(--ztc-text-text-1);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s44);
@@ -14401,7 +14401,7 @@ Location:
 }
 .others-pricing-area2 .pricing-boarea ul li {
   color: var(--ztc-text-text-18);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s18);
@@ -14484,7 +14484,7 @@ Location:
 }
 .brands2-section-area .brand-header h3 {
   color: var(--ztc-text-text-1);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s24);
@@ -14522,7 +14522,7 @@ Location:
 }
 .brands3-section-area .brand-header h3 {
   color: var(--ztc-text-text-8);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s24);
@@ -14572,7 +14572,7 @@ Location:
 }
 .brands5-section-area .marquee-item {
   color: #6E7DE9;
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: 120px;
@@ -14613,7 +14613,7 @@ Location:
 }
 .brands6-section-area .brand-header h3 {
   color: var(--ztc-text-text-1);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s24);
@@ -14712,7 +14712,7 @@ Location:
 }
 .brands8-section-area .brand-header h3 {
   color: var(--ztc-text-text-1);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s24);
@@ -14783,7 +14783,7 @@ Location:
 }
 .brands10-section-area .brand-header h3 {
   color: var(--ztc-text-text-1);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s24);
@@ -14821,7 +14821,7 @@ Location:
   outline: none;
   border: none;
   background: none;
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-weight: 500;
@@ -14988,7 +14988,7 @@ Location:
 }
 .popup-content .heading2 ul li {
   color: var(--ztc-text-text-1);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s16);
@@ -15172,7 +15172,7 @@ Location:
 .team1-section-area .team-slider-area .team-widget-boxarea .text-area a {
   color: var(--ztc-text-text-2);
   text-align: center;
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s24);
@@ -15185,7 +15185,7 @@ Location:
 .team1-section-area .team-slider-area .team-widget-boxarea .text-area p {
   color: var(--ztc-text-text-3);
   text-align: center;
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s18);
@@ -15205,7 +15205,7 @@ Location:
 .team2-section-area .our-team-boxarea .content-area a {
   color: var(--ztc-text-text-1);
   text-align: center;
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s24);
@@ -15218,7 +15218,7 @@ Location:
 .team2-section-area .our-team-boxarea .content-area p {
   color: rgba(255, 255, 255, 0.9);
   text-align: center;
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s18);
@@ -15385,7 +15385,7 @@ Location:
 .team3-section-area .team-slider-area2 .our-team-boxarea .content-area a {
   color: var(--ztc-text-text-8);
   text-align: center;
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s24);
@@ -15398,7 +15398,7 @@ Location:
 .team3-section-area .team-slider-area2 .our-team-boxarea .content-area p {
   color: var(--ztc-text-text-9);
   text-align: center;
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s18);
@@ -15682,7 +15682,7 @@ Location:
 .team4-section-area .team-slider-area4 .team-widget-boxarea .text-area a {
   color: var(--ztc-text-text-11);
   text-align: center;
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s24);
@@ -15699,7 +15699,7 @@ Location:
 .team4-section-area .team-slider-area4 .team-widget-boxarea .text-area p {
   color: var(--ztc-text-text-12);
   text-align: center;
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s18);
@@ -15719,7 +15719,7 @@ Location:
 .team-sperkers-section-area .our-team-boxarea .content-area a {
   color: var(--ztc-text-text-2);
   text-align: center;
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s24);
@@ -15732,7 +15732,7 @@ Location:
 .team-sperkers-section-area .our-team-boxarea .content-area p {
   color: var(--ztc-text-text-3);
   text-align: center;
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s18);
@@ -15915,7 +15915,7 @@ Location:
 .team-details-section-area .speakers-details-box .our-team-boxarea .content-area a {
   color: var(--ztc-text-text-2);
   text-align: center;
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s24);
@@ -15928,7 +15928,7 @@ Location:
 .team-details-section-area .speakers-details-box .our-team-boxarea .content-area p {
   color: var(--ztc-text-text-3);
   text-align: center;
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s18);
@@ -16028,7 +16028,7 @@ Location:
 }
 .team-details-section-area .speakers-details-box .speakesr-details-content .heading2 h3 {
   color: var(--ztc-text-text-2);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s28);
@@ -16057,7 +16057,7 @@ Location:
 }
 .team-details-section-area .speakers-details-box .speakesr-details-content .details-content h4 {
   color: var(--ztc-text-text-2);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s20);
@@ -16101,7 +16101,7 @@ Location:
 }
 .event-team-area .event-widget-area .event2-boxarea h1 {
   color: var(--ztc-text-text-2);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s24);
@@ -16161,7 +16161,7 @@ Location:
 }
 .event-team-area .event-widget-area .event2-boxarea .content-area ul li a {
   color: var(--ztc-text-text-2);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s16);
@@ -16187,7 +16187,7 @@ Location:
 }
 .event-team-area .event-widget-area .event2-boxarea .content-area .head {
   color: var(--ztc-text-text-2);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s24);
@@ -16239,7 +16239,7 @@ Location:
 }
 .event-team-area .event-widget-area .event2-boxarea .content-area .author-area .autho-name-area .text a {
   color: var(--ztc-text-text-2);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s18);
@@ -16256,7 +16256,7 @@ Location:
 }
 .event-team-area .event-widget-area .event2-boxarea .content-area .author-area .autho-name-area .text p {
   color: var(--ztc-text-text-3);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s16);
@@ -16293,7 +16293,7 @@ Location:
 .team5-section-area .our-team-boxarea .content-area a {
   color: var(--ztc-text-text-1);
   text-align: center;
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s24);
@@ -16306,7 +16306,7 @@ Location:
 .team5-section-area .our-team-boxarea .content-area p {
   color: rgba(255, 255, 255, 0.9);
   text-align: center;
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s18);
@@ -16488,7 +16488,7 @@ Location:
 }
 .team6-section-area .team-widget-area .content-area a {
   color: var(--ztc-text-text-2);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s24);
@@ -16655,7 +16655,7 @@ Location:
 .team7-section-area .team-slider-area7 .team-widget-boxarea .text-area a {
   color: var(--ztc-text-text-2);
   text-align: center;
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s24);
@@ -16668,7 +16668,7 @@ Location:
 .team7-section-area .team-slider-area7 .team-widget-boxarea .text-area p {
   color: var(--ztc-text-text-3);
   text-align: center;
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s18);
@@ -16796,7 +16796,7 @@ Location:
 .team8-section-rea .team-slider-area8 .team-widget-boxarea .text-area a {
   color: var(--ztc-text-text-1);
   text-align: center;
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s24);
@@ -16809,7 +16809,7 @@ Location:
 .team8-section-rea .team-slider-area8 .team-widget-boxarea .text-area p {
   color: var(--ztc-text-text-1);
   text-align: center;
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s18);
@@ -16938,7 +16938,7 @@ Location:
 .team9-section-rea .team-slider-area8 .team-widget-boxarea .text-area a {
   color: var(--ztc-text-text-18);
   text-align: center;
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s24);
@@ -16951,7 +16951,7 @@ Location:
 .team9-section-rea .team-slider-area8 .team-widget-boxarea .text-area p {
   color: var(--ztc-text-text-19);
   text-align: center;
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s18);
@@ -17002,7 +17002,7 @@ Location:
 }
 .team10-section-area .team10-widget-boxarea .text-area a {
   color: var(--ztc-text-text-2);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s24);
@@ -17065,7 +17065,7 @@ Location:
 }
 .team10-section-area .team10-widget-boxarea2 .text-area a {
   color: var(--ztc-text-text-2);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s24);
@@ -17111,7 +17111,7 @@ Location:
 .faq-inner-section-area .faq-widget-area ul li button {
   color: var(--ztc-text-text-2);
   text-align: center;
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s18);
@@ -17147,7 +17147,7 @@ Location:
 }
 .faq-inner-section-area .faq-widget-area .tab-content .tab-pane .faq-section-area .accordian-area .accordion-item button {
   color: var(--ztc-text-text-2);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s18);
@@ -17188,7 +17188,7 @@ Location:
 }
 .faq-inner-section-area .faq-widget-area .tab-content .tab-pane .faq-section-area .accordian-area .accordion-item .accordion-body p {
   color: var(--ztc-text-text-3);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s16);
@@ -17281,7 +17281,7 @@ Location:
 }
 .contact2-section-area .contact-boxs-area .contact-auhtor-box .text h4 {
   color: var(--ztc-text-text-1);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s18);
@@ -17294,7 +17294,7 @@ Location:
 .contact2-section-area .contact-boxs-area .contact-auhtor-box .text a {
   color: rgba(255, 255, 255, 0.8);
   text-align: center;
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s18);
@@ -17386,7 +17386,7 @@ Location:
 }
 .contact-bg-section .contact-boxarea .text h5 {
   color: var(--ztc-text-text-8);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s18);
@@ -17398,7 +17398,7 @@ Location:
 .contact-bg-section .contact-boxarea .text a {
   color: var(--ztc-text-text-9);
   text-align: center;
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s18);
@@ -17483,7 +17483,7 @@ Location:
 }
 .contact5-bg-section .contact-boxarea .text h5 {
   color: var(--ztc-text-text-2);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s18);
@@ -17495,7 +17495,7 @@ Location:
 .contact5-bg-section .contact-boxarea .text a {
   color: var(--ztc-text-text-3);
   text-align: center;
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s18);
@@ -17560,7 +17560,7 @@ Location:
 }
 .contact8-bg-section .contact-boxarea .text h5 {
   color: var(--ztc-text-text-8);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s18);
@@ -17572,7 +17572,7 @@ Location:
 .contact8-bg-section .contact-boxarea .text a {
   color: var(--ztc-text-text-9);
   text-align: center;
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s18);
@@ -17595,7 +17595,7 @@ Location:
 }
 .contact4-section-area .contact4-boxarea h3 {
   color: var(--ztc-text-text-1);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s32);
@@ -17607,7 +17607,7 @@ Location:
 .contact4-section-area .contact4-boxarea .input-area input {
   width: 100%;
   color: var(--ztc-text-text-1);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s18);
@@ -17622,7 +17622,7 @@ Location:
 }
 .contact4-section-area .contact4-boxarea .input-area input::-moz-placeholder {
   color: var(--ztc-text-text-1);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s18);
@@ -17633,7 +17633,7 @@ Location:
 }
 .contact4-section-area .contact4-boxarea .input-area input::placeholder {
   color: var(--ztc-text-text-1);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s18);
@@ -17645,7 +17645,7 @@ Location:
 .contact4-section-area .contact4-boxarea .input-area textarea {
   width: 100%;
   color: var(--ztc-text-text-1);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s18);
@@ -17661,7 +17661,7 @@ Location:
 }
 .contact4-section-area .contact4-boxarea .input-area textarea::-moz-placeholder {
   color: var(--ztc-text-text-1);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s18);
@@ -17672,7 +17672,7 @@ Location:
 }
 .contact4-section-area .contact4-boxarea .input-area textarea::placeholder {
   color: var(--ztc-text-text-1);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s18);
@@ -17726,7 +17726,7 @@ Location:
 }
 .contact4-section-area .contact4-header .contact-author-box .text h4 {
   color: var(--ztc-text-text-1);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s18);
@@ -17738,7 +17738,7 @@ Location:
 .contact4-section-area .contact4-header .contact-author-box .text a {
   color: rgba(255, 255, 255, 0.8);
   text-align: center;
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s18);
@@ -17851,7 +17851,7 @@ Location:
 }
 .contact2-bg-section .contact-boxarea .text h5 {
   color: var(--ztc-text-text-2);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s18);
@@ -17863,7 +17863,7 @@ Location:
 .contact2-bg-section .contact-boxarea .text a {
   color: var(--ztc-text-text-3);
   text-align: center;
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s18);
@@ -17888,7 +17888,7 @@ Location:
 }
 .contact-inner-section .contact4-boxarea h3 {
   color: var(--ztc-text-text-2);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s32);
@@ -18021,7 +18021,7 @@ Location:
 }
 .contact10-bg-section .contact-boxarea .text h5 {
   color: var(--ztc-text-text-1);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s18);
@@ -18033,7 +18033,7 @@ Location:
 .contact10-bg-section .contact-boxarea .text a {
   color: var(--ztc-text-text-1);
   text-align: center;
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s18);
@@ -18112,7 +18112,7 @@ Location:
 .cta1-section-area .cta1-main-boxarea .timer-btn-area .timer .time-box .time-value span {
   color: var(--ztc-text-text-2);
   text-align: center;
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s16);
@@ -18124,7 +18124,7 @@ Location:
 .cta1-section-area .cta1-main-boxarea .timer-btn-area .timer .time-value {
   color: var(--ztc-text-text-2);
   text-align: center;
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s32);
@@ -18171,7 +18171,7 @@ Location:
 }
 .cta1-section-area .cta1-main-boxarea ul li a {
   color: var(--ztc-text-text-2);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s24);
@@ -18265,7 +18265,7 @@ Location:
 .cta2-section-area .cta1-main-boxarea .timer-btn-area .timer .time-box .time-value span {
   color: var(--ztc-text-text-2);
   text-align: center;
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s16);
@@ -18277,7 +18277,7 @@ Location:
 .cta2-section-area .cta1-main-boxarea .timer-btn-area .timer .time-value {
   color: var(--ztc-text-text-2);
   text-align: center;
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s32);
@@ -18306,7 +18306,7 @@ Location:
 }
 .cta2-section-area .cta1-main-boxarea .timer-btn-area .btn-area1 .vl-btn2 {
   color: var(--ztc-text-text-1);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s20);
@@ -18355,7 +18355,7 @@ Location:
 }
 .cta2-section-area .cta1-main-boxarea ul li a {
   color: var(--ztc-text-text-2);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s24);
@@ -18480,7 +18480,7 @@ Location:
 .cta3-section-area .date-btn h4 {
   color: var(--ztc-text-text-8);
   text-align: center;
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s60);
@@ -18491,7 +18491,7 @@ Location:
 }
 .cta3-section-area .date-btn p {
   color: var(--ztc-text-text-8);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s20);
@@ -18503,7 +18503,7 @@ Location:
 .cta3-section-area .date-btn a {
   color: var(--ztc-text-text-1);
   text-align: center;
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s18);
@@ -18541,7 +18541,7 @@ Location:
 .cta3-section-area .cta-counter-box h2 {
   color: var(--ztc-text-text-1);
   text-align: center;
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s48);
@@ -18553,7 +18553,7 @@ Location:
 .cta3-section-area .cta-counter-box p {
   color: var(--ztc-text-text-1);
   text-align: center;
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s18);
@@ -18630,7 +18630,7 @@ Location:
 .cta4-section-area .cta1-main-boxarea .timer-btn-area .timer .time-box .time-value span {
   color: var(--ztc-text-text-11);
   text-align: center;
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s16);
@@ -18642,7 +18642,7 @@ Location:
 .cta4-section-area .cta1-main-boxarea .timer-btn-area .timer .time-value {
   color: var(--ztc-text-text-11);
   text-align: center;
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s32);
@@ -18671,7 +18671,7 @@ Location:
 }
 .cta4-section-area .cta1-main-boxarea .timer-btn-area .btn-area1 .vl-btn4 {
   color: var(--ztc-text-text-11);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s20);
@@ -18697,7 +18697,7 @@ Location:
 }
 .cta4-section-area .cta1-main-boxarea ul li a {
   color: var(--ztc-text-text-1);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s24);
@@ -18792,7 +18792,7 @@ Location:
 .cta6-section-area .cta1-main-boxarea .timer-btn-area .timer .time-box .time-value span {
   color: var(--ztc-text-text-2);
   text-align: center;
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s16);
@@ -18804,7 +18804,7 @@ Location:
 .cta6-section-area .cta1-main-boxarea .timer-btn-area .timer .time-value {
   color: var(--ztc-text-text-2);
   text-align: center;
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s32);
@@ -18833,7 +18833,7 @@ Location:
 }
 .cta6-section-area .cta1-main-boxarea .timer-btn-area .btn-area1 .vl-btn6 {
   color: var(--ztc-text-text-21);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s20);
@@ -18865,7 +18865,7 @@ Location:
 }
 .cta6-section-area .cta1-main-boxarea ul li a {
   color: var(--ztc-text-text-1);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s24);
@@ -18910,7 +18910,7 @@ Location:
 }
 .cta7-section-area .cta7-bg-area .cta-heading h2 {
   color: var(--ztc-text-text-1);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s44);
@@ -18927,7 +18927,7 @@ Location:
 }
 .cta7-section-area .cta7-bg-area .cta-heading p {
   color: var(--ztc-text-text-1);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s18);
@@ -19002,7 +19002,7 @@ Location:
 .cta8-section-area .cta1-main-boxarea .timer-btn-area .timer .time-box .time-value span {
   color: var(--ztc-text-text-2);
   text-align: center;
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s16);
@@ -19014,7 +19014,7 @@ Location:
 .cta8-section-area .cta1-main-boxarea .timer-btn-area .timer .time-value {
   color: var(--ztc-text-text-2);
   text-align: center;
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s32);
@@ -19043,7 +19043,7 @@ Location:
 }
 .cta8-section-area .cta1-main-boxarea .timer-btn-area .btn-area1 .vl-btn8 {
   color: var(--ztc-text-text-16);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s20);
@@ -19093,7 +19093,7 @@ Location:
 }
 .cta8-section-area .cta1-main-boxarea ul li a {
   color: var(--ztc-text-text-1);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s24);
@@ -19188,7 +19188,7 @@ Location:
 .cta9-section-area .cta1-main-boxarea .timer-btn-area .timer .time-box .time-value span {
   color: var(--ztc-text-text-18);
   text-align: center;
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s16);
@@ -19200,7 +19200,7 @@ Location:
 .cta9-section-area .cta1-main-boxarea .timer-btn-area .timer .time-value {
   color: var(--ztc-text-text-18);
   text-align: center;
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s32);
@@ -19229,7 +19229,7 @@ Location:
 }
 .cta9-section-area .cta1-main-boxarea .timer-btn-area .btn-area1 .vl-btn9 {
   color: #FC334C;
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s20);
@@ -19282,7 +19282,7 @@ Location:
 }
 .cta9-section-area .cta1-main-boxarea ul li a {
   color: var(--ztc-text-text-1);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s24);
@@ -19390,7 +19390,7 @@ Location:
 }
 .testimonials1-section-area .testimonial-content-slider .testimonial-widget-box p {
   color: var(--ztc-text-text-3);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s20);
@@ -19419,7 +19419,7 @@ Location:
 }
 .testimonials1-section-area .testimonial-content-slider .testimonial-widget-box .auhtor-area .name-area .text a {
   color: var(--ztc-text-text-2);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s20);
@@ -19632,7 +19632,7 @@ Location:
 }
 .testimonial4-section-area .testimonial-review-slider .testimonial4-content .name-area .text a {
   color: var(--ztc-text-text-11);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s18);
@@ -19678,7 +19678,7 @@ Location:
 }
 .testimonial6-section-area .testimonial-reviews-area .testimonial-boxarea p {
   color: rgba(64, 64, 64, 0.9);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s18);
@@ -19688,7 +19688,7 @@ Location:
 }
 .testimonial6-section-area .testimonial-reviews-area .testimonial-boxarea a {
   color: rgba(64, 64, 64, 0.9);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s18);
@@ -19718,7 +19718,7 @@ Location:
 }
 .testimonial6-section-area .testimonial-reviews-area2 .testimonial-boxarea p {
   color: rgba(64, 64, 64, 0.9);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s18);
@@ -19728,7 +19728,7 @@ Location:
 }
 .testimonial6-section-area .testimonial-reviews-area2 .testimonial-boxarea a {
   color: rgba(64, 64, 64, 0.9);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s18);
@@ -19851,7 +19851,7 @@ Location:
 }
 .testimonials7-section-area .testimonial-content-slider7 .testimonial-widget-box p {
   color: var(--ztc-text-text-3);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s20);
@@ -19880,7 +19880,7 @@ Location:
 }
 .testimonials7-section-area .testimonial-content-slider7 .testimonial-widget-box .auhtor-area .name-area .text a {
   color: var(--ztc-text-text-2);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s20);
@@ -19998,7 +19998,7 @@ Location:
 .about1-section-area .about-imges .about-btnarea a {
   color: var(--ztc-text-text-2);
   text-align: center;
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s24);
@@ -20066,7 +20066,7 @@ Location:
 }
 .about1-section-area .about-header-area .about-auhtor-box .text a {
   color: var(--ztc-text-text-2);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s18);
@@ -20187,7 +20187,7 @@ Location:
 }
 .about2-section-area .about2-header .others-boxarea .icons-box p {
   color: var(--ztc-text-text-1);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s18);
@@ -20333,7 +20333,7 @@ Location:
 .about3-section-area .about-header .counter-area .counter-box h3 {
   color: var(--ztc-text-text-8);
   text-align: center;
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s32);
@@ -20360,7 +20360,7 @@ Location:
 }
 .about4-section-area .about-images .content-box p {
   color: rgba(255, 255, 255, 0.8);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s16);
@@ -20370,7 +20370,7 @@ Location:
 }
 .about4-section-area .about-images .content-box h6 {
   color: var(--ztc-text-text-1);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s20);
@@ -20382,7 +20382,7 @@ Location:
 }
 .about4-section-area .about-images .content-box ul li a {
   color: rgba(255, 255, 255, 0.8);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s16);
@@ -20412,7 +20412,7 @@ Location:
 }
 .about4-section-area .about4-heading ul li {
   color: var(--ztc-text-text-11);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s20);
@@ -20510,7 +20510,7 @@ Location:
 }
 .about7-section-area .about-header-area .about-auhtor-box .text a {
   color: var(--ztc-text-text-2);
-   font-family: "Space Grotesk", sans-serif;
+  /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s18);
@@ -20764,7 +20764,7 @@ Location:
 }
 .about8-section-area .side-img1-area .counter-box h3 {
   color: var(--ztc-text-text-1);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s44);
@@ -20800,7 +20800,7 @@ Location:
 }
 .about8-section-area .side-img1-area .counter-box p {
   color: rgba(255, 255, 255, 0.9);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s20);
@@ -20819,7 +20819,7 @@ Location:
 }
 .about8-section-area .side-img1-area .counter-box2 h3 {
   color: var(--ztc-text-text-1);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s24);
@@ -20855,7 +20855,7 @@ Location:
 }
 .about8-section-area .side-img1-area .counter-box2 p {
   color: rgba(255, 255, 255, 0.9);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s20);
@@ -20874,7 +20874,7 @@ Location:
 }
 .about8-section-area .side-img1-area .counter-box3 h3 {
   color: var(--ztc-text-text-1);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s32);
@@ -20910,7 +20910,7 @@ Location:
 }
 .about8-section-area .side-img1-area .counter-box3 p {
   color: rgba(255, 255, 255, 0.9);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s20);
@@ -20929,7 +20929,7 @@ Location:
 }
 .about8-section-area .side-img1-area .counter-box4 h3 {
   color: var(--ztc-text-text-1);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s32);
@@ -20965,7 +20965,7 @@ Location:
 }
 .about8-section-area .side-img1-area .counter-box4 p {
   color: rgba(255, 255, 255, 0.9);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s20);
@@ -21161,7 +21161,7 @@ Location:
 .about10-section-area .about-header .counter-area .counter-box h3 {
   color: var(--ztc-text-text-1);
   text-align: center;
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s32);
@@ -21215,7 +21215,7 @@ Location:
 }
 .event1-section-area .nav.nav-pills .nav-item button .day {
   color: var(--ztc-text-text-3);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s18);
@@ -21230,7 +21230,7 @@ Location:
 }
 .event1-section-area .nav.nav-pills .nav-item button .cal {
   color: var(--ztc-text-text-2);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s44);
@@ -21244,7 +21244,7 @@ Location:
 }
 .event1-section-area .nav.nav-pills .nav-item button span.date {
   color: var(--ztc-text-text-2);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s22);
@@ -21301,7 +21301,7 @@ Location:
 }
 .event1-section-area .tab-content .tab-pane .tabs-widget-boxarea .content-area a.head {
   color: var(--ztc-text-text-2);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s24);
@@ -21386,7 +21386,7 @@ Location:
 }
 .event2-section-area .tabs-button ul li button .pl-8 .day {
   color: var(--ztc-text-text-1);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s16);
@@ -21399,7 +21399,7 @@ Location:
 }
 .event2-section-area .tabs-button ul li button .pl-8 .date {
   color: var(--ztc-text-text-1);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s14);
@@ -21431,7 +21431,7 @@ Location:
 }
 .event2-section-area .tab-content .tab-pane .event-widget-area .event2-boxarea h1 {
   color: var(--ztc-text-text-6);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s24);
@@ -21487,7 +21487,7 @@ Location:
 }
 .event2-section-area .tab-content .tab-pane .event-widget-area .event2-boxarea .content-area ul li a {
   color: var(--ztc-text-text-1);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s16);
@@ -21513,7 +21513,7 @@ Location:
 }
 .event2-section-area .tab-content .tab-pane .event-widget-area .event2-boxarea .content-area .head {
   color: var(--ztc-text-text-1);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s24);
@@ -21565,7 +21565,7 @@ Location:
 }
 .event2-section-area .tab-content .tab-pane .event-widget-area .event2-boxarea .content-area .author-area .autho-name-area .text a {
   color: var(--ztc-text-text-1);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s18);
@@ -21582,7 +21582,7 @@ Location:
 }
 .event2-section-area .tab-content .tab-pane .event-widget-area .event2-boxarea .content-area .author-area .autho-name-area .text p {
   color: var(--ztc-text-text-1);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s16);
@@ -21669,7 +21669,7 @@ Location:
 }
 .event3-section-area .tabs-button ul li button .pl-8 .day {
   color: var(--ztc-text-text-8);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s16);
@@ -21682,7 +21682,7 @@ Location:
 }
 .event3-section-area .tabs-button ul li button .pl-8 .date {
   color: var(--ztc-text-text-8);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s14);
@@ -21717,7 +21717,7 @@ Location:
 }
 .event3-section-area .tab-content .tab-pane .event-widget-area .event2-boxarea h1 {
   color: var(--ztc-text-text-1);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s24);
@@ -21777,7 +21777,7 @@ Location:
 }
 .event3-section-area .tab-content .tab-pane .event-widget-area .event2-boxarea .content-area ul li a {
   color: var(--ztc-text-text-8);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s16);
@@ -21803,7 +21803,7 @@ Location:
 }
 .event3-section-area .tab-content .tab-pane .event-widget-area .event2-boxarea .content-area .head {
   color: var(--ztc-text-text-8);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s24);
@@ -21855,7 +21855,7 @@ Location:
 }
 .event3-section-area .tab-content .tab-pane .event-widget-area .event2-boxarea .content-area .author-area .autho-name-area .text a {
   color: var(--ztc-text-text-8);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s18);
@@ -21872,7 +21872,7 @@ Location:
 }
 .event3-section-area .tab-content .tab-pane .event-widget-area .event2-boxarea .content-area .author-area .autho-name-area .text p {
   color: var(--ztc-text-text-9);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s16);
@@ -21988,7 +21988,7 @@ Location:
 }
 .event4-section-area .nav.nav-pills .nav-item button .day {
   color: var(--ztc-text-text-12);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s18);
@@ -22003,7 +22003,7 @@ Location:
 }
 .event4-section-area .nav.nav-pills .nav-item button .cal {
   color: var(--ztc-text-text-11);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s44);
@@ -22017,7 +22017,7 @@ Location:
 }
 .event4-section-area .nav.nav-pills .nav-item button span.date {
   color: var(--ztc-text-text-11);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s22);
@@ -22083,7 +22083,7 @@ Location:
 }
 .event4-section-area .tab-content .tab-pane .accordion-item button .accor-btn {
   color: var(--ztc-text-text-11);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s24);
@@ -22098,7 +22098,7 @@ Location:
 }
 .event4-section-area .tab-content .tab-pane .accordion-item .accordion-body p {
   color: var(--ztc-text-text-12);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s18);
@@ -22117,7 +22117,7 @@ Location:
 }
 .event-sidepage-section-area .event-side-images h3 {
   color: var(--ztc-text-text-2);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s36);
@@ -22135,7 +22135,7 @@ Location:
 }
 .event-sidepage-section-area .event-side-images h4 {
   color: var(--ztc-text-text-2);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s28);
@@ -22150,7 +22150,7 @@ Location:
 .event-sidepage-section-area .event-side-images .our-team-boxarea .content-area a {
   color: var(--ztc-text-text-2);
   text-align: center;
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s24);
@@ -22163,7 +22163,7 @@ Location:
 .event-sidepage-section-area .event-side-images .our-team-boxarea .content-area p {
   color: var(--ztc-text-text-3);
   text-align: center;
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s18);
@@ -22356,7 +22356,7 @@ Location:
 }
 .event-sidepage-section-area .shedule-listarea .content-area ul li a {
   color: var(--ztc-text-text-2);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s16);
@@ -22382,7 +22382,7 @@ Location:
 }
 .event-sidepage-section-area .shedule-listarea .content-area .head {
   color: var(--ztc-text-text-2);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s24);
@@ -22434,7 +22434,7 @@ Location:
 }
 .event-sidepage-section-area .shedule-listarea .content-area .author-area .autho-name-area .text a {
   color: var(--ztc-text-text-2);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s18);
@@ -22451,7 +22451,7 @@ Location:
 }
 .event-sidepage-section-area .shedule-listarea .content-area .author-area .autho-name-area .text p {
   color: var(--ztc-text-text-3);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s16);
@@ -22533,7 +22533,7 @@ Location:
 }
 .event-single-section-area .tabs-button ul li button .pl-8 .day {
   color: var(--ztc-text-text-2);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s16);
@@ -22546,7 +22546,7 @@ Location:
 }
 .event-single-section-area .tabs-button ul li button .pl-8 .date {
   color: var(--ztc-text-text-2);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s14);
@@ -22581,7 +22581,7 @@ Location:
 }
 .event-single-section-area .tab-content .tab-pane .event-widget-area .event2-boxarea h1 {
   color: var(--ztc-text-text-2);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s24);
@@ -22641,7 +22641,7 @@ Location:
 }
 .event-single-section-area .tab-content .tab-pane .event-widget-area .event2-boxarea .content-area ul li a {
   color: var(--ztc-text-text-2);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s16);
@@ -22667,7 +22667,7 @@ Location:
 }
 .event-single-section-area .tab-content .tab-pane .event-widget-area .event2-boxarea .content-area .head {
   color: var(--ztc-text-text-2);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s24);
@@ -22719,7 +22719,7 @@ Location:
 }
 .event-single-section-area .tab-content .tab-pane .event-widget-area .event2-boxarea .content-area .author-area .autho-name-area .text a {
   color: var(--ztc-text-text-2);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s18);
@@ -22736,7 +22736,7 @@ Location:
 }
 .event-single-section-area .tab-content .tab-pane .event-widget-area .event2-boxarea .content-area .author-area .autho-name-area .text p {
   color: var(--ztc-text-text-3);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s16);
@@ -22776,7 +22776,7 @@ Location:
   background-color: #f8b500;
   color: var(--ztc-text-text-2);
   text-align: center;
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s24);
@@ -22789,7 +22789,7 @@ Location:
 .schedule-section-area td {
   color: var(--ztc-text-text-2);
   text-align: center;
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s20);
@@ -22862,7 +22862,7 @@ Location:
 }
 .event5-section-area .event-widget-area .event2-boxarea h1 {
   color: var(--ztc-text-text-1);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s24);
@@ -22922,7 +22922,7 @@ Location:
 }
 .event5-section-area .event-widget-area .event2-boxarea .content-area ul li a {
   color: var(--ztc-text-text-1);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s16);
@@ -22948,7 +22948,7 @@ Location:
 }
 .event5-section-area .event-widget-area .event2-boxarea .content-area .head {
   color: var(--ztc-text-text-1);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s24);
@@ -23000,7 +23000,7 @@ Location:
 }
 .event5-section-area .event-widget-area .event2-boxarea .content-area .author-area .autho-name-area .text a {
   color: var(--ztc-text-text-1);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s18);
@@ -23017,7 +23017,7 @@ Location:
 }
 .event5-section-area .event-widget-area .event2-boxarea .content-area .author-area .autho-name-area .text p {
   color: var(--ztc-text-text-1);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s16);
@@ -23073,7 +23073,7 @@ Location:
 }
 .event6-section-area .event6-widget-boxarea .content-area h3 {
   color: var(--ztc-text-text-1);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s32);
@@ -23094,7 +23094,7 @@ Location:
 .event6-section-area .event6-widget-boxarea .content-area ul li a {
   display: block;
   color: var(--ztc-text-text-1);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s16);
@@ -23149,7 +23149,7 @@ Location:
 }
 .event6-section-area .event6-widget-boxarea2 .content-area h3 {
   color: var(--ztc-text-text-1);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s32);
@@ -23170,7 +23170,7 @@ Location:
 .event6-section-area .event6-widget-boxarea2 .content-area ul li a {
   display: block;
   color: var(--ztc-text-text-1);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s16);
@@ -23229,7 +23229,7 @@ Location:
 }
 .event6-section-area .event6-widget-boxareamain .content-area h3 {
   color: var(--ztc-text-text-1);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s32);
@@ -23250,7 +23250,7 @@ Location:
 .event6-section-area .event6-widget-boxareamain .content-area ul li a {
   display: block;
   color: var(--ztc-text-text-1);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s16);
@@ -23310,7 +23310,7 @@ Location:
 }
 .event6-section-area .event6-widget-boxarea3 .content-area h3 {
   color: var(--ztc-text-text-1);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s32);
@@ -23331,7 +23331,7 @@ Location:
 .event6-section-area .event6-widget-boxarea3 .content-area ul li a {
   display: block;
   color: var(--ztc-text-text-1);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s16);
@@ -23411,7 +23411,7 @@ Location:
 }
 .event7-section-area .nav.nav-pills .nav-item button .day {
   color: var(--ztc-text-text-3);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s18);
@@ -23426,7 +23426,7 @@ Location:
 }
 .event7-section-area .nav.nav-pills .nav-item button .cal {
   color: var(--ztc-text-text-2);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s44);
@@ -23440,7 +23440,7 @@ Location:
 }
 .event7-section-area .nav.nav-pills .nav-item button span.date {
   color: var(--ztc-text-text-2);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s22);
@@ -23498,7 +23498,7 @@ Location:
 }
 .event7-section-area .tab-content .tab-pane .tabs-widget-boxarea .all-content-area .content-area a.head {
   color: var(--ztc-text-text-1);
-  font-family: "Space Grotesk", sans-serif;
+    /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s24);
@@ -23519,7 +23519,7 @@ Location:
 }
 .event7-section-area .tab-content .tab-pane .tabs-widget-boxarea .all-content-area .content-area .vl-btn7 {
   color: var(--ztc-text-text-1);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s20);
@@ -23652,7 +23652,7 @@ Location:
 }
 .event8-section-area .tabs-button ul li button .pl-8 .day {
   color: var(--ztc-text-text-1);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s16);
@@ -23665,7 +23665,7 @@ Location:
 }
 .event8-section-area .tabs-button ul li button .pl-8 .date {
   color: var(--ztc-text-text-1);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s14);
@@ -23704,7 +23704,7 @@ Location:
 }
 .event8-section-area .tab-content .tab-pane .event-widget-area .event2-boxarea .content-area h5 {
   color: var(--ztc-text-text-16);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s18);
@@ -23719,7 +23719,7 @@ Location:
 }
 .event8-section-area .tab-content .tab-pane .event-widget-area .event2-boxarea .content-area .head {
   color: var(--ztc-text-text-2);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s28);
@@ -23778,7 +23778,7 @@ Location:
 }
 .event8-section-area .tab-content .tab-pane .event-widget-area .event2-boxarea .list ul li a {
   color: var(--ztc-text-text-2);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s18);
@@ -23809,7 +23809,7 @@ Location:
 }
 .event8-section-area .tab-content .tab-pane .event-widget-area .event2-boxarea .list .author-area p {
   color: var(--ztc-text-text-2);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s18);
@@ -23886,7 +23886,7 @@ Location:
 }
 .event9-section-area .tabs-button ul li button .pl-8 .day {
   color: var(--ztc-text-text-18);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s16);
@@ -23899,7 +23899,7 @@ Location:
 }
 .event9-section-area .tabs-button ul li button .pl-8 .date {
   color: var(--ztc-text-text-18);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s14);
@@ -23934,7 +23934,7 @@ Location:
 }
 .event9-section-area .tab-content .tab-pane .event-widget-area .event2-boxarea h1 {
   color: var(--ztc-text-text-1);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s24);
@@ -23994,7 +23994,7 @@ Location:
 }
 .event9-section-area .tab-content .tab-pane .event-widget-area .event2-boxarea .content-area ul li a {
   color: var(--ztc-text-text-18);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s16);
@@ -24020,7 +24020,7 @@ Location:
 }
 .event9-section-area .tab-content .tab-pane .event-widget-area .event2-boxarea .content-area .head {
   color: var(--ztc-text-text-18);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s24);
@@ -24072,7 +24072,7 @@ Location:
 }
 .event9-section-area .tab-content .tab-pane .event-widget-area .event2-boxarea .content-area .author-area .autho-name-area .text a {
   color: var(--ztc-text-text-18);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s18);
@@ -24089,7 +24089,7 @@ Location:
 }
 .event9-section-area .tab-content .tab-pane .event-widget-area .event2-boxarea .content-area .author-area .autho-name-area .text p {
   color: var(--ztc-text-text-19);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s16);
@@ -24143,7 +24143,7 @@ Location:
 }
 .event10-section-area .event6-widget-boxarea .content-area h3 {
   color: var(--ztc-text-text-1);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s32);
@@ -24164,7 +24164,7 @@ Location:
 .event10-section-area .event6-widget-boxarea .content-area ul li a {
   display: block;
   color: var(--ztc-text-text-1);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s16);
@@ -24340,7 +24340,7 @@ Location:
 }
 .memory1-section-area .memory-slider-area .memory-boxarea .content-area a {
   color: var(--ztc-text-text-2);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s20);
@@ -24513,7 +24513,7 @@ Location:
 .memory2-section-area .memory-widget-slider .memory-widget-boxarea .content-area .text p {
   color: var(--ztc-text-text-7);
   text-align: center;
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s16);
@@ -24524,7 +24524,7 @@ Location:
 }
 .memory2-section-area .memory-widget-slider .memory-widget-boxarea .content-area .text a {
   color: var(--ztc-text-text-5);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s20);
@@ -24616,7 +24616,7 @@ Location:
 }
 .memory3-section-area .memory-team-slider .memory3-boxarea .content-area p {
   color: rgba(255, 255, 255, 0.8);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s16);
@@ -24627,7 +24627,7 @@ Location:
 }
 .memory3-section-area .memory-team-slider .memory3-boxarea .content-area a {
   color: var(--ztc-text-text-1);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s20);
@@ -24834,7 +24834,7 @@ Location:
 }
 .memory4-section-area .memory-team-slider2 .memory3-boxarea .content-area p {
   color: rgba(255, 255, 255, 0.8);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s16);
@@ -24845,7 +24845,7 @@ Location:
 }
 .memory4-section-area .memory-team-slider2 .memory3-boxarea .content-area a {
   color: var(--ztc-text-text-1);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s20);
@@ -24941,7 +24941,7 @@ Location:
 }
 .memory-inner-section-area .memory3-boxarea .content-area p {
   color: var(--ztc-text-text-3);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s16);
@@ -24952,7 +24952,7 @@ Location:
 }
 .memory-inner-section-area .memory3-boxarea .content-area a {
   color: var(--ztc-text-text-2);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s20);
@@ -25166,7 +25166,7 @@ Location:
 .memory5-section-area .memory-widget-slider5 .memory-widget-boxarea .content-area .text p {
   color: rgba(10, 16, 25, 0.7);
   text-align: center;
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s16);
@@ -25177,7 +25177,7 @@ Location:
 }
 .memory5-section-area .memory-widget-slider5 .memory-widget-boxarea .content-area .text a {
   color: var(--ztc-text-text-2);
-   font-family: "Space Grotesk", sans-serif;
+     /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
   font-size: var(--ztc-font-size-font-s20);
