@@ -804,7 +804,6 @@ Location:
      /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
-  font-size: var(--ztc-font-size-font-s18);
   font-style: normal;
   font-weight: var(--ztc-weight-medium);
   line-height: 26px;
@@ -20336,7 +20335,6 @@ Location:
      /* font-family: "Space Grotesk", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
-  font-size: var(--ztc-font-size-font-s32);
   font-style: normal;
   font-weight: 700;
   line-height: 32px;
