@@ -20503,9 +20503,9 @@ Location:
 .about7-section-area .about-header-area .about-auhtor-box .icons img {
   filter: brightness(0) invert(1);
 }
-.about7-section-area .about-header-area .about-auhtor-box .text {
+/* .about7-section-area .about-header-area .about-auhtor-box .text {
   padding-left: 60px;
-}
+} */
 .about7-section-area .about-header-area .about-auhtor-box .text a {
   color: var(--ztc-text-text-2);
   /* font-family: "Space Grotesk", sans-serif; */
