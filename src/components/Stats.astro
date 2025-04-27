@@ -1,0 +1,41 @@
+---
+var stats = [
+    {
+        label: "Participants",
+        value: 10000,
+    },
+    {
+        label: "Speakers",
+        value: 100,
+    },
+    {
+        label: "Programs",
+        value: 20,
+    },
+    {
+        label: "Communities",
+        value: 50,
+    },
+    {
+        label: "Product Showcases",
+        value: 40,
+    },
+    {
+        label: "Partners",
+        value: 30,
+    },
+]
+---
+<div class="flex flex-wrap justify-center gap-5" >
+    {stats.map((stat) => (
+        <div class="post-it p-5 w-40 h-40 shadow-xl flex flex-col items-center justify-center relative -rotate-5" data-aos="zoom-out-right" data-aos-duration="1000">
+            <div class="text-3xl font-bold text-kif-dark-blue">{stat.value}<sup class="font-normal">+</sup></div>
+            <div class="text-lg text-center">{stat.label}</div>
+        </div>
+        // <div class="flex flex-col items-center justify-center w-40 h-40 relative">
+        //     <div class="absolute bg-kif shadow-lg w-40 h-40 -z-1 rotate-45"></div>
+        //     <div class="text-3xl font-bold ">{stat.value}<sup class="font-normal">+</sup></div>
+        //     <div class="text-lg text-center">{stat.label}</div>
+        // </div>
+    ))}
+</div>

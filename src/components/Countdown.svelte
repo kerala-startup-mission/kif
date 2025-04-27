@@ -40,27 +40,22 @@
 
 </script>
 
-<div class="flex items-center justify-center flex-wrap">
-	<div class="counter w-24 h-28 rounded-2xl text-white shadow font-bold font-heading text-4xl px-2 py-8 bg-[#1A496A] flex flex-col items-center justify-center">
+<div class="flex  flex-wrap gap-4 mb-2">
+	<div class="counter rounded-2xl text-black  font-bold font-heading md:text-3xl text-2xl    flex flex-col ">
 		{dayText}
-		<div class="text-base font-light font-sans">Days</div>
+		<div class="text-sm font-light font-sans">Days</div>
 	</div>
-	<div class=" counter w-24 h-28 rounded-2xl text-white shadow font-bold font-heading text-4xl px-2 py-8 bg-[#1A496A] flex flex-col items-center justify-center">
+	<div class=" counter rounded-2xl text-black  font-bold font-heading md:text-3xl text-2xl   flex flex-col ">
 		{hourText}
-		<div class="text-base font-light font-sans">Hours</div>
+		<div class="text-sm font-light font-sans">Hours</div>
 	</div>
-	<div class="counter w-24 h-28 rounded-2xl text-white shadow font-bold font-heading text-4xl px-2 py-8 bg-[#1A496A] flex flex-col items-center justify-center">
+	<div class="counter rounded-2xl text-black  font-bold font-heading md:text-3xl text-2xl   flex flex-col ">
 		{minText}
-		<div class="text-base font-light font-sans">Mins</div>
+		<div class="text-sm font-light font-sans">Mins</div>
 	</div>
-	<div class="counter w-24 h-28 rounded-2xl text-white shadow font-bold font-heading text-4xl px-2 py-8 bg-[#1A496A] flex flex-col items-center justify-center">
+	<div class="counter rounded-2xl text-black  font-bold font-heading md:text-3xl text-2xl   flex flex-col ">
 		{secText}
-		<div class="text-base font-light font-sans">Secs</div>
+		<div class="text-sm font-light font-sans">Secs</div>
 	</div>
 </div>
 
-<style lang="scss">
-	.counter{
-		margin: .5rem;
-	}
-</style>

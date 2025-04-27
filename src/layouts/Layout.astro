@@ -4,8 +4,8 @@
 
 	const { title } = Astro.props;
 
-	const description = "Kerala Startup Mission is the central agency of the Government of Kerala for entrepreneurship development and incubation activities in Kerala, India.";
-	const url = "https://startupmission.kerala.gov.in/";
+	const description = "The Kerala Innovation Festival (KIF) is a celebration of ideas, creativity, and collaboration. It's where startups, creators, investors, policymakers, and students come together to shape the future through innovation.";
+	const url = "https://innovationfestival.in/";
 
 ---        
 
@@ -36,10 +36,20 @@
 		<meta property="twitter:description" content={description}>
 		<meta property="twitter:image" content={url + 'img/fb_image.jpg'}>
 
+		<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
 	</head>
-	<body>
-		<!-- <Navbar></Navbar> -->
+	<body class="overflow-x-hidden">
+		<Navbar></Navbar>
+		
 		<slot />
+
+		
+		<script>
+			import '../../node_modules/aos/dist/aos.css';
+			import AOS from 'aos';
+			AOS.init();
+		</script>
 	</body>
 </html>
 

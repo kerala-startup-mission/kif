@@ -5,7 +5,7 @@ import tailwindcss from '@tailwindcss/vite';
 
 import svelte from '@astrojs/svelte';
 
-import lottie from "astro-integration-lottie";
+// import lottie from "astro-integration-lottie";
 
 // https://astro.build/config
 export default defineConfig({
@@ -13,5 +13,5 @@ export default defineConfig({
     plugins: [tailwindcss()]
   },
 
-  integrations: [svelte(), lottie()]
+  integrations: [svelte()]
 });

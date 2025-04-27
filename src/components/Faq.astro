@@ -1,0 +1,13 @@
+---
+const { title, id } = Astro.props;
+---
+
+<div class="tab border-2 rounded-xl bg-white">
+    <input type="radio" name="accordion-2" id={id}>
+    <label for={id} class="tab__label">{title}</label>
+    <div class="tab__content ">
+        <div class="p-3 border-t-2 ">
+            <slot/>
+        </div>
+    </div>
+</div>
