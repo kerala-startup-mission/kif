@@ -1,0 +1,9 @@
+{
+    "printWidth": 999,
+    "htmlWhitespaceSensitivity": "ignore",
+    "prettier.arrowParens": "avoid", 
+    "prettier.trailingComma": "none",   
+    "prettier.bracketSpacing": true, 
+    "javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBraces": true,
+    "javascript.format.insertSpaceAfterCommaDelimiter": true
+}
