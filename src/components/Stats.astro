@@ -3,35 +3,45 @@ var stats = [
     {
         label: "Participants",
         value: 10000,
+        color: ['border-kif-green']
     },
     {
         label: "Speakers",
         value: 100,
+        color: ['border-kif-red']
     },
     {
         label: "Programs",
         value: 20,
+        color: ['border-kif-yellow']
     },
     {
         label: "Communities",
         value: 50,
+        color: ['border-kif-blue']
     },
     {
         label: "Product Showcases",
         value: 40,
+        color: ['border-kif-dark-blue']
     },
     {
         label: "Partners",
         value: 30,
+        color: ['border-kif-green']
     },
 ]
 ---
 <div class="flex flex-wrap justify-center gap-5" >
     {stats.map((stat) => (
-        <div class="post-it p-5 w-40 h-40 shadow-xl flex flex-col items-center justify-center relative -rotate-5" data-aos="zoom-out-right" data-aos-duration="1000">
-            <div class="text-3xl font-bold text-kif-dark-blue">{stat.value}<sup class="font-normal">+</sup></div>
+        <div class:list={stat.color} class="p-5 w-40 h-40 border-2 flex flex-col items-center justify-center relative -rotate-5" data-aos="zoom-out-right" data-aos-duration="1000">
+            <div class="text-3xl font-bold ">{stat.value}<sup class="font-normal">+</sup></div>
             <div class="text-lg text-center">{stat.label}</div>
         </div>
+        // <div class="post-it p-5 w-40 h-40 shadow-xl flex flex-col items-center justify-center relative -rotate-5" data-aos="zoom-out-right" data-aos-duration="1000">
+        //     <div class="text-3xl font-bold text-kif-dark-blue">{stat.value}<sup class="font-normal">+</sup></div>
+        //     <div class="text-lg text-center">{stat.label}</div>
+        // </div>
         // <div class="flex flex-col items-center justify-center w-40 h-40 relative">
         //     <div class="absolute bg-kif shadow-lg w-40 h-40 -z-1 rotate-45"></div>
         //     <div class="text-3xl font-bold ">{stat.value}<sup class="font-normal">+</sup></div>
