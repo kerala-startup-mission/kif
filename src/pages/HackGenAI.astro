@@ -7,7 +7,7 @@ import Why from "../components/Why.astro";
 import Highlight from "../components/Highlight.astro";
 import Guideline from "../components/Guideline.astro";
 import Faq from "../components/Faq.astro";
-import Navbar from "../components/Navbarsub.astro";
+import Navbar from "../components/Navbargenai.astro";
 
 // import LottieAnimation from "astro-integration-lottie/Lottie.astro";
 ---
@@ -91,7 +91,7 @@ import Navbar from "../components/Navbarsub.astro";
         </div>
 	</main>
     
-    <div class="relative bg-[#FCC310] text-black pt-32 pb-20"  data-aos="fade-down" data-aos-duration="500" data-aos-offset="100">
+    <div id="about" class="relative bg-[#FCC310] text-black pt-32 pb-20"  data-aos="fade-down" data-aos-duration="500" data-aos-offset="100">
         <svg class="absolute top-0 left-0 w-full h-32" viewBox="0 0 1440 320" preserveAspectRatio="none">
             <path fill="#ffffff" d="M0,160 C360,0 1080,320 1440,160 L1440,0 L0,0 Z"></path>
         </svg>
@@ -115,7 +115,7 @@ import Navbar from "../components/Navbarsub.astro";
         </div>
     </div>
 
-    <section class="py-24 px-5">
+    <section id="prize" class="py-24 px-5">
 		<div class="container mx-auto">
 			<div class="font-bold text-3xl md:text-4xl lg:text-4xl text-center mb-6 md:mb-16"  data-aos="fade-right" data-aos-duration="1000">Prizes and Opportunities
             </div>
@@ -161,7 +161,7 @@ import Navbar from "../components/Navbarsub.astro";
 		</div>
 	</section>
 
-    <section class="flex items-center flex-col justify-center pb-24 w-full container mx-auto px-5"  data-aos="fade-right" data-aos-duration="1000">
+    <section id="tracks" class="flex items-center flex-col justify-center pb-24 w-full container mx-auto px-5"  data-aos="fade-right" data-aos-duration="1000">
         <div class="text-start items-start container w-full flex flex-col md:pb-16 pb-6">
             <div class="font-bold text-3xl md:text-4xl lg:text-4xl">
                 Hackathon Tracks
@@ -217,7 +217,7 @@ import Navbar from "../components/Navbarsub.astro";
         </div>
     </section>
 
-    <section class=" w-full"  data-aos="fade-down" data-aos-duration="500" data-aos-offset="100">
+    <section id="timeline" class=" w-full"  data-aos="fade-down" data-aos-duration="500" data-aos-offset="100">
         <div class="font-bold text-3xl md:text-4xl lg:text-4xl text-center mb-6 md:mb-10">Timeline
         </div>
         <div class="flex flex-col items-center justify-center w-full">
@@ -289,7 +289,7 @@ import Navbar from "../components/Navbarsub.astro";
 		
 	</section>
    
-    <section class="py-24 lg:pt-36 px-5"  data-aos="fade-down" data-aos-duration="500" data-aos-offset="100">
+    <section id="guidelines" class="py-24 lg:pt-36 px-5"  data-aos="fade-down" data-aos-duration="500" data-aos-offset="100">
 		<div class="relative container mx-auto">
 			<div class="grid lg:grid-cols-2 gap-10">
 				<div>
@@ -363,3 +363,17 @@ import Navbar from "../components/Navbarsub.astro";
 	</section>
 
 </Layout>
+<script>
+    document.querySelectorAll("a.page-scroll").forEach((anchor) => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            const targetId = e.target?.getAttribute("href").replace("/#", "");
+            const targetElement = document.getElementById(targetId);
+            if (targetElement) {
+                targetElement.scrollIntoView({
+                    behavior: "smooth",
+                });
+            }
+        });
+    });
+</script>

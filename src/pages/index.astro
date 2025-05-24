@@ -538,7 +538,7 @@ import Navbar from "../components/Navbar.astro";
 		document.querySelectorAll("a.page-scroll").forEach((anchor) => {
 			anchor.addEventListener("click", function (e) {
 				e.preventDefault();
-				const targetId = e.target?.getAttribute("href").replace("#", "");
+				const targetId = e.target?.getAttribute("href").replace("/#", "");
 				const targetElement = document.getElementById(targetId);
 				if (targetElement) {
 					targetElement.scrollIntoView({
