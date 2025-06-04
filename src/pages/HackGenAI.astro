@@ -21,7 +21,7 @@ import Navbar from "../components/Navbargenai.astro";
 				<div class="pointer-events-none">
 					<div class="flex flex-row gap-6 items-center ">
 						<img src="/img/kif.svg" class="md:h-10 h-10"/>
-						<img src="/img/10y.svg" class="md:w-16 w-16"/>
+						<!-- <img src="/img/10y.svg" class="md:w-16 w-16"/> -->
 						<img src="/img/logo.jpeg" class="md:w-14 w-14"/>
 						<img src="/img/superbry.jpeg" class="md:h-6 h-6"/>
                         
@@ -42,7 +42,7 @@ import Navbar from "../components/Navbargenai.astro";
                
                 <div>
                     <h1 class="text-lg">
-                        Build a working AI-powered demo in 36 hours. Your idea can be anything from a meme generator to an AI music app.
+                        Build a working AI-powered demo in 24 hours. Your idea can be anything from a meme generator to an AI music app.
                     </h1>
                 </div>
                 
@@ -69,7 +69,7 @@ import Navbar from "../components/Navbargenai.astro";
         <div class="flex items-center lg:flex-row justify-center w-full gap-6  container flex-col pt-20">
             <div class="flex items-center lg:items-start xl:items-center flex-col xl:flex-row gap-4" >
                 <div class="font-sans flex items-center gap-2">
-                    <div class="text-blue-400 text-3xl font-bold">25-26</div>
+                    <div class="text-blue-400 text-3xl font-bold">19-20</div>
                     <div class="bg-kif-red text-center font-bold px-2">
                         <div class="text-white text-xs">July</div>
                         <div class="text-white text-xs">2025</div>
@@ -85,9 +85,9 @@ import Navbar from "../components/Navbargenai.astro";
                 <div class="">
                     <a href="https://bit.ly/ApplyHackGenAI2025" target="_blank" class="inline-block font-sans rounded-md bg-[#e5243b] w-fit py-2 md:text-base px-3 text-white text-sm">Register Now</a>
                 </div>
-                <div>
+                <!-- <div>
                     <Countdown date="2025-07-25T09:00" client:load />
-                </div>
+                </div> -->
             </div>
         </div>
 	</main>
@@ -105,14 +105,14 @@ import Navbar from "../components/Navbargenai.astro";
         </div>
         <div class="w-full md:w-1/2 text-lg">
             <p>
-                HackGenAI 2025 is a 36-hour national hackathon focused on Generative AI.
+                HackGenAI 2025 is a 24-hour national hackathon focused on Generative AI.
                 It brings together students, developers, and startups to build real projects using AI tools that can generate text, images, music, and more. The event encourages creative ideas and fast prototyping using AI.
             </p>
         </div>
         </div>
         <div class="max-w-6xl mx-auto px-6 flex flex-col justify-between items-start  pt-10">
             <p class="uppercase text-2xl font-semibold mb-2">Who Can Apply</p>
-            <p class="lg:text-xl/9">Students <span class="text-sm">(Especially from IEDCs)</span> <span class="text-[#E5243B]">|</span> Developers and AI creators <span class="text-[#E5243B]">|</span> Early-stage startups <span class="text-[#E5243B]">|</span> Policy makers</p>
+            <p class="lg:text-xl/9">Students <span class="text-[#E5243B]">|</span> Developers and AI creators <span class="text-[#E5243B]">|</span> Early-stage startups <span class="text-[#E5243B]">|</span> Policy makers</p>
         </div>
     </div>
 
@@ -174,45 +174,66 @@ import Navbar from "../components/Navbargenai.astro";
         <div class="items-center ">
                 <div class="max-w-6xl">
                     <div class="grid md:grid-cols-2 lg:grid-cols-4 grid-cols-2 md:gap-8 gap-4 ">
-                        <div class="flex flex-col">
-                            <div class="image-anime">
-                                <img src="/img/T1.svg" class="image-anime h-56"> 
-                            </div>
-                            <div class="md:pt-10 pt-6">
-                                <h1 class="font-bold md:text-2xl text-xl font-heading pb-4">Media</h1>
-                                <p>Create news stories, videos, and content using AI</p>
-                            </div>
-                        </div>
 
-                        <div class="flex flex-col">
+                        <!-- <div class="flex flex-col">
                             <div class="image-anime">
-                                <img src="/img/t2.svg" class="image-anime h-56"> 
-                            </div>
-                            <div class="pt-10">
-                                <h1 class="font-bold md:text-2xl text-xl font-heading pb-4">Entertainment</h1>
-                                <p>Games, Animations, Movie tools</p>
-                            </div>
-                        </div>
-
-                        <div class="flex flex-col">
-                            <div class="image-anime">
-                                <img src="/img/t33.svg" class="image-anime h-56"> 
-                            </div>
-                            <div class="pt-10">
-                                <h1 class="font-bold md:text-2xl text-xl font-heading pb-4">Music</h1>
-                                <p>Compose, remix, or create voice-based tools</p>
-                            </div>
-                        </div>
-
-                        <div class="flex flex-col">
-                            <div class="image-anime">
-                                <img src="/img/t4.png" class="image-anime h-56"> 
+                                <img src="/img/social.svg" class="image-anime h-56"> 
                             </div>
                             <div class="pt-10">
                                 <h1 class="font-bold md:text-2xl text-xl font-heading pb-4">Social and Digital Media</h1>
                                 <p>Generate posts, memes, or filters</p>
                             </div>
+                        </div> -->
+
+                        <div class=" w-full h-[380px] image-anime rounded-[30px] bg-gradient-to-br from-[#26bde2] to-[#1e93b1] p-6 text-white relative overflow-hidden">
+                            <!-- Title -->
+                            <h2 class="text-xl font-bold mb-2 uppercase">Media</h2>
+                            <!-- Description -->
+                            <p class="text-base">Create news stories, videos, and content<br>using AI</p>
+                          
+                            <!-- Icon in Bottom Right -->
+                            <div class="  right-0 ">
+                                <img src="/img/mic.svg" class="absolute -bottom-10 -right-10 w-44 h-44 z-20" />
+                            </div>
                         </div>
+
+                        <div class=" w-full h-[380px] image-anime rounded-[30px] bg-gradient-to-br from-[#fcc310] to-[#f89d00] p-6 text-white relative overflow-hidden">
+                            <!-- Title -->
+                            <h2 class="text-xl font-bold mb-2">ENTERTAINMENT</h2>
+                            <!-- Description -->
+                            <p class="text-base">Develop Games, Animations, Movie tools</p>
+                          
+                            <!-- Icon in Bottom Right -->
+                            <div class=" bottom-0 right-0">
+                                <img src="/img/game1.svg" class="absolute -bottom-10 -right-10 w-40 h-40 z-20" />
+                            </div>
+                        </div>
+
+                        <div class=" w-full h-[380px] image-anime rounded-[30px] bg-gradient-to-br from-[#e5243b] to-[#a61a2a] p-6 text-white relative overflow-hidden">
+                            <!-- Title -->
+                            <h2 class="text-xl font-bold mb-2 uppercase">Music</h2>
+                            <!-- Description -->
+                            <p class="text-base">Compose, remix, or create voice-based tools</p>
+                          
+                            <!-- Icon in Bottom Right -->
+                           
+                            <div class=" bottom-0 right-0">
+                                <img src="/img/music1.svg" class="absolute -bottom-10 -right-14 w-48 h-48 z-20" />
+                            </div>
+                        </div>
+
+                        <div class=" w-full h-[380px] image-anime rounded-[30px] bg-gradient-to-br from-[#1a486a] to-[#113047] p-6 text-white relative overflow-hidden">
+                            <!-- Title -->
+                            <h2 class="text-xl font-bold mb-2 uppercase">Social and Digital Media</h2>
+                            <!-- Description -->
+                            <p class="text-base">Generate posts, memes, or filters</p>
+                          
+                            <!-- Icon in Bottom Right -->
+                            <div class=" bottom-0 right-0">
+                                <img src="/img/post1.svg" class="absolute -bottom-10 -right-4 w-36 h-36 z-20" />
+                            </div>
+                        </div>
+                          
                     </div>
                 </div>
         </div>
@@ -222,7 +243,7 @@ import Navbar from "../components/Navbargenai.astro";
         <div class="font-bold text-3xl md:text-4xl lg:text-4xl text-center mb-6 md:mb-10">Timeline
         </div>
         <div class="flex flex-col items-center justify-center w-full">
-            <img src="/img/timeline.svg" class="md:w-3/4 w-full">
+            <img src="/img/timeline1.svg" class="md:w-3/4 w-full">
         </div>
     </section>
 
@@ -252,13 +273,13 @@ import Navbar from "../components/Navbargenai.astro";
 			
 						<div class=" space-y-4">
 							<p class=" text-lg" >
-                                <span class="font-heading space-x-6 text-2xl">2.</span> At the venue, we will provide food, internet, and workspaces for the 36-hour hack
+                                <span class="font-heading space-x-6 text-2xl">2.</span> At the venue, we will provide food, internet, and workspaces for the 24-hour hack
                             </p>
 						</div>
 			
 						<div class=" space-y-4">
 							<p class=" text-lg" >
-                                <span class="font-heading space-x-6 text-2xl">3.</span> Each participant will receive an event kit with t-shirts and badges
+                                <span class="font-heading space-x-6 text-2xl">3.</span> Each participant will receive an event kit
                             </p>
 						</div>
 			
@@ -297,11 +318,11 @@ import Navbar from "../components/Navbargenai.astro";
 					<div class="font-bold text-3xl md:text-4xl lg:text-4xl mb-16">Participant Guidelines
                     </div>
 					<div class="flex flex-col gap-5 mb-10">
-						<Guideline title="Each team should have 2 to 5 members" img="" />
+						<Guideline title="Each team should have 2 to 4 members" img="" />
 						<Guideline title="Bring your own laptops or devices" img="" />
 						<Guideline title="Shortlisted teams must attend the pre-hack bootcamp" img="" />
 						<Guideline title="Internet and power supply will be available at the venue" img="" />
-						<Guideline title="All projects must be original and submitted within the 36-hour window" img="" />
+						<Guideline title="All projects must be original and submitted within the 24-hour window" img="" />
 					</div>
 
 					<div class="buttons-wrapper">
