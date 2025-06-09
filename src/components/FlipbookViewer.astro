@@ -1,0 +1,101 @@
+---
+
+let seventh=
+[
+  {"id":"Brochure","link":"./pdf/KIF 2025 Brochure.pdf","img":"/img/logo.svg","title":"Newsletter May 2025"},
+]
+---
+
+
+   
+
+
+<div class="container">
+  {seventh.map((item) => (
+    <div id={item.id}></div>
+
+))}
+</div>
+
+{seventh.map((item) => (
+                       
+    <p data-pdf={item.link} data-id={item.id} class="inline-block hover:text-kif-green page-scroll cursor-pointer" aria-current="page">Brochure</p>
+
+))}
+
+<link rel="stylesheet" href="/flipbook/css/compressed.css" type="text/css">
+<link rel="stylesheet" href="./flipbook/css/main.css" type="text/css">
+
+
+  <script type="text/javascript" src="./flipbook/js/compressed.js" is:inline></script>
+  <script type="text/javascript" src="./flipbook/js/pdf.combined.min.js" is:inline></script>
+  <script type="text/javascript" src="./flipbook/js/flipbook.min.js" is:inline></script>
+
+  <script is:inline>
+    function fullscreenErrorHandler() {
+      if (self != top) return "The frame is blocking full screen mode. Click on 'remove frame' button above and try to go full screen again."
+    }
+
+    function buildBook(e) {
+      var item = e.target;
+      var link = item.getAttribute('data-pdf');
+      var id = item.getAttribute('data-id');
+      console.log(link,id)
+
+        
+      var optionsBook = {
+        height: 1024,
+        width: 1450,
+        pageNumbers: !1,
+        pdf: link,
+        pdfFind: !0,
+        pdfTextSelectable: !0,
+        lightbox: "#"+id+"-trigger",
+        lightboxClass: "lightbox-pdf",
+        centeredWhenClosed: !0,
+        hardcovers: !0,
+        curl: !0,
+        curlSize: 200,
+        toolbar: "lastLeft, left, currentPage, right, lastRight, toc, find, zoomin, zoomout, download, flipsound, thumbnails",
+        thumbnailsPosition: "bottom",
+        responsiveHandleWidth: 150,
+        onFullscreenError: fullscreenErrorHandler
+      
+      };
+
+      var q = '#'+id, e = $.wowBook(q); e || ($(q).wowBook(optionsBook), e = $.wowBook(q)), e.showLightbox()
+
+    }
+
+    var books = [].slice.call(document.querySelectorAll('[data-pdf]'));
+    books.map(book => {
+      book.addEventListener('click', buildBook);
+    })
+
+    //setTimeout(buildBook, 3000);
+    window.contentPage = function () {
+      location.hash = "#book2/3"
+    };
+
+    
+
+    var currentHash = window.location.hash.replace(/\\#.*\\/g, "")
+    window.onhashchange = function () {
+      currentHash = window.location.hash.replace(/\\#.*\\/g, "")
+      if (parseInt(currentHash) > 3) {
+        $(".backBtn").show()
+      }
+      else {
+        $(".backBtn").hide()
+      }
+    }
+
+    $(function () {
+      $(".wowbook-book-container").append("<span class='backBtn'>Back to Contents Page</span>")
+      $(".backBtn").click(function () {
+        location.hash = "#book2/3"
+      });
+    });
+
+  </script>
+
