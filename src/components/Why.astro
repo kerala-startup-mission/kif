@@ -29,8 +29,8 @@ const colors: Record<Color, { container: string[]; icon: string[] }> = {
 const selectedColor = colors[(color as Color) || 'green'];
 
 ---
-<div class="attend-box transition-all ease-in-out" data-aos="fade-right" data-aos-duration="1000" data-aos-offset="100" data-aos-delay={delay}>
-    <div class:list={selectedColor.container} class=" bg-white rounded-2xl border border-2 p-6 py-6 flex items-center justify-between relative">
+<div class="attend-box transition-all ease-in-out h-auto" data-aos="fade-right" data-aos-duration="1000" data-aos-offset="100" data-aos-delay={delay}>
+    <div class:list={selectedColor.container} class=" bg-white rounded-2xl border border-2 p-6 py-6 flex items-center justify-between relative h-full">
         <div class:list={selectedColor.icon} class="icon rounded-full -top-8 border border-2 p-2 absolute -left-8 text-white">
             <slot></slot>
         </div>
