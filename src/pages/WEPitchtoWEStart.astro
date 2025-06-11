@@ -1,0 +1,322 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Countdown from "../components/Countdown.svelte";
+import Speakers from "../components/Speakers.svelte";
+import Stats from "../components/Stats.astro";
+import Why from "../components/Why.astro";
+import Highlight from "../components/Highlight.astro";
+import Guideline from "../components/Guideline.astro";
+import Faq from "../components/Faq.astro";
+import Navbar from "../components/Navbar.astro";
+
+// import LottieAnimation from "astro-integration-lottie/Lottie.astro";
+---
+
+<Layout title="Kerala Innovation Festival | Kerala Startup Mission">
+	<Navbar></Navbar>
+
+    <main id="home" class="pt-24 lg:pt-10 px-5 lg:px-20 pb-20 lg:pb-10 bg-kif min-h-screen w-screen flex flex-col items-center justify-center ">
+		<div class="flex items-center flex-col lg:flex-row justify-center w-full gap-6  container lg:pt-20">
+			<div class="space-y-8 lg:w-1/2 w-full">
+				<div class="pointer-events-none">
+					<div class="flex flex-row gap-6 items-center ">
+						<img src="/img/kif.svg" class="md:h-10 h-10"/>
+						<img src="/img/10y.svg" class="md:w-16 w-16"/>
+					</div>
+					<!-- <div>
+						<h1 class="md:text-sm text-xs"  data-aos-delay="500">India's Largest Innovation Festival</h1>
+					</div> -->
+				</div>
+
+				<div class="pointer-events-none">
+                    <h1 class="text-black text-center lg:text-left text-3xl md:text-[40px] font-heading">
+                        WE Pitch to WE Start
+                    </h1>
+                    <div>
+                        <h1 class="md:text-lg text-base font-heading">Have an Idea? Let's Build it Together.                        </h1>
+                    </div>
+                </div>
+               
+                <div>
+                    <h1 class="text-lg">
+                        WE Pitch to WE Start is your launchpad into entrepreneurship.
+                        An exclusive opportunity for aspiring women founders to pitch their startup ideas, receive instant mentorship, and get selected into KSUM’s WE Start Pre-Incubation Programme.
+                                           </h1>
+                </div>
+                
+				
+                <div class="pointer-events-none text-lg">
+                 
+                    <h1 class=" font-bold">
+                        Get instant feedback from experts and validate Your Idea
+                    </div>
+              
+				<!-- <h1 class="text-kif-dark-blue text-xl font-semibold text-center lg:text-left"  >
+					Shaping a Sustainable <span class="text-kif-green">2035</span>
+				</h1> -->
+                <div>
+                    <div class="">
+                        <a href="https://zfrmz.com/3lr9IBl4vXP9tAI4q4Fw" target="_blank" class="inline-block font-sans rounded-md bg-[#e5243b] w-fit py-2 md:text-base px-3 text-white text-sm">Apply for WE Pitch to WE Start</a>
+                    </div>
+                </div>
+				
+			</div>
+            <div class="">
+				<img src="/img/westart.svg" data-aos="zoom-in-down" class="w-[75vw] md:w-[50vw] lg:w-[36vw] pointer-events-none" />
+			</div>
+			
+		</div>
+        <div class="flex items-center lg:flex-row justify-center w-full gap-6  container flex-col pt-20">
+            <div class="flex items-center lg:items-start xl:items-center flex-col xl:flex-row gap-4" >
+                <div class="font-sans flex items-center gap-2">
+                    <div class="text-blue-400 text-3xl font-bold">25-26</div>
+                    <div class="bg-kif-red text-center font-bold px-2">
+                        <div class="text-white text-xs">July</div>
+                        <div class="text-white text-xs">2025</div>
+                    </div>
+                </div>
+                <div class="flex items-center gap-1">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-map-pin text-kif-red"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><path d="M9 11a3 3 0 1 0 6 0a3 3 0 0 0 -6 0"></path><path d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0z"></path></svg>
+                    <div class="">Kerala Startup Mission, Kochi</div>
+                </div>
+            </div>
+
+            <div class="flex items-center flex-col lg:flex-row gap-5" >
+                <!-- <div class="">
+                    <a href="https://zfrmz.com/3lr9IBl4vXP9tAI4q4Fw" target="_blank" class="inline-block font-sans rounded-md bg-[#e5243b] w-fit py-2 md:text-base px-3 text-white text-sm">Register Now</a>
+                </div> -->
+                <!-- <div>
+                    <Countdown date="2025-07-25T09:00" client:load />
+                </div> -->
+            </div>
+        </div>
+	</main>
+
+    <section class="py-24 md:px-5 px-10">
+		<div class="container mx-auto">
+            <div class="font-bold text-3xl md:text-4xl lg:text-4xl mb-16 text-center">Who Should Apply?
+            </div>
+			<div class="grid md:grid-cols-2 lg:grid-cols-4 gap-10">
+
+				<Why content="Women with an innovative idea for building a venture" color="blue" delay="300">
+					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="montserrat icon icon-tabler w-12 icons-tabler-outline icon-tabler-trophy"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><path d="M8 21l8 0"></path><path d="M12 17l0 4"></path><path d="M7 4l10 0"></path><path d="M17 4v8a5 5 0 0 1 -10 0v-8"></path><path d="M5 9m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0"></path><path d="M19 9m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0"></path></svg>
+				</Why>
+
+				<Why content="Students, professionals, homemakers, freelancers" color="darkblue" delay="400">
+					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="montserrat icon icon-tabler w-12 icons-tabler-outline icon-tabler-book"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><path d="M3 19a9 9 0 0 1 9 0a9 9 0 0 1 9 0"></path><path d="M3 6a9 9 0 0 1 9 0a9 9 0 0 1 9 0"></path><path d="M3 6l0 13"></path><path d="M12 6l0 13"></path><path d="M21 6l0 13"></path></svg>
+				</Why>
+
+				<Why content="You don’t need a company or MVP – just a strong idea and clarity" color="green" delay="500">
+					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="montserrat icon icon-tabler w-12 icons-tabler-outline icon-tabler-confetti"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><path d="M4 5h2"></path><path d="M5 4v2"></path><path d="M11.5 4l-.5 2"></path><path d="M18 5h2"></path><path d="M19 4v2"></path><path d="M15 9l-1 1"></path><path d="M18 13l2 -.5"></path><path d="M18 19h2"></path><path d="M19 18v2"></path><path d="M14 16.518l-6.518 -6.518l-4.39 9.58a1 1 0 0 0 1.329 1.329l9.579 -4.39z"></path></svg>
+				</Why>
+                <Why  content="Preference to tech and innovation integrated ideas" color="yellow" delay="200">
+					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="montserrat icon icon-tabler w-12 icons-tabler-outline icon-tabler-drone"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><path d="M10 10h4v4h-4z"></path><path d="M10 10l-3.5 -3.5"></path><path d="M9.96 6a3.5 3.5 0 1 0 -3.96 3.96"></path><path d="M14 10l3.5 -3.5"></path><path d="M18 9.96a3.5 3.5 0 1 0 -3.96 -3.96"></path><path d="M14 14l3.5 3.5"></path><path d="M14.04 18a3.5 3.5 0 1 0 3.96 -3.96"></path><path d="M10 14l-3.5 3.5"></path><path d="M6 14.04a3.5 3.5 0 1 0 3.96 3.96"></path></svg>
+				</Why>
+			</div>
+		</div>
+	</section>
+
+    <section class="pb-24  sm:px-0 px-10" id="about">
+        <div class="container mx-auto">
+            <div
+                class="grid grid-cols-12 gap-6 2xl:gap-0 items-center pb-8"
+                data-aos="fade-up"
+            >
+                <div class="col-span-12 lg:col-span-6 xl:col-span-6">
+                    <div
+                        class="font-bold leading-none flex flex-wrap flex-col"
+                    >
+                    <div class="font-bold text-3xl md:text-4xl lg:text-4xl">What Happens Here</div>
+
+                    </div>
+                </div>
+               
+            </div>
+
+            <div class=" w-full">
+                <div class="flex justify-between">
+                    <!-- <div class="flex flex-wrap flex-col mb-12">
+                        <span class="strock-text mt-5">Test. Learn. Improve.<br>Repeat.</span>
+                    </div> -->
+                </div>
+                    <div class="grid sm:grid-cols-2 md:grid-cols-3 gap-6 ">
+                        <!-- service Item -->
+
+                        <div
+                            class="px-6 py-7 bg-kif-green text-white rounded-lg transition-all hover:shadow-2xl  group"
+                            data-aos="fade-up"
+                            data-aos-delay="500"
+                        >
+                            <!-- Icon -->
+                            <div
+                                class="w-12 h-12 bg-white rounded-full shadow flex flex-wrap items-center justify-center transition-all group-hover:bg-gray-100 mb-8"
+                            >
+                            <img src="/img/person_12036435.png" class="w-7">
+                            </div>
+
+                            <!-- Icon End -->
+                            <h4>
+                                <a
+                                   
+                                    class="flex flex-wrap items-end justify-between font-bold text-xl font-Syne text-black-800 group-hover:text-orange transition-all"
+                                >
+                                50 selected women get a chance to pitch in front of mentors
+                            </a>
+                            </h4>
+                        </div>
+
+                        <!-- service Item End -->
+
+                        <!-- service Item -->
+
+                        <div
+                            class="px-6 py-7 bg-kif-red text-white rounded-lg transition-all hover:shadow-2xl  group"
+                            data-aos="fade-up"
+                            data-aos-delay="700"
+                        >
+                           
+                             <!-- Icon -->
+                             <div
+                             class="w-12 h-12 bg-white rounded-full shadow flex flex-wrap items-center justify-center transition-all group-hover:bg-gray-100 mb-8"
+                         >
+                         <img src="/img/clock_12746369.png" class="w-7">
+                         </div>
+
+                            <!-- Icon End -->
+                            <h4>
+                                <a
+                                   
+                                    class="flex flex-wrap items-end justify-between font-bold text-xl font-Syne text-black-800 group-hover:text-orange transition-all"
+                                >
+                                Real-time feedback, suggestions & confidence building
+
+
+                            </a>
+                            </h4>
+                        </div>
+
+                        <!-- service Item End -->
+
+                        <!-- service Item -->
+
+                        <div
+                            class="px-6 py-7 bg-kif-yellow text-white rounded-lg transition-all hover:shadow-2xl  group"
+                            data-aos="fade-up"
+                            data-aos-delay="900"
+                        >
+                           
+                        <!-- Icon -->
+                        <div
+                        class="w-12 h-12 bg-white rounded-full shadow flex flex-wrap items-center justify-center transition-all group-hover:bg-gray-100 mb-8"
+                        >
+                       <img src="/img/startup_17628284.png" class="w-7">
+                        </div>
+                            <!-- Icon End -->
+                            <h4>
+                                <a
+                                   
+                                    class="flex flex-wrap items-end justify-between font-bold text-xl font-Syne text-black-800 group-hover:text-orange transition-all"
+                                >
+                                Top 25 will be selected for WE Start Pre-Incubation Program
+                                (A 3-month structured journey to build MVPs and get your early adopters)                                </a>
+                            </h4>
+                        </div>
+
+                        <!-- service Item End -->
+
+
+                    </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <section id="guidelines" class=" px-5"  data-aos="fade-down" data-aos-duration="500" data-aos-offset="100">
+		<div class="relative container mx-auto">
+			<div class="grid lg:grid-cols-2 gap-10">
+				<div>
+					<div class="font-bold text-3xl md:text-4xl lg:text-4xl mb-16">Why Join?
+                    </div>
+					<div class="flex flex-col gap-5 mb-10">
+						<Guideline title="Validate your idea in a safe, supportive space" img="" />
+						<Guideline title="Start your journey with Kerala Startup Mission" img="" />
+						<Guideline title="Get connected to mentors, experts and fellow founders." img="" />
+						<Guideline title="Learn the mindset, process, and tools to build" img="" />
+					</div>
+
+					<div class="buttons-wrapper">
+						<div>
+							<a href="https://zfrmz.com/3lr9IBl4vXP9tAI4q4Fw" target="_blank" class="inline-block btn-register md:px-4 px-3 md:py-3 py-2 md:text-xl text-lg border-2 border-[#4c9f38] font-bold rounded-md uppercase">Apply for WE Pitch to WE Start</a>
+                            <!-- <p class="text-kif-red pt-4 text-sm italic">Limited slots available.</p> -->
+						</div>
+					</div>
+				</div>
+
+				<div class="rounded-2xl bg-center bg-no-repeat w-full mb-4" style="background-image:url('/img/whywestart.svg')"></div>
+				
+			</div>
+		</div>
+	</section>
+
+    <section id="contact" class="relative pt-24">
+		<div class="container mx-auto">
+			<div class="flex flex-col md:flex-row items-center justify-center">
+				<div class="md:w-1/2 w-full">
+					<iframe title="map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15714.13294256542!2d76.3542335!3d10.0553212!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xeaddd199d9bbde2b!2sKerala%20Technology%20Innovation%20Zone%20(KTIZ)!5e0!3m2!1sen!2sin!4v1648204144344!5m2!1sen!2sin" width="100%" height="300" style="border:0;" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+				</div>
+				<div class="md:w-1/2 w-full">
+					<div class="p-10 text-center flex flex-col items-center justify-center">
+						<img src="/img/logo.svg" class="h-32 mb-3" alt="Logo" />
+						<div class="mb-5">
+							<div class="font-bold md:text-2xl font-josefin">Kerala Technology Innovation Zone</div>
+							<div class="">Kinfra Hi Tech Park, Kalamassery, Kochi</div>
+						</div>
+						<div class="mb-5">
+							<div class="text-sm mb-3">
+								<!-- For More Details &amp; <br />Partnership Opportunities Contact: -->
+								Partnership Opportunities, contact:
+							</div>
+							<div class="font-bold">Nasif NM</div>
+							<div class="">nasif@startupmission.in</div>
+						</div>
+
+						<div class=" flex flex-row gap-3 item-center jstify-center">
+							<span>Follow us:</span>
+							<a href="https://www.instagram.com/keralainnovationfestival/" target="_blank" class="hover:text-kif-dark-blue">
+								<svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-brand-instagram"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M4 8a4 4 0 0 1 4 -4h8a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-8a4 4 0 0 1 -4 -4z" /><path d="M9 12a3 3 0 1 0 6 0a3 3 0 0 0 -6 0" /><path d="M16.5 7.5v.01" /></svg>
+							</a>
+							<a href="https://www.linkedin.com/company/kerala-startup-mission/" target="_blank" class="hover:text-kif-dark-blue">
+								<svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-brand-linkedin"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M8 11v5" /><path d="M8 8v.01" /><path d="M12 16v-5" /><path d="M16 16v-3a2 2 0 1 0 -4 0" /><path d="M3 7a4 4 0 0 1 4 -4h10a4 4 0 0 1 4 4v10a4 4 0 0 1 -4 4h-10a4 4 0 0 1 -4 -4z" /></svg>
+							</a>
+							<a href="https://www.youtube.com/channel/UCGnD5pg8MOIetz93sEvCHbw" target="_blank" class="hover:text-kif-dark-blue">
+								<svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-brand-youtube"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M2 8a4 4 0 0 1 4 -4h12a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-12a4 4 0 0 1 -4 -4v-8z" /><path d="M10 9l5 3l-5 3z" /></svg>
+							</a>
+						</div> 
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="w-full mt-10 border-t-2 border-gray-200">
+		<div class="text-sm px-5 py-3 text-center">
+			Copyright © 2025 | <a href="https://startupmission.kerala.gov.in/" target="_blank" class="hover:text-blue-500">Kerala Startup Mission</a>
+		</div>
+	</section>
+</Layout>
+
+
+<style is:global>
+.strock-text {
+  font-family: "Syne", sans-serif;
+  font-size: 3rem;
+  line-height: 1;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: -1.5px;
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255/var(--tw-text-opacity));
+  text-shadow: 1px 1px 0 rgba(8, 8, 8, 0.4), -1px -1px 0 rgba(8, 8, 8, 0.4), 1px -1px 0 rgba(8, 8, 8, 0.4), -1px 1px 0 rgba(8, 8, 8, 0.4), 1px 1px 0 rgba(8, 8, 8, 0.4);
+}
+</style>
