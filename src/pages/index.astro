@@ -9,6 +9,7 @@ import Kochi from "../components/Kochi.astro";
 import Faq from "../components/Faq.astro";
 import Navbar from "../components/Navbar.astro";
 import Whatsapp from '../components/Whatsapp.astro';
+import Agenda from "../components/Agenda.svelte";
 
 
 // import LottieAnimation from "astro-integration-lottie/Lottie.astro";
@@ -285,6 +286,16 @@ import Whatsapp from '../components/Whatsapp.astro';
 			</div>
 		</div>
 	</section>
+
+
+	<section id="agenda" class="px-5 pb-24 pt-24 ">
+		<div class="container mx-auto">
+			<div class="font-bold text-3xl md:text-4xl lg:text-5xl text-center mb-10 lg:mb-20">Tentative Schedule</div>
+
+		  <Agenda client:load></Agenda>
+		</div>
+	</section>
+	
 
 	<section class="py-24 px-5">
 		<div class="relative container mx-auto">
