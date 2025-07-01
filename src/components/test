@@ -69,17 +69,17 @@
   
   </script>
   
-  <div class="agenda__tabs space-x-4 text-center text-kif-dark-blue mb-5 ">
+  <div class="agenda__tabs space-x-4 text-center text-kif-blue mb-5 ">
     {#each Object.entries(agenda_list) as [date, agendas]}
-      <button on:click={()=> selectTab(date)} class="px-5 py-3 spl_cursor mb-3 sm:text-base text-xs rounded-md shadow  border {date == active_tab ? 'bg-kif-red text-white border-red-600' : 'border-kif-dark-blue'} " >
+      <button on:click={()=> selectTab(date)} class="px-5 py-3 spl_cursor mb-3 sm:text-base text-xs rounded-md shadow  border {date == active_tab ? 'bg-kif-red text-white border-red-600' : 'border-kif-blue'} " >
         <span>{date_format(date, 'ccc')}</span>, {date_format(date, 'LLL d, y')}
       </button>
     {/each}
   </div>
   
-  <div class="agenda__tabs space-x-4 text-center text-kif-dark-blue mb-5 ">
+  <div class="agenda__tabs space-x-4 text-center text-kif-blue mb-5 ">
     {#each Object.entries(venues) as [index,venue]}
-      <button on:click={()=> selectVenue(venue)} class="px-5 py-3 mb-3  spl_cursor sm:text-base text-xs rounded-md shadow  border {venue == active_venue ? 'bg-kif-red text-white border-red-600' : 'border-kif-dark-blue'} " >
+      <button on:click={()=> selectVenue(venue)} class="px-5 py-3 mb-3  spl_cursor sm:text-base text-xs rounded-md shadow  border {venue == active_venue ? 'bg-kif-red text-white border-red-600' : 'border-kif-blue'} " >
         <span>{venue}
       </button>
     {/each}
@@ -100,7 +100,7 @@
   
               {#each agenda as {name, description, start_time, end_time, category, speakers, venue} }
   
-                <div class=" alternate-row px-5 py-3 my-2">
+                <div class="bg-white alternate-row px-5 py-3">
                   <div class="flex flex-col md:flex-row md:space-x-5">
                     <div class=" text-kif-dark-blue md:pt-3 flex-shrink-0 min-w-[6rem]">{date_single(start_time)} IST</div>
                     
@@ -172,33 +172,32 @@
   </div>
   
   <style lang="scss">
-  .alternate-row{
-    &:nth-child(odd){
-      --tw-bg-opacity: .10;
-      border: 1px solid rgba(112, 109, 109, 0.136);
+    .alternate-row{
+      &:nth-child(odd){
+        --tw-bg-opacity: .30
+      }
+      &:nth-child(even){
+        --tw-bg-opacity: 0;
+        border: 1px solid rgba(255, 255, 255, 0.594);
+      }
     }
-    &:nth-child(even){
-      --tw-bg-opacity: 0;
-      border: 1px solid rgba(112, 109, 109, 0.136);
-    }
-  }
-
-  #event-sched{
-    position: relative;
-    &::before{
-      @apply text-white md:text-8xl text-5xl font-bold font-heading opacity-80 transform -rotate-90;
-      content: attr(data-title);
-      position: absolute;
-      top: 0;
-      left: -75%;
-      transform-origin: center right;
-
-      @media (min-width: 768px){
-        & {
-          font-size: 8rem;
-          line-height: 1;
+  
+    #event-sched{
+      position: relative;
+      &::before{
+        @apply text-white md:text-8xl text-5xl font-bold font-heading opacity-10 transform -rotate-90;
+        content: attr(data-title);
+        position: absolute;
+        top: 0;
+        left: -75%;
+        transform-origin: center right;
+  
+        @media (min-width: 768px){
+          & {
+            font-size: 8rem;
+            line-height: 1;
+          }
         }
       }
     }
-  }
-</style>
+  </style>
