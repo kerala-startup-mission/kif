@@ -21,6 +21,7 @@
     "lottie-web": "^5.12.2",
     "luxon": "^3.6.1",
     "plyr": "^3.7.8",
+    "pocketbase": "^0.26.1",
     "simplur": "^4.0.0",
     "svelte": "^5.20.1",
     "svelte-markdown": "^0.4.1",
