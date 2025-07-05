@@ -10,11 +10,11 @@
   let mentorColors = new Map();
 
   const colors = [
-    { border: '#16a34a', bg: '#16a34a' }, // Green
-    { border: '#dc2626', bg: '#dc2626' }, // Red
-    { border: '#facc15', bg: '#facc15' }, // Yellow
-    { border: '#3b82f6', bg: '#3b82f6' }, // Blue
-    { border: '#4f46e5', bg: '#4f46e5' }  // Indigo
+    { border: '#4C9F38', bg: '#4C9F38' }, // Green
+    { border: '#E5243B', bg: '#E5243B' }, // Red
+    { border: '#FCC310', bg: '#FCC310' }, // Yellow
+    { border: '#26BDE2', bg: '#26BDE2' }, // Blue
+    { border: '#1A486A', bg: '#1A486A' }  // Indigo
   ];
 
   let filterOptions = {
