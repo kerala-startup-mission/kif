@@ -1,0 +1,30 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Countdown from "../components/Countdown.svelte";
+import Speakers from "../components/Speakers.svelte";
+import Stats from "../components/Stats.astro";
+import Why from "../components/Why.astro";
+import Highlight from "../components/Highlight.astro";
+import Kochi from "../components/Kochi.astro";
+import Faq from "../components/Faq.astro";
+import Navbar from "../components/Navbar.astro";
+import Whatsapp from '../components/Whatsapp.astro';
+import Agenda from "../components/Agenda.svelte";
+
+
+// import LottieAnimation from "astro-integration-lottie/Lottie.astro";
+---
+
+<Layout title="Kerala Innovation Festival | Kerala Startup Mission">
+
+  <Whatsapp></Whatsapp>
+
+	<Navbar></Navbar>
+	<section id="speakers" class="px-5 py-24 pt-48 bg-gray-50">
+		<div class="container mx-auto">
+			<div class="font-bold text-3xl md:text-4xl lg:text-5xl text-center mb-10 lg:mb-20">Speakers</div>
+
+		  <Speakers client:load></Speakers>
+		</div>
+	</section>
+</Layout>
