@@ -169,8 +169,8 @@
             spaceBetween: 20,
             breakpoints: {
               640: { slidesPerView: 2 },
-              768: { slidesPerView: 3 },
-              1024: { slidesPerView: 4 },
+              768: { slidesPerView: 4 },
+              1024: { slidesPerView: 5 },
             },
             loop: true,
             autoplay: {
@@ -252,7 +252,7 @@
             class="flex flex-col text-white text-center px-2 font-semibold flex-grow"
             style="background-color: {speakerColors.get(photo)?.bg}; min-height: 80px;"
             >
-            <h3 class="text-base">{name}</h3>
+            <h3 class="text-sm pt-1">{name}</h3>
             <p class="text-xs font-normal">{designation}<br />{organisation}</p>
             </div>
 
