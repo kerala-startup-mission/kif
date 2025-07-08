@@ -8,7 +8,7 @@
   const getImage = (photo) => photo || '/default-avatar.png';
 
   onMount(() => {
-    fetch(`https://events.startupmission.in/api/event/kif/speakers?category=Speakers`)
+    fetch(`https://events.startupmission.in/api/event/kif/speakers?category=Speaker`)
       .then(res => res.json())
       .then(json => {
         speaker_list = Object.values(json).flat();
