@@ -38,7 +38,7 @@
   }
 
   onMount(() => {
-    fetch(`https://events.startupmission.in/api/event/kif/speakers?category=Speakers`)
+    fetch(`https://events.startupmission.in/api/event/kif/speakers?category=Speaker`)
       .then(response => response.json())
       .then((json) => {
         speaker_list = json;
