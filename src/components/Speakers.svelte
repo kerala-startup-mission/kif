@@ -1,5 +1,6 @@
 <script>
   import { onMount } from 'svelte';
+  let full_view = false;
 
   let speaker_list = [];
   let speakerColors = new Map();
@@ -37,6 +38,28 @@
     }
   }
 
+  function findPos(obj) {
+    var curtop = 0;
+    if (obj.offsetParent) {
+        do {
+            curtop += obj.offsetTop;
+        } while (obj = obj.offsetParent);
+    return curtop;
+    }
+  }
+  function handleView(e) {
+    full_view = true;
+
+    console.log(findPos(document.getElementById("speakers"))+1, findPos(document.getElementById("speakers")) );
+
+    window.scroll({
+      left:0,
+      top:findPos(document.getElementById(category))+500, 
+      behavior:'smooth'
+    });
+
+  }
+
   onMount(() => {
     fetch(`https://events.startupmission.in/api/event/kif/speakers?category=Speaker`)
       .then(response => response.json())
@@ -55,16 +78,15 @@
 </script>
 
 {#each Object.entries(speaker_list) as [category, speakers]}
-  <section class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8 mb-12">
+  <section class="overflow-hidden { full_view ? "" : "max-h-[850px]"} openTrans relative">
 
-    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 ">
       {#each speakers as { name, designation, organisation, photo, linkedin }}
-        <div class="relative group rounded-lg overflow-hidden flex flex-col border-2 shadow-sm hover:shadow-lg transition-all duration-300"
+        <div class="relative group rounded-lg overflow-hidden flex flex-col border-2 h-full shadow-sm hover:shadow-lg transition-all duration-300"
              style="border-color: {speakerColors.get(photo)?.border}">
-          <img src={getImage(photo)} alt={name} class="h-64 w-full object-cover" loading="lazy" />
+          <img src={getImage(photo)} alt={name} class="  w-full object-cover" loading="lazy" />
 
-          <div class="text-white text-center py-3 px-2 font-semibold h-full"
-               style="background-color: {speakerColors.get(photo)?.bg}">
+          <div class="text-white text-center py-2 px-2 font-semibold h-full flex-1" style="background-color: {speakerColors.get(photo)?.bg}">
             <h3 class="text-base">{name}</h3>
             <p class="text-xs font-normal">{designation}<br />{organisation}</p>
           </div>
@@ -93,6 +115,24 @@
           {/if}
         </div>
       {/each}
+
+
+        {#if !full_view}
+          <div  class="flex items-center justify-center bg-gradient-to-t from-huddle from-25% via-[#c70000bd] to-transparent h-24 bottom-0 absolute w-full z-[10]">
+            <button on:click={handleView} class="border border-white text-white rounded-full px-5 py-3 cursor-pointer animate-pulse">
+              Show More
+            </button>
+          </div>
+        {/if}
+
     </div>
   </section>
 {/each}
+
+
+
+<style>
+   .openTrans{
+    transition: max-height .45s cubic-bezier(.44, .99, .48, 1);
+  }
+</style>
