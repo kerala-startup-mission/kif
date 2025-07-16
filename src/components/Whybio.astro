@@ -1,0 +1,43 @@
+---
+const { title, content, color, delay,who } = Astro.props;
+
+type Color = 'red' | 'darkblue' | 'green' | 'blue' | 'yellow';
+
+const colors: Record<Color, { container: string[]; icon: string[] }> = {
+  red: {
+    container: ['border-kif-red'],
+    icon: ['bg-kif-red', 'border-kif-red'],
+  },
+  darkblue: {
+    container: ['border-kif-dark-blue'],
+    icon: ['bg-kif-dark-blue', 'border-kif-dark-blue'],
+  },
+  green: {
+    container: ['border-kif-green'],
+    icon: ['bg-kif-green', 'border-kif-green'],
+  },
+  blue: {
+    container: ['border-kif-blue'],
+    icon: ['bg-kif-blue', 'border-kif-blue'],
+  },
+  yellow: {
+    container: ['border-kif-yellow'],
+    icon: ['bg-kif-yellow', 'border-kif-yellow'],
+  },
+};
+
+const selectedColor = colors[(color as Color) || 'green'];
+
+---
+<div class="attend-box transition-all ease-in-out h-auto" data-aos="fade-right" data-aos-duration="1000" data-aos-offset="100" data-aos-delay={delay}>
+    <div class:list={selectedColor.container} class=" bg-white rounded-2xl border border-2 p-6 py-6 flex items-center justify-between relative h-full">
+        <div class:list={selectedColor.icon} class="icon rounded-full -top-8 border border-2 p-2 absolute -left-8 text-white">
+            <slot></slot>
+        </div>
+        <div class=" content-area">
+            <p class="font-bold text-xl mb-2">{title}</p>
+            <p class="text-base">{content}</p>
+            <p class="text-sm">{who}</p>
+        </div>
+    </div>
+</div>
