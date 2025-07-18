@@ -117,16 +117,17 @@
       {/each}
 
 
-        {#if !full_view}
-          <div  class="flex items-center justify-center bg-gradient-to-t from-huddle from-25% via-[#c70000bd] to-transparent h-24 bottom-0 absolute w-full z-[10]">
-            <button on:click={handleView} class="border border-white text-white rounded-full px-5 py-3 cursor-pointer animate-pulse">
+     
+
+    </div>
+  </section>
+     {#if !full_view}
+          <div  class="flex items-center justify-center h-24 mt-8 w-full z-[50]">
+            <button on:click={handleView} class="border  text-white bg-kif-yellow rounded-full px-5 py-3 cursor-pointer  ">
               Show More
             </button>
           </div>
         {/if}
-
-    </div>
-  </section>
 {/each}
 
 
