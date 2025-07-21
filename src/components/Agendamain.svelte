@@ -23,7 +23,7 @@
       loading = false;
       active_tab = (dates().indexOf(today) >= 0) ? today : dates()[0];
       
-      active_venue="DH F1 500 Seater Event Theatre";
+      active_venue="Digital Hub";
   
     }
   
@@ -114,7 +114,7 @@
                       
                         <div class=" w-full pt-3">
                           <div class="text-yellow-500 uppercase text-xs">{category ?? ""}</div>
-                          <div class="text-lg font-bold max-w-xl text-kif-green">{name}</div>
+                          <div class="md:text-lg text-base font-bold max-w-xl text-kif-green">{name}</div>
       
                           {#if description }
                             <div class="mt-4 text-white mb-4">
@@ -136,7 +136,7 @@
                                         <img src="{photo}" alt="name" class="">
                                       </div>
                                       <div>
-                                        <div class="font-bold text-white">{name}</div>
+                                        <div class="font-bold text-white md:text-base text-sm">{name}</div>
                                         <div class="text-xs text-pink-300">{designation}</div>
                                         <div class="text-xs text-pink-300">{organisation ?? ""}</div>
                                       </div>
