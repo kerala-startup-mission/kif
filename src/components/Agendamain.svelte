@@ -77,13 +77,19 @@
     {/each}
   </div>
   
-  <div class="agenda__tabs space-x-4 text-center text-kif-dark-blue mb-5 ">
-    {#each Object.entries(venues) as [index,venue]}
-      <button on:click={()=> selectVenue(venue)} class="px-5 py-3 mb-3  spl_cursor sm:text-base text-xs rounded-md shadow  border {venue == active_venue ? 'bg-kif-red text-white border-red-600' : 'border-kif-dark-blue'} " >
-        <span>{venue}
+<div class="agenda__tabs space-x-4 text-center text-kif-dark-blue mb-5 ">
+  {#if agenda_list[active_tab]}
+    {#each Object.keys(agenda_list[active_tab]) as venue}
+      <button
+        on:click={() => selectVenue(venue)}
+        class="px-5 py-3 mb-3 spl_cursor sm:text-base text-xs rounded-md shadow border 
+          {venue == active_venue ? 'bg-kif-red text-white border-red-600' : 'border-kif-dark-blue'}">
+        <span>{venue}</span>
       </button>
     {/each}
-  </div>
+  {/if}
+</div>
+
   
   <div id="event-sched1" data-title="Event Schedule" class="">
     {#each Object.entries(agenda_list) as [date, agendas]}
