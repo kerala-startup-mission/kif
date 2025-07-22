@@ -117,7 +117,7 @@
                           <div class="md:text-lg text-base font-bold max-w-xl text-kif-green">{name}</div>
       
                           {#if description }
-                            <div class="mt-4 text-white mb-4">
+                            <div class="mt-4 text-kif-dark-blue mb-4">
                               <SvelteMarkdown source={description}></SvelteMarkdown>
                             </div>
                           {/if}
@@ -136,7 +136,7 @@
                                         <img src="{photo}" alt="name" class="">
                                       </div>
                                       <div>
-                                        <div class="font-bold text-white md:text-base text-sm">{name}</div>
+                                        <div class="font-bold text-kif-dark-blue  text-sm">{name}</div>
                                         <div class="text-xs text-pink-300">{designation}</div>
                                         <div class="text-xs text-pink-300">{organisation ?? ""}</div>
                                       </div>
