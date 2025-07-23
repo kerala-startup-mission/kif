@@ -23,7 +23,7 @@
       loading = false;
       active_tab = (dates().indexOf(today) >= 0) ? today : dates()[0];
       
-      active_venue="Digital Hub";
+      active_venue="Digital Hub Theatre Hall";
   
     }
   
