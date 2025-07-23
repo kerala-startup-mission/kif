@@ -1,0 +1,145 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Countdown from "../components/Countdown.svelte";
+import Speakers from "../components/Speakers.svelte";
+import Stats from "../components/Stats.astro";
+import Why from "../components/Whybio.astro";
+import Highlight from "../components/Highlight.astro";
+import Guideline from "../components/Guideline.astro";
+import Faq from "../components/Faq.astro";
+import Navbar from "../components/Navbar.astro";
+
+// import LottieAnimation from "astro-integration-lottie/Lottie.astro";
+---
+
+<Layout title="Kerala Innovation Festival | Kerala Startup Mission">
+	<Navbar></Navbar>
+
+    <main  class="pt-24 lg:pt-10 px-5 lg:px-20 pb-20 lg:pb-10 bg-white min-h-screen w-screen flex flex-col items-center justify-center ">
+		<div class="flex items-center flex-col lg:flex-row justify-center w-full gap-6  container lg:pt-20">
+			<div class="space-y-8 lg:w-1/2 w-full">
+
+				<div class="pointer-events-none">
+					<div class="flex flex-row gap-6 items-center ">
+						<img src="/img/makervillage.png" class="md:h-24 h-16"/>
+					</div>
+					<!-- <div>
+						<h1 class="md:text-sm text-xs"  data-aos-delay="500">India's Largest Innovation Festival</h1>
+					</div> -->
+				</div>
+
+				<div class="pointer-events-none">
+                    <h1 class="text-black text-center lg:text-left text-3xl md:text-[40px] font-heading">
+                        Maker Fest
+                    </h1>
+                    <!-- <div>
+                        <h1 class="md:text-lg text-base font-heading">India’s Largest Generative AI Hackathon</h1>
+                    </div> -->
+                </div>
+                
+			</div>
+            <div class="grid md:grid-cols-2 gap-5">
+
+				<div class="relative h-full">
+                    <div class="bg-white border-b-0 shadow-xl rounded-xl flex flex-col items-center justify-center p-4 shadow-slate-100 border">
+                        <div class="py-4">
+                            <!-- <p class="text-sm font-bold pb-2 text-kif-blue">Training Session 1</p> -->
+                            <h2 class="text-lg font-bold  pb-3 text-center"><a>3D PRINTING WORKSHOP</a></h2>
+                            <div class=" mt-2">
+                                <a href="https://docs.google.com/forms/d/1XKTRpk7lVLBthJbK2pHY7wu7Mtd2Ff7kcxKRuTxJ2IQ/viewform?edit_requested=true" target="_blank" class="inline-block font-sans rounded-md bg-kif-yellow border-white border-2 w-fit py-2 md:text-sm px-3 text-white text-sm">Register Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="absolute bottom-0 w-full ">
+                        <img src="/img/bio.svg">
+                    </div>
+                </div>
+
+                <div class="relative h-full">
+                    <div class="bg-white border-b-0 shadow-xl rounded-xl flex flex-col items-center justify-center p-4 shadow-slate-100 border">
+                        <div class="py-4">
+                            <!-- <p class="text-sm font-bold pb-2 text-kif-blue">Training Session 1</p> -->
+                            <h2 class="text-lg font-bold  pb-3 text-center"><a>DRONE WORKSHOP</a></h2>
+                            <div class=" mt-2">
+                                <a href="https://docs.google.com/forms/d/1pTU1obISZeRgVWb7YwbwMI5CfVWZhLZWS7nnqb4rknw/viewform?edit_requested=true" target="_blank" class="inline-block font-sans rounded-md bg-kif-yellow border-white border-2 w-fit py-2 md:text-sm px-3 text-white text-sm">Register Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="absolute bottom-0 w-full ">
+                        <img src="/img/bio.svg">
+                    </div>
+                </div>
+
+                <div class="relative h-full">
+                    <div class="bg-white border-b-0 shadow-xl rounded-xl flex flex-col items-center justify-center p-4 shadow-slate-100 border">
+                        <div class="py-4">
+                            <!-- <p class="text-sm font-bold pb-2 text-kif-blue">Training Session 1</p> -->
+                            <h2 class="text-lg font-bold  pb-3 text-center"><a>ANSYS DESIGN WORKSHOP</a></h2>
+                            <div class=" mt-2">
+                                <a href="https://docs.google.com/forms/d/1ok8MlxO0_BA9lcOEZ-UOnMjfqPehw3Uo8VGk2Lw53IY/viewform?edit_requested=true" target="_blank" class="inline-block font-sans rounded-md bg-kif-yellow border-white border-2 w-fit py-2 md:text-sm px-3 text-white text-sm">Register Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="absolute bottom-0 w-full ">
+                        <img src="/img/bio.svg">
+                    </div>
+                </div>
+
+                <div class="relative h-full">
+                    <div class="bg-white border-b-0 shadow-xl rounded-xl flex flex-col items-center justify-center p-4 shadow-slate-100 border">
+                        <div class="py-4">
+                            <!-- <p class="text-sm font-bold pb-2 text-kif-blue">Training Session 1</p> -->
+                            <h2 class="text-lg font-bold  pb-3 text-center"><a>SOLID WORKS DESIGN WORKSHOP</a></h2>
+                            <div class=" mt-2">
+                                <a href="https://docs.google.com/forms/d/1ok8MlxO0_BA9lcOEZ-UOnMjfqPehw3Uo8VGk2Lw53IY/viewform?edit_requested=true" target="_blank" class="inline-block font-sans rounded-md bg-kif-yellow border-white border-2 w-fit py-2 md:text-sm px-3 text-white text-sm">Register Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="absolute bottom-0 w-full ">
+                        <img src="/img/bio.svg">
+                    </div>
+                </div>
+
+                <div class="relative h-full">
+                    <div class="bg-white border-b-0 shadow-xl rounded-xl flex flex-col items-center justify-center p-4 shadow-slate-100 border">
+                        <div class="py-4">
+                            <!-- <p class="text-sm font-bold pb-2 text-kif-blue">Training Session 1</p> -->
+                            <h2 class="text-lg font-bold  pb-3 text-center"><a>DRONE SIMULATION</a></h2>
+                            <div class=" mt-2">
+                                <a href="https://docs.google.com/forms/d/1dDbTOVbn7eYWLbDmZMB3-r8WHWDUN9wZI1jlJsJ5IZU/viewform?edit_requested=true" target="_blank" class="inline-block font-sans rounded-md bg-kif-yellow border-white border-2 w-fit py-2 md:text-sm px-3 text-white text-sm">Register Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="absolute bottom-0 w-full ">
+                        <img src="/img/bio.svg">
+                    </div>
+                </div>
+
+                <div class="relative h-full">
+                    <div class="bg-white border-b-0 shadow-xl rounded-xl flex flex-col items-center justify-center p-4 shadow-slate-100 border">
+                        <div class="py-4">
+                            <!-- <p class="text-sm font-bold pb-2 text-kif-blue">Training Session 1</p> -->
+                            <h2 class="text-lg font-bold  pb-3 text-center"><a>DRONE SHOW</a></h2>
+                            <div class=" mt-2">
+                                <a href="https://docs.google.com/forms/d/1D96mB90o4DUwXY-p1TQ-fstzdjzfvSvgb0gLS5Vmqsc/viewform?edit_requested=true" target="_blank" class="inline-block font-sans rounded-md bg-kif-yellow border-white border-2 w-fit py-2 md:text-sm px-3 text-white text-sm">Register Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="absolute bottom-0 w-full ">
+                        <img src="/img/bio.svg">
+                    </div>
+                </div>
+
+			</div>
+			
+		</div>
+        
+	</main>
+
+	<section class="w-full mt-10 border-t-2 border-gray-200">
+		<div class="text-sm px-5 py-3 text-center">
+			Copyright © 2025 | <a href="https://startupmission.kerala.gov.in/" target="_blank" class="hover:text-blue-500">Kerala Startup Mission</a>
+		</div>
+	</section>
+
+</Layout>
